@@ -1,0 +1,35 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/chris.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Chris Janssen<br />
+      Assistant professor at Utrecht University
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h2>About Chris</h2>
+
+      <p>
+        Dr. Chris Janssen is an assistant professor in experimental psychology <a href="https://www.uu.nl/staff/CPJanssen" title="Chris Janssen at UU.nl" target="_blank" rel="noopener">at Utrecht University</a>, where he coordinates research and teaching at the intersection of Artificial Intelligence, Human-Computer Interaction and Psychology. In his research he tries to better understand human interaction in dynamic situations, with a particular focus on human-automation interaction, (automated) driving, and multitasking. Dr Janssen obtained his PhD in Human-Computer Interaction from University College London and his MSc in Human-Machine Communication from the University of Groningen. Before joining Utrecht, he has also worked at the Smith-Kettlewell Eye Research Institute (post-doc), Microsoft Research (intern) and Xerox Parc (intern).
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Chris Janssen" />
+    </div>
+  </div>
+</Layout>

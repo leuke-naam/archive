@@ -1,0 +1,53 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/asml.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Bronze partner<br />
+      <a href="https://www.workingatasml.com/softwaregraduateprogram" title="ASML" target="_blank" rel="noopener">
+        <button>ASML</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h1>Kick-start your career at ASML with the Software Graduate Program</h1>
+
+      <p>
+        Do you know how to program and will you graduate in the upcoming months? An offer you can't refuse:
+      </p>
+
+      <ul>
+        <li>Get a great job at ASML and a fast start from our Software Graduate Program, a 6.5 week training to prepare you for your first professional job.</li>
+        <li>ASML invests in your hard skills and soft skills.</li>
+        <li>You work within a highly complex environment alongside some of the world's smartest engineers.</li>
+        <li>The training contains a combination of classroom lectures and hands-on work in some of our projects.</li>
+        <li>The projects enable you to experiment with the lessons learnt in a safe environment.</li>
+        <li>You are part of a class of 12 graduates from all over the world. You will collaborate closely together and who knows, maybe you'll become friends for life!</li>
+      </ul>
+
+      <p>
+        Read all about the program and send us your cv through:<br />
+        <code>
+          <a href="https://www.workingatasml.com/softwaregraduateprogram" title="Working at ASML" target="_blank" rel="noopener">www.workingatasml.com/softwaregraduateprogram</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="ASML logo" />
+    </div>
+  </div>
+</Layout>

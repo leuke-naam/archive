@@ -1,0 +1,37 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/aegon.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Aegon">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to full overview">&lt; Back to partner overview</a>
+      </code>
+
+      <h1 id="abstract">Aegon</h1>
+
+      <p><strong>Build your own future at Aegon</strong></p>
+
+      <p>
+        Whether you're just graduated from college or in your first job: Aegon is always lookingfor talent. With 26,000 employees worldwide, we ensure that customers can make consciouschoices for their financial future. We are an insurer, pension company and asset managerin one.
+      </p>
+
+      <p>
+        Aegon is maybe not known for its IT, but behind the scenes Aegon has a large IT-backboneusing several modern technologies (AWS/Azure, robotics, ML, datalake, CI/CD, Azure Dev-ops, etc),which run large parts of our business. Developing algorithms for machine learning, buildingcloud-native applications and working on a unique data lake... These are just a few of thethings our IT professionals are working on. Each of them talented professionals that areleading the way in IT. Through IT they are making a world of difference for our customers.Will you join us?
+      </p>
+
+      <p>
+        Take a look at how it is to work for Aegon through <a href="https://www.youtube.com/watch?v=mb4tMd9Vr2E">here</a> and <a href="https://www.youtube.com/watch?v=IgNuaIlQ-wk">here</a>.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} alt="Aegon" class="photograph" />
+    </div>
+  </div>
+</Layout>

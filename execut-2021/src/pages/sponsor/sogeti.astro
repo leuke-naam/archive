@@ -1,0 +1,39 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/sogeti.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Sogeti">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to full overview">&lt; Back to partner overview</a>
+      </code>
+
+      <h1 id="abstract">Sogeti</h1>
+
+      <p>
+        <em><strong>We call this 'Value in the making.'</strong></em>
+      </p>
+
+      <p>
+        Sogeti operates in more than 100 locations globally. Working closely with clients and partners to take full advantage of the opportunities of technology, Sogeti combines agility and speed of implementation to tailor innovative future-focused solutions in Digital Assurance and Testing, Cloud and Cybersecurity, all fueled by AI and automation.
+      </p>
+
+      <p>
+        With its hands-on 'value in the making' approach and passion for technology, Sogeti helps organizations implement their digital journeys at speed.
+      </p>
+
+      <p>
+        Sogeti is also the founder of research lab SogetiLabs, gathering our top experts on their favourite topic - helping clients move from Information Technology to Business Technology, closing the gap between business management and IT management. In addition trend lab ViNT (The Institute for the Analysis of New Technology), looks at the implications and impact of emerging technologies in business and in our day-to-day life.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="Sogeti" />
+    </div>
+  </div>
+</Layout>

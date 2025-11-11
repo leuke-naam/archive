@@ -1,0 +1,89 @@
+---
+import { Image } from 'astro:assets'
+
+import chipsoft from '~/assets/partners/chipsoft.png'
+import sticky from '~/assets/partners/sticky.png'
+import aegon from '~/assets/partners/aegon.png'
+import levarne from '~/assets/partners/levarne.svg'
+import bpm from '~/assets/partners/bpm-company.png'
+import sogeti from '~/assets/partners/sogeti.png'
+import dsw from '~/assets/partners/dsw.png'
+import brunel from '~/assets/partners/brunel.png'
+import asml from '~/assets/partners/asml.svg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Partners">
+  <div class="partner-overview">
+    <div class="partner-tier">
+      <h1>Platinum partners</h1>
+
+      <a href="/partners/chipsoft" title="More about Chipsoft">
+        <div id="chipsoft" class="partner">
+          <Image src={chipsoft} class="partner-logo" alt="Chipsoft logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+    </div>
+
+    <div class="partner-tier">
+      <h1>Gold partners</h1>
+
+      <a href="/partners/sticky" title="More about Sticky">
+        <div id="sticky" class="partner">
+          <Image src={sticky} class="partner-logo" alt="Sticky logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+
+      <a href="/partners/aegon" title="More about Aegon">
+        <div id="aegon" class="partner">
+          <Image src={aegon} class="partner-logo" alt="Aegon logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+
+      <a href="/partners/levarne" title="More about Levarne">
+        <div id="levarne" class="partner">
+          <Image src={levarne} class="partner-logo" alt="Levarne logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+    </div>
+
+    <div class="partner-tier">
+      <h1>Silver partners</h1>
+
+      <a href="/partners/bpm-company" title="More about BPM Company">
+        <div id="bpm-company" class="partner">
+          <Image src={bpm} class="partner-logo" alt="BPM Company logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+
+      <a href="/partners/sogeti" title="More about Sogeti">
+        <div id="sogeti" class="partner">
+          <Image src={sogeti} class="partner-logo" alt="Sogeti logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+
+      <a href="/partners/dsw" title="More about DSW">
+        <div id="dsw" class="partner">
+          <Image src={dsw} class="partner-logo" alt="DSW logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+
+      <a href="/partners/brunel" title="More about Brunel">
+        <div id="brunel" class="partner">
+          <Image src={brunel} class="partner-logo" alt="Brunel logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+    </div>
+
+    <div class="partner-tier">
+      <h1>Bronze partners</h1>
+
+      <a href="/partners/asml" title="More about ASML">
+        <div id="asml" class="partner">
+          <Image src={asml} class="partner-logo" alt="ASML logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+    </div>
+  </div>
+</Layout>

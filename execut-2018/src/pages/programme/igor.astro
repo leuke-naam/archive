@@ -1,0 +1,43 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/igor.jpg'
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Igor<br />
+      Reliability Engineer @ Travis CI
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <h1 id="abstract">Production: An Owner's Manual</h1>
+
+      <p>
+        When you ship code to production and it starts getting real traffic and users, many assumptions break down. Operations is the practice of keeping your systems running in the face of bugs, broken disks, power outages, traffic surges, cosmic rays, and even sharks. This talk is about how to properly take care of your distributed system and keep it running smoothly, for the sake of your users.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h1>About Igor</h1>
+
+      <p>
+        <code>
+          <a href="https://igor.io" target="_blank" rel="noopener noreferrer">
+            www.igor.io
+          </a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Igor" class="photograph" />
+    </div>
+  </div>
+</Layout>

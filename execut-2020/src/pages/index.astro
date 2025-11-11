@@ -1,0 +1,95 @@
+---
+import main from '~/assets/banners/main.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${main.src})` }}>
+    <p>
+      A conference for and by IT students<br />March 16, 2020 in Utrecht<br />
+      <a href="/tickets" title="Click here to get your ticket">
+        <button>Get your tickets here!</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="main">
+      <h1>Hello world!</h1>
+
+      <p>
+        On March 16th, 2020 the third edition of <code>exec(ut)</code> is set to take place in Utrecht. For an entire day we'll take over the Polar venue in Jaarbeurs´ Mediaplaza in order to provide a <a href="/programme">variety of tech-related talks</a>, ranging from cloud computing to IT entrepreneurship.
+      </p>
+
+      <p>
+        <code>exec(ut)</code> is a conference for and by IT students, providing a solid student discount on tickets. Professionals and practicioners are, however, more than welcome and sure to fit in. Besides a range of interesting talks <code>exec(ut)</code> provides great networking opportunities to those attending.
+      </p>
+
+      <p>
+        Only a limited number of tickets are available, so make sure to <a href="/tickets">get yours as soon as possible</a>!
+      </p>
+    </div>
+
+    <div class="column" id="side">
+      <h1>Stay up-to-date</h1>
+
+      <p>Trust us with your e-mail and we'll keep you in the loop.</p>
+
+      <!-- Begin MailChimp Signup Form -->
+      <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+      <style type="text/css">
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        #mc_embed_signup {
+          clear: left;
+          font: 14px Helvetica, Arial, sans-serif;
+        }
+
+        #mce-EMAIL {
+          width: 100% !important;
+          font-family: "Ubuntu Mono", "Courier New", monospace !important;
+          border-radius: 0 !important;
+          padding: 0 !important;
+          padding-left: 0.4rem !important;
+          width: calc(100% - 0.4rem) !important;
+        }
+
+        #mc-embedded-subscribe-form{
+          padding: 0 !important;
+        }
+
+        #mc-embedded-subscribe {
+          background-color: var(--green) !important;
+          font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+          border-radius: 0 !important;
+        }
+
+        #mc-embedded-subscribe:hover {
+          background-color: var(--brown) !important;
+        }
+      </style>
+
+      <div id="mc_embed_signup">
+        <form id="mc-embedded-subscribe-form">
+          <div id="mc_embed_signup_scroll">
+            <input
+              disabled
+              type="email"
+              class="email"
+              id="mce-EdMAIL"
+              placeholder="email address" />
+            </div>
+            <div class="clear">
+              <input
+                disabled
+                value="Subscribe"
+                id="mc-embedded-subscribe"
+                class="button"
+                style={{ cursor: 'not-allowed' }} />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</Layout>

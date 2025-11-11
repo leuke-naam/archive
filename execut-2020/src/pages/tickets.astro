@@ -1,0 +1,33 @@
+---
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      <a href="https://tickets.execut.nl/2020/" target="_blank"><button id="Click here to buy your ticket">Buy your ticket now!</button></a>
+    </p>
+  </div>
+
+  <div class="copy" id="schedule">
+    <h1>Tickets</h1>
+
+    <p>
+      Only a limited number of tickets are available for <code>exec(ut)</code>, so make sure to get yours as soon as the ticket sales go live! We will be using an early/late bird ticket system. This means the sooner you buy your ticket, the cheaper it is.
+    </p>
+
+    <p>
+      Tickets are (of course) no longer available.
+    </p>
+
+    <p>
+      In addition to your admission, you can select three options: the limited edition black and orange <a href="/img/shirt.jpg" title="Concept art for the conference shirt" target="_blank">exec(at) shirt</a>, CO<sup>2</sup>-compensation for the day and whether or not you want to participate in a high stakes giveaway organized by our platinum partner Keylane. Proceeds from the CO<sup>2</sup>-compensation will go towards <a href="https://www.weforest.org/project/zambia-luanshya" title="WeForest" target="_blank" rel="noopener">WeForest</a>, who will be planting trees on our behalf. Processing of these donations is managed by <a href="https://simpact.co/" title="Simpact" target="_blank" rel="noopener">Simpact B.V.</a>
+    </p>
+
+    <p>
+      Students of the following master programmes can receive colloquium points for attending <code>exec(ut)</code>: Human Computer Interaction and Computer Science. We are negotiating with the coordinators of Game and Media technology and are optimistic. Sadly, the board of Business Informatics will probably not allow us to attribute points for <code>exec(ut)</code>. Contact the committee for more information.
+    </p>
+  </div>
+</Layout>

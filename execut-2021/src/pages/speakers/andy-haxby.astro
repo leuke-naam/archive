@@ -1,0 +1,33 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/andy-haxby.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Andy Haxby">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">CodePamoja/WorkPamoja: Growing the African ICT sector through EurAfrican collaboration</h1>
+
+      <p>
+        Collaborating with partners in Africa for more than 10 years, Competa IT has found that we can increase the success of African ICT projects by sharing our knowledge, introducing African developers not only to the tech we use (they can find that online) but also how we approach software development using tools, teamwork and management techniques. This presentation will demonstrate how people and companies in the EU can proactively help Africans use technology to meet African social and environmental challenges.
+      </p>
+
+      <h1>About Andy</h1>
+
+      <p>
+        Andy Haxby is the director of Dutch software services company Competa IT and founder of the Fair Trade Software Foundation. His research interests include the application of Agile and ICT as tools for economic development. Andy is a physics graduate from Nottingham University and a former Cray Systems Programmer. Contact him at andy@competa.com.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Andy Haxby" class="photograph" />
+    </div>
+  </div>
+</Layout>

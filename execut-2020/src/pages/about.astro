@@ -1,0 +1,111 @@
+---
+import about from '~/assets/banners/about.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${about.src})` }}>
+    <p>
+      <code>exec(ut)</code> is an event organised by Stichting Sticky<br />
+
+      <a href="mailto:conference@execut.nl" title="Get in touch">
+        <button class="button">conference@execut.nl</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="main">
+      <h1>Organisation</h1>
+
+      <p>
+        <code>exec(ut)</code> is an event organised by <a href="https://www.stichtingsticky.nl" title="Stichting Sticky" target="_blank" rel="noopener">Stichting Sticky</a>. It is a conference for and by students, offering a glimpse at the wondrous world of IT beyond the university. We strive to provide a diverse programme and show how exciting conferences can be.
+      </p>
+
+      <p>
+        The organising committee consists of seven members, all of whom are students of computing- and information sciences at Utrecht University:
+      </p>
+
+      <div class="committee">
+        <div>
+          <div class="name">
+            <a href="https://www.linkedin.com/in/kristi-bergman-77bb16129" title="Kristi Bergman"  target="_blank"  rel="noopener">Kristi Bergman
+            </a>
+          <div class="role">Chair</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a href="https://www.linkedin.com/in/anneloes-meijer-539254108" title="Anneloes Meijer" target="_blank" rel="noopener">Anneloes Meijer</a>
+          </div>
+          <div class="role">Treasurer</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a href="https://www.linkedin.com/in/simardeepsinghlidhar" title="Simardeep Singh" target="_blank" rel="noopener">Simardeep Singh</a>
+          </div>
+          <div class="role">Acquisition</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a href="https://www.linkedin.com/in/diede-van-der-hoorn" title="Diede van der Hoorn" target="_blank" rel="noopener">Diede van der Hoorn</a>
+          </div>
+          <div class="role">Speakers</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a href="https://www.linkedin.com/in/rogier-simons-utrecht" title="Rogier Simons" target="_blank" rel="noopener">Rogier Simons</a>
+          </div>
+          <div class="role">Speakers</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a href="https://www.linkedin.com/in/amber-norder-091a38115/" title="Amber Norder" target="_blank" rel="noopener">Amber Norder</a>
+          </div>
+          <div class="role">Location and Logistics</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a href="http://thomashes.nl" title="Thomas Hes" target="_blank" rel="noopener">Thomas Hes</a>
+          </div>
+          <div class="role">Promotion and PR</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column contact" id="side">
+      <h1>Contact</h1>
+
+      <p>
+        Stichting Sticky<br />
+        Attn. exec(ut)<br />
+        Princetonplein 5<br />
+        3584CC Utrecht
+      </p>
+
+      <a href="mailto:conference@execut.nl" title="e-mail us">conference@execut.nl</a>
+    </div>
+
+    <div class="column" id="fullwidth">
+      <h1>Acknowledgements</h1>
+
+      <p>
+        Aside from our speakers, host, and parters, there are a few people and organisations whom we would like to thank for their contributions to the organisation of <code>exec(ut)</code>. These are, in no particular order:
+      </p>
+
+      <p>
+        <code>
+          DomCode, for letting us rip-off their code of conduct;<br />
+          Simpact, for helping us navigate the world of CO<sup>2</sup> compensation;<br />
+          and the staff of Utrecht University's CS department for their support in planning and promotion.
+        </code>
+      </p>
+    </div>
+  </div>
+</Layout>

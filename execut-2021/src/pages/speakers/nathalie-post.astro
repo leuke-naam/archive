@@ -1,0 +1,33 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/nathalie-post.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Nathalie Post">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Designing & building human-centered AI products & services</h1>
+
+      <p>
+        In this talk, we'll explore our role, as humans, in human-centered artificial intelligence. We will dive into artificial intelligence and how the field is shifting from technological towards humanistic; from focusing on algorithmic performance towards focusing on human performance. Nathalie will share the story behind DEUS, and how you can approach AI projects in a human(ity)-centered way.
+      </p>
+
+      <h1>About Nathalie</h1>
+
+      <p>
+        Nathalie Post is cofounder at DEUS: human(ity)-centered AI. As Head of Strategy, she helps organisations apply artificial intelligence responsibly to create value for people, business &amp; society. She also hosts The Human-Centered AI Podcast, featuring inspiring stories of people who are shaping the future of artificial intelligence in a human(ity) &amp; planet-centered way. Previously she worked with global enterprises, corporate ventures and startups at Accenture Interactive as Innovation Program Lead, and holds a degree in Artificial Intelligence.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Nathalie Post" class="photograph" />
+    </div>
+  </div>
+</Layout>

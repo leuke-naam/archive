@@ -1,0 +1,262 @@
+---
+import { Image } from 'astro:assets'
+
+import andreFoeken from '~/assets/speakers/andre-foeken.jpg'
+import arjunPanesar from '~/assets/speakers/arjun-panesar.jpg'
+import arnoudVisser from '~/assets/speakers/arnoud-visser.jpg'
+import beyzaUnal from '~/assets/speakers/beyza-unal.jpg'
+import oscarCelma from '~/assets/speakers/oscar-celma.jpg'
+import richardVanhooijdonk from '~/assets/speakers/richard-vanhooijdonk.jpg'
+import rossTuck from '~/assets/speakers/ross-tuck.jpg'
+import roySmeets from '~/assets/speakers/roy-smeets.jpg'
+import tatianaSidorenkova from '~/assets/speakers/tatiana-sidorenkova.jpg'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      <code>exec(ut)</code> offers 8 consecutive talks over the course of the day.<br />
+      <a href="#speakers" title="Jump to speakers"><button class="button">View speakers</button></a>
+    </div>
+  </div>
+
+  <div class="copy">
+    <div id="schedule">
+      <h1>Schedule</h1>
+
+      <p>
+        Over the course of the day our venue will host eight consecutive speakers, each of whom will give a talk on a particular aspect of software and technology. In addition to this lunch and drinks are provided, offering a chance for networking with other attendees and our partners.
+      </p>
+
+      <p>
+        The entire day is hosted by the phenomenal Ross Tuck, whom you might recognise from <a href="https://www.youtube.com/watch?v=GObX6DJ7afM" title="Closing keynote 2018" target="_blank">his closing keynote</a> last year.
+      </p>
+
+      <div class="schedule-table">
+        <div class="schedule-row organisational">
+          <div><code>09:00</code></div>
+          <div>Registration and coffee</div>
+        </div>
+
+        <div class="schedule-row organisational">
+          <div><code>09:45</code></div>
+          <div>Opening and welcome</div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>10:00</code></div>
+          <div>
+            <a href="/programme/oscar-celma">Òscar Celma</a>
+          </div>
+          <div>5 Lessons learned building a large recommender system</div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>11:00</code></div>
+          <div>
+            <a href="/programme/andre-foeken">André Foeken</a>
+          </div>
+          <div>Making money with software</div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>11:40</code></div>
+          <div>
+            <a href="/programme/arnoud-visser">Arnoud Visser</a>
+          </div>
+          <div>Robots to the rescue</div>
+        </div>
+
+        <div class="schedule-row organisational">
+          <div><code>12:10</code></div>
+          <div>Lunch</div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>13:00</code></div>
+          <div>
+            <a href="/programme/beyza-unal">Beyza Unal</a>
+          </div>
+          <div>Cybersecurity of weapons systems in a digital age</div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>13:40</code></div>
+          <div>
+            <a href="/programme/tatiana-sidorenkova">Tatiana Sidorenkova</a>
+          </div>
+          <div>Cognitive science as foundation of interface design</div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>14:20</code></div>
+          <div>
+            <a href="/programme/roy-smeets">Roy Smeets</a>
+          </div>
+          <div>"The Good, The Bad & The Ugly" of Product Development</div>
+        </div>
+
+        <div class="schedule-row organisational">
+          <div><code>14:50</code></div>
+          <div>Coffee break</div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>15:20</code></div>
+          <div>
+            <a href="/programme/arjun-panesar">Arjun Panesar</a>
+          </div>
+          <div>Big data to big impact: redefining chronic disease with real-world evidence</div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>16:00</code></div>
+          <div>
+            <a href="/programme/richard-vanhooijdonk">Richard van Hooijdonk</a>
+          </div>
+          <div>Trends 2030</div>
+        </div>
+
+        <div class="schedule-row organisational">
+          <div><code>16:50</code></div>
+          <div>Closing and drinks</div>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      Short breaks (10 minutes) are provided between talks.
+    </p>
+
+    <div id="speakers">
+      <h1>Speakers</h1>
+
+      <p>
+        Our speakers come from a wide variety of backgrounds and will be presenting an equally wide variety of interesting talks. Below you can find their bios and talk-abstracts, providing you with a sneak peak into their presentations.
+      </p>
+
+      <div class="speakergrid">
+        <div class="speakercard">
+          <a href="/programme/richard-vanhooijdonk" title="Talk">
+            <div class="photoblock">
+              <Image src={richardVanhooijdonk} class="speaker-photo" alt="Richard van Hooijdonk" />
+            </div>
+            <div class="textblock">
+              <h2>Richard van Hooijdonk</h2>
+              <p>
+                Futurist and trendwatcher
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="speakercard">
+          <a href="/programme/oscar-celma" title="Talk">
+            <div class="photoblock">
+              <Image src={oscarCelma} class="speaker-photo" alt="Òscar Celma" />
+            </div>
+            <div class="textblock">
+              <h2>Òscar Celma</h2>
+              <p>
+                Head of data science at Pandora
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="speakercard">
+          <a href="/programme/beyza-unal" title="Talk">
+            <div class="photoblock">
+              <Image src={beyzaUnal} class="speaker-photo" alt="Beyza Unal" />
+            </div>
+            <div class="textblock">
+              <h2>Beyza Unal</h2>
+              <p>
+                Cyber security researcher at Chatham House
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="speakercard">
+          <a href="/programme/arnoud-visser" title="Talk">
+            <div class="photoblock">
+              <Image src={arnoudVisser} class="speaker-photo" alt="Arnoud Visser" />
+            </div>
+            <div class="textblock">
+              <h2>Arnoud Visser</h2>
+              <p>
+                Programme director at University of Amsterdam
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="speakercard">
+          <a href="/programme/tatiana-sidorenkova" title="Talk">
+            <div class="photoblock">
+              <Image src={tatianaSidorenkova} class="speaker-photo" alt="Tatiana Sidorenkova" />
+            </div>
+            <div class="textblock">
+              <h2>Tatiana Sidorenkova</h2>
+              <p>
+                UX researcher at Adyen
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="speakercard">
+          <a href="/programme/arjun-panesar" title="Talk">
+            <div class="photoblock">
+              <Image src={arjunPanesar} class="speaker-photo" alt="Arjun Panesar" />
+            </div>
+            <div class="textblock">
+              <h2>Arjun Panesar</h2>
+              <p>
+                CEO and head of AI at DDM
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="speakercard">
+          <a href="/programme/andre-foeken" title="Talk">
+            <div class="photoblock">
+              <Image src={andreFoeken} class="speaker-photo" alt="André Foeken" />
+            </div>
+            <div class="textblock">
+              <h2>André Foeken</h2>
+              <p>
+                CTO at Nedap Healthcare
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="speakercard">
+          <a href="/programme/roy-smeets" title="Talk">
+            <div class="photoblock">
+              <Image src={roySmeets} class="speaker-photo" alt="Roy Smeets" />
+            </div>
+            <div class="textblock">
+              <h2>Roy Smeets</h2>
+              <p>
+                VP Product Development, Hosting & ICT at Keylane
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="speakercard">
+          <a href="/programme/ross-tuck" title="Talk">
+            <div class="photoblock">
+              <Image src={rossTuck} class="speaker-photo" alt="Ross Tuck" />
+            </div>
+            <div class="textblock">
+              <h2>Ross Tuck</h2>
+              <p>
+                Principal Engineer at CastorEDC, consultant and this year's host
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/jago-devreede.jpg'
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Jago de Vreede<br />
+      Software engineer at Quintor
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <h1 id="abstract">Digitizing your old 8mm films with a PI</h1>
+
+      <p>
+        Until the late 80's consumers used film like super 8 to record their own films, but not a lot of equipment survived to play them back or people don't want to setup a projector and screen for a few minutes of movie. There are a lot of companies that can scan your movie and put it on a hard disk or DVD. But how hard can it be to do it yourself?
+      </p>
+
+      <p>
+        After this talk you will know what it takes to digitize your own films code-wise and how to build a rig to facilitate this.
+      </p>
+
+      <p>
+        Some topics that will be touched upon: using a scanner with a PI, image processing (on a PI), resource management, lessons learned.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h1>About Jago</h1>
+
+      <p>
+        Jago is a software engineer at Quintor. As a software engineer he has seen a broad spectrum of projects and has been working on multiple large-scale educational software and banking projects over the past few years. His work is not exclusive to Java and Scala development — he also does front-end development and the integration between these. He is passionate about his work and likes to share his knowledge, having spoken at conferences worldwide.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Jago de Vreede" class="photograph" />
+    </div>
+  </div>
+</Layout>

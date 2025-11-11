@@ -1,0 +1,126 @@
+---
+import { Image } from 'astro:assets'
+
+import location from '~/assets/banners/location.jpg'
+import keylane from '~/assets/partners/keylane.png'
+import optiver from '~/assets/partners/optiver.png'
+import emergo from '~/assets/partners/emergo.png'
+import sticky from '~/assets/partners/sticky.png'
+import tno from '~/assets/partners/tno.png'
+import leaseweb from '~/assets/partners/leaseweb.png'
+import dnb from '~/assets/partners/dnb.png'
+import dsw from '~/assets/partners/dsw.png'
+import procam from '~/assets/partners/procam.png'
+import asml from '~/assets/partners/asml.png'
+import ingram from '~/assets/partners/ingram.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      <code>exec(ut)</code> would not be possible without our partners<br />
+    </p>
+  </div>
+
+  <div class="copy">
+    <h1>About our partnerships</h1>
+
+    <p>
+      Organising <code>exec(ut)</code> is only made possible through the contributions of our partners. Below you can find a list of our partners, most of whom you will be able to meet on the day itself. They will be attending <code>exec(ut)</code> with a stand, so make sure to stop by and have a chat!
+    </p>
+
+    <hr />
+
+    <div class="partner-overview">
+      <div class="partner-tier" id="principal">
+        <h1>Platinum partner</h1>
+
+        <a href="/partners/keylane" title="More about Keylane">
+          <div class="partner" id="keylane">
+            <Image src={keylane} class="partner-logo" id="principal-logo" alt="Partner logo" />
+          </div>
+        </a>
+      </div>
+
+      <div class="partner-tier" id="gold">
+        <h1>Gold partners</h1>
+
+        <a href="/partners/optiver" title="More about Optiver">
+          <div class="partner" id="Optiver">
+            <Image src={optiver} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+
+        <a href="/partners/emergo" title="More about E-mergo">
+          <div class="partner" id="emergo">
+            <Image src={emergo} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+      </div>
+
+      <div class="partner-overview">
+        <div class="partner-tier" id="principal">
+          <a href="https://www.svsticky.nl" title="More about Sticky" target="_blank" rel="noopener">
+            <div class="partner" id="sticky">
+              <Image src={sticky} class="partner-logo" alt="Partner logo" />
+            </div>
+          </a>
+        </div>
+
+        <div class="partner-tier" id="silver">
+          <h1>Silver partners</h1>
+
+          <a href="/partners/tno" title="More about TNO">
+            <div class="partner" id="tno">
+              <Image src={tno} class="partner-logo" alt="Partner logo" />
+            </div>
+          </a>
+
+          <a href="/partners/leaseweb" title="More about Leaseweb">
+            <div class="partner" id="leaseweb">
+              <Image src={leaseweb} class="partner-logo" alt="Partner logo" />
+            </div>
+          </a>
+
+          <div class="partner" id="dnb">
+            <a href="/partners/dnb" title="More about De Nederlandsche Bank">
+              <Image src={dnb} class="partner-logo" alt="Partner logo" />
+            </a>
+          </div>
+
+          <a href="/partners/dsw" title="More about DSW">
+            <div class="partner" id="dsw">
+              <Image src={dsw} class="partner-logo" alt="Partner logo" />
+            </div>
+          </a>
+
+          <a href="/partners/procam" title="More about Procam">
+            <div class="partner" id="procam">
+              <Image src={procam} class="partner-logo" alt="Partner logo" />
+            </div>
+          </a>
+        </div>
+
+        <div class="partner-tier" id="bronze">
+          <h1>Bronze partners</h1>
+
+          <div class="logos">
+            <a href="/partners/asml" title="More about ASML">
+              <div class="partner" id="asml">
+                <Image src={asml} class="partner-logo" alt="Partner logo" />
+              </div>
+            </a>
+
+            <a href="/partners/ingram" title="More about Ingram Micro">
+              <div class="partner" id="ingram">
+                <Image src={ingram} class="partner-logo" alt="Partner logo" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

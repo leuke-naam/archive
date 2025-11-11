@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/ortecfinance.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Silver Partner<br />
+      <a href="https://www.ortecfinance.com/careers" title="Ortec Finance" target="_blank" rel="noopener">
+        <button>Ortec Finance</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h1>About Ortec Finance</h1>
+
+      <p>
+        At ORTEC Finance, we build technology solutions for the financial industry. Our software is used by pension funds, insurers, asset managers, banks and other financial institutions to manage their investments and risks. We combine our academic research with practical implementation to deliver cutting-edge solutions.
+      </p>
+
+      <p>
+        We're looking for talented developers who want to work on complex financial algorithms and make a real impact on the financial world. Join our team of mathematicians, economists, and technologists who are passionate about solving challenging problems.
+      </p>
+
+      <p>
+        <code>
+          <a href="https://www.ortecfinance.com/careers" title="Ortec Finance" target="_blank" rel="noopener">https://www.ortecfinance.com/careers</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="Ortec Finance logo" />
+    </div>
+  </div>
+</Layout>

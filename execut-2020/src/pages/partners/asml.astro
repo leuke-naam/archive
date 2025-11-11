@@ -1,0 +1,57 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/asml.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Bronze partner<br />
+      <a href="https://www.asml.com/en/careers" title="ASML" target="_blank" rel="noopener">
+        <button>ASML</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h2>Be part of progress</h2>
+
+      <p>
+        We make machines that make chips; the hearts of the devices that keep us informed, entertained and safe. Our key technology is the lithography system, which brings together high-tech hardware and advanced software to control the chip manufacturing process. All of the world's top chipmakers like Samsung, Intel and TSMC use our technology, enabling the waves of innovation that help tackle the world's toughest challenges.
+      </p>
+
+      <h2>Graduates: Start your career at ASML</h2>
+
+      <p>
+        Our company has many dimensions: from physics to computer science, from San Diego to Shanghai, from Research to Logistics. It offers you the opportunity to broaden your view and realize your full potential. For the eager, ASML does not just offer a job—it offers a career. We reward employees competitively and provide coaching, training and personal career development.
+      </p>
+
+      <p>
+        Besides that, we pay a lot of attention to vitality and working environment. You can assert your talent in one of the ASML sporting teams. Or be part of our communities like Young ASML, Woman@ASML or Pink ASML.
+      </p>
+
+      <p>Check our opportunities for students at <a href="https://www.asml.com/en/careers" title="ASML careers" target="_blank" rel="noopener">www.asml.com/careers</a></p>
+
+      <p><h3>ASML explained</h3></p>
+
+      <div class="video-container"><iframe width="720" height="315" src="https://www.youtube.com/embed/PzV5qqXNusI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+      <p><h3>Video about working at ASML</h3></p>
+
+      <div class="video-container"><iframe width="720" height="315" src="https://www.youtube.com/embed/qXpAMguP-vQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="ASML logo" />
+    </div>
+  </div>
+</Layout>

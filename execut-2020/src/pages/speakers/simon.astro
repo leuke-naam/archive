@@ -1,0 +1,45 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/simon.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Simon Østengaard<br />
+      Bridge builder between Dev and Ops.
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <h2 id="abstract">How DevOps can improve your work, company and career</h2>
+
+      <p>
+         DevOps, everyone is talking about it, but how do you make it happen? We will dive into what DevOps is all about, what the benefits of DevOps are and how a company could to be structured around DevOps. As a newly educated employee you may have limited influence in your organization and you probably can't make the company change or can you? This talk will provide you with some valuable tricks you can use to get your points trough, influence how you do things in your company and improve your career using the thoughts behind DevOps.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Simon</h2>
+
+      <p>
+        Simon is a Lead Architect with a long background in systems administration, QA and development who has acted as the bridge builder between Dev and Ops for many years. He describes himself as a generalist with experience in almost any technical domain and with a good combination of management skills and understanding of the business. He has spent the past 10 years driving technical and organizational improvement initiatives across larger organization (+500 employees).
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Simon Østengaard" />
+    </div>
+  </div>
+</Layout>

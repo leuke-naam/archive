@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/pwc.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Gold Partner<br />
+      <a href="https://www.pwc.nl/careers" title="PwC" target="_blank" rel="noopener">
+        <button>PwC</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h1>About PwC</h1>
+
+      <p>
+        At PwC, we help organizations solve important problems and build trust in society. We combine our expertise in technology, business, and human resources to deliver results that matter.
+      </p>
+
+      <p>
+        We're looking for technology professionals who want to make a difference in the world through innovative solutions and strategic consulting. Join our team and help shape the future of business.
+      </p>
+
+      <p>
+        <code>
+          <a href="https://www.pwc.nl/careers" title="PwC" target="_blank" rel="noopener">https://www.pwc.nl/careers</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="PwC logo" />
+    </div>
+  </div>
+</Layout>

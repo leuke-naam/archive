@@ -1,0 +1,37 @@
+id: 2020
+name: exec(ut) 2020
+date: 2025-03-16
+committee:
+  - name: Kristi Bergman
+    role: chair
+    contact:
+  website: https://www.linkedin.com/in/kristi-bergman-77bb16129/
+  - name: Anneloes Meijer
+    role: treasurer
+    contact:
+  website: https://www.linkedin.com/in/anneloes-meijer-539254108/
+  - name: Simardeep Singh
+    role: acquisition
+    contact:
+  website: https://www.linkedin.com/in/simardeepsinghlidhar/
+  - name: Diede van der Hoorn
+    role: speakers
+    contact:
+  website: https://www.linkedin.com/in/diede-van-der-hoorn/
+  - name: Rogier Simons
+    role: speakers
+    contact:
+  website: https://www.linkedin.com/in/rogier-simons-utrecht/
+  - name: Amber Norder
+    role: location
+    contact:
+  website: https://www.linkedin.com/in/amber-norder-091a38115/
+  - name: Thomas Hes
+    role: promotion
+    contact:
+  website: https://thomashes.nl/
+acknowledgements: |
+  DomCode, for letting us take inspiration from their code of conduct;
+  Simpact, for helping us navigate the world of CO2 compensation;
+  Martijn Casteel and Amber Norder for programming the very first exec(ut) app;
+  and the staff of Utrecht University's CS department for their support in planning and promotion.

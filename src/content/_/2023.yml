@@ -1,0 +1,76 @@
+name: exec(ut) 2023
+date: 2023-03-28
+programme:
+  - time: 09:00
+    organizational: Registration
+  - time: 10:00
+    organizational: Opening
+  - time: 10:15
+    activities:
+      - type: talk
+        activity: 2023/speakers/burcu-karagol-ayan
+  - time: 11:15
+    activities:
+      - type: talk
+        activity: 2023/speakers/tim-van-der-wiel
+  - time: 12:00
+    organizational: Lunch
+  - time: 12:45
+    activities:
+      - type: talk
+        activity: 2023/speakers/rik-arends
+      - type: workshop
+        activity: 2023/workshops/bpm-company
+  - time: 13:30
+    activities:
+      - type: talk
+        activity: 2023/speakers/koen-de-geringel
+  - time: 14:15
+    activities:
+      - type: talk
+        activity: 2023/speakers/tamara-mchedlidze
+      - type: workshop
+        activity: 2023/workshops/levarne
+  - time: 14:55
+    organizational: Coffee
+  - time: 15:25
+    activities:
+      - type: talk
+        activity: 2023/speakers/pablo-cesar
+      - type: workshop
+        activity: 2023/workshops/linkit
+  - time: 16:15
+    activities:
+      - type: talk
+        activity: 2023/speakers/mat-suarez
+  - time: 17:10
+    organizational: Closing & Drinks
+committee:
+  - name: Jorden Bakker
+    role: chair
+    contact:
+  website: https://www.linkedin.com/in/jorden-bakker-b7300079/
+  - name: Julian Verouden
+    role: treasurer
+    contact:
+  website: https://www.linkedin.com/in/julian-verouden-5798791bb/
+  - name: Sem van Nieuwenhuizen
+    role: acquisition
+    contact:
+  website: https://www.linkedin.com/in/leuke-naam/
+  - name: Jasper de Winther
+    role: speakers
+    contact:
+  website: https://www.linkedin.com/in/jasper-de-winther-091228187/
+  - name: Lisanne Koetsier
+    role: location
+    contact:
+  website: https://www.linkedin.com/in/lisanne-koetsier/
+  - name: Ruben Baggen
+    role: promotion
+    contact:
+  website: https://www.linkedin.com/in/ruben-baggen/
+  - name: Thirza Hiwat
+    role: board
+    contact:
+  website: https://www.linkedin.com/in/thiwat/

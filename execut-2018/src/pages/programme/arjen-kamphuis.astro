@@ -1,0 +1,65 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/arjen-kamphuis.jpg'
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Arjen Kamphuis<br />
+      Technology &amp; Security Director at Pretty Good Knowledge
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <h1 id="abstract">
+        Privacy, digital crime &amp; espionage | Fixing everyday &amp; strategic
+        security challenges
+      </h1>
+
+      <p>
+        Without reliably working software and data-processing the modern world
+        stops working. From the supermarkets where you get your food to the
+        electricity or gas that heats it up to the water that cleans your plate
+        afterwards; IT is everywhere but still has a long way to go to reach the
+        reliability of older technologies (such as the basic elements of the
+        powergrid). IT is still developing very rapidly and new developments are
+        stacked on top of slightly older ones. So on the one hand we now have
+        'smart' thermostats you can control via an app but on the other hand
+        those thermostats can easily be hacked and then operated, in their
+        millions, by someone else. The Stuxnet case and the revelations by
+        Edward Snowden have shown how fundamental the problems (and challenge to
+        fix them) are and last year two virus attacks gave us a taste of the
+        consequences of cyberwar coming to our home; hospitals and container
+        terminals that stop working. What to do about this? The problem can be
+        solved but not by the thinking that got us here. Time for some new
+        radical new concepts in creating information systems.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h1>Arjen Kamphuis</h1>
+
+      <p>
+        Arjen Kamphuis worked for IBM as IT-architect in the '90's. From 2002 to
+        2010 he advised several European countries on IT-strategy, opensource
+        software &amp; open standards. Since 2006 he helps to secure information
+        systems of companies, government and NGO's. His work ranges from regular
+        security-awareness to countering espionage against companies,
+        journalists, lawyers and activists. Arjen is involved with the global
+        hacker-community and works with (former) employees of spy agencies and
+        other professionals who work at the front of critical infrastructure
+        protection.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Arjen Kamphuis" class="photograph" />
+    </div>
+  </div>
+</Layout>

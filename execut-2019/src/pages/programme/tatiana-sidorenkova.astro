@@ -1,0 +1,49 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/tatiana-sidorenkova.jpg'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Tatiana Sidorenkova<br />
+      UX researcher at Adyen
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/programme#schedule" title="Back to full overview">&lt; Back to the full programme</a>
+      </code>
+
+      <h1 id="abstract">Cognitive science as foundation of interface design</h1>
+
+      <p>
+        For some design and product teams, evaluation methods, such as A/B testing or user testing, is the only way to understand whether their interface is clear to users or not. In her talk, Tatiana will show how the application of cognitive science principles in the design process can help achieve a higher quality of the user interface right away. She will walk us through the human information process, elaborate on specifics of basic cognitive processes and explain how to use this knowledge in interface design.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Tatiana</h2>
+
+      <p>
+        Tatiana Sidorenkova is a UX Researcher with a background in psychology and a post-master's degree in User-System Interaction, Eindhoven University of Technology. For the last 4 years, she has been working for Adyen where her work ranges from running user research to creating user interfaces and evaluating them. Tatiana uses the human-centered design approach in her work and is passionate about gathering knowledge about people, their mental models and needs. In her free time, Tatiana organises meetups for the Amsterdam UX community which aims to share knowledge about user experience and related topics.
+      </p>
+
+      <p>
+        <code>
+          <a href="linkedin.com/in/tatiana-sidorenkova-36087b9" title="Tatiana Sidorenkova" target="_blank" rel="noopener">linkedin.com/in/tatiana-sidorenkova-36087b9</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Tatiana Sidorenkova" />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets'
+
+import icon from '~/assets/partners/sogeti.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Workshop Sogeti">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <p>
+        In this workshop, Jason Stuve (Engineer/Consultant) will show you how to build your own RPA process to find real time stock prices for you by asking the software robot a request. If you are interested, you could also prepare yourself by downloading Node-RED and Telegram.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={icon} alt="Workshop Sogeti" class="photograph" />
+    </div>
+  </div>
+</Layout>

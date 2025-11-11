@@ -1,0 +1,141 @@
+---
+import { Image } from 'astro:assets'
+
+import location from '~/assets/banners/location.jpg'
+import patrick from '~/assets/speakers/patrick-lee.png'
+import gabi from '~/assets/speakers/gabi.png'
+import simon from '~/assets/speakers/simon.png'
+import tom from '~/assets/speakers/tom.png'
+import lisanne from '~/assets/speakers/lisanne.png'
+import joost from '~/assets/speakers/joost.png'
+import dennis from '~/assets/speakers/dennis.png'
+import chris from '~/assets/speakers/chris.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      These are the remarkable professionals speaking at <code>exec(ut).<br /></code>
+    </p>
+  </div>
+
+  <div class="copy">
+    <div id="speakers">
+      <h1>Our remarkable speakers</h1>
+
+      <p>
+        <code>exec(ut)</code>'s speakers come from a wide variety of backgrounds and will be presenting an equally wide variety of interesting talks. Below you can find their bios and talk-abstracts, providing you with a sneak peak into their presentations.
+      </p>
+
+      <div class="speakergrid">
+        <div class="speakercard">
+          <a href="/speakers/patrick" title="Talk">
+            <div class="photoblock">
+              <Image src={patrick} class="speaker-photo" alt="Patrick Lee" />
+            </div>
+
+            <div class="textblock">
+              <h2>Patrick Lee</h2>
+              <p>Co-founder and former CEO of 'Rotten Tomatoes'.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/gabi" title="Talk">
+            <div class="photoblock">
+              <Image src={gabi} class="speaker-photo" alt="Gabriela D'Ávila" />
+            </div>
+
+            <div class="textblock">
+              <h2>Gabriela D'Ávila Ferrara</h2>
+              <p>
+                Developer Advocate at Google Cloud. Passionate software developer.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/simon" title="Talk">
+            <div class="photoblock">
+              <Image src={simon} class="speaker-photo" alt="Simon Østengaard" />
+            </div>
+
+            <div class="textblock">
+              <h2>Simon Østengaard</h2>
+              <p>Lead Architect at Keylane. Bridge builder between Dev and Ops.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/tom" title="Talk">
+            <div class="photoblock">
+              <Image src={tom} class="speaker-photo" alt="Tom van Beveren" />
+            </div>
+
+            <div class="textblock">
+              <h2>Tom van Beveren</h2>
+              <p>Freelance UX Designer. Founder of 'We are Colorblind'.</p>
+          </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/lisanne" title="Talk">
+            <div class="photoblock">
+              <Image src={lisanne} class="speaker-photo" alt="Lisanne Brons" />
+            </div>
+
+            <div class="textblock">
+              <h2>Lisanne Brons</h2>
+              <p>Technical Lead at Microsoft. Diversity and Inclusion Ambassador.</p>
+          </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/joost" title="Talk">
+            <div class="photoblock">
+              <Image src={joost} class="speaker-photo" alt="Joost van Dongen" />
+            </div>
+
+            <div class="textblock">
+              <h2>Joost van Dongen</h2>
+              <p>Lead programmer and co-founder of Ronimo Games</p>
+          </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/dennis" title="Talk">
+            <div class="photoblock">
+              <Image src={dennis} class="speaker-photo" alt="Dennis Fleurbaaij" />
+            </div>
+
+            <div class="textblock">
+              <h2>Dennis Fleurbaaij</h2>
+              <p>Former QT Technology Lead at Optiver.</p>
+          </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/chris" title="Chris Janssen">
+            <div class="photoblock">
+              <Image src={chris} class="speaker-photo" alt="Chris Janssen" />
+            </div>
+
+            <div class="textblock">
+              <h2>Chris Janssen (host)</h2>
+              <p>Assistant professor in experimental psychology at Utrecht University.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

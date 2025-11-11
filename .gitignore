@@ -1,0 +1,4 @@
+**/.git/
+.astro/
+dist/
+node_modules/

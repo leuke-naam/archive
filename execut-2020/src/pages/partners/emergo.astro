@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/emergo.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Gold Partner<br />
+      <a href="https://werkenbij.e-mergo.nl/" title="Emergo" target="_blank" rel="noopener">
+        <button>Emergo</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h2>Over E-mergo</h2>
+
+      <p>
+        Bij E-mergo houden wij van data! We houden er zelfs zoveel van dat we ons daar elke dag mee bezighouden. Onder het motto 'combineer, analyseer en verbeter' helpen wij grote en kleine bedrijven het maximale uit hun data te halen. Dit doen wij met behulp van Qlik, Power BI, Mendix en TimeXtender waarvoor wij software, consultancy en beheer leveren. Met deze software helpen wij organisaties datagedreven besluiten te nemen en bedrijfsprocessen te verbeteren.
+      </p>
+
+      <h2>Werken bij E-mergo</h2>
+
+      <p>
+        Als je bij ons aan de slag gaat zul je merken dat wij gezelligheid even belangrijk vinden als werken. Zo organiseren wij regelmatig leuke uitjes, gaan wij jaarlijks op wintersport, kun je dagelijks tafelvoetballen en worden er maandelijkse teammeetings georganiseerd. Verder staat bij ons de medewerker op één waardoor er aandacht is voor jouw ontwikkeling en ruimte is voor eigen inbreng. Bekijk de vacatures en ervaringen van onze werknemers op de onderstaande link.
+      </p>
+
+      <p>
+        <a href="https://werkenbij.e-mergo.nl/" title="Emergo" target="_blank" rel="noopener">https://werkenbij.e-mergo.nl/</a>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="Emergo Logo" />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/patrick-lee.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Patrick Lee<br />
+      Co-founder and former CEO of Rotten Tomatoes.
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <h2>Focus</h2>
+
+      <p>
+        Why do startups often fail? How can you increase the chances of a startup being successful?
+
+        In this talk, Patrick discusses why focus is the most important thing for a startup to have. He discusses his own experience with startups, mistakes that everybody makes and why startups often fail. He then discusses how to prevent these mistakes and how to increase the chance of a startup being successful using focus. After the talk there will be a fireside chat in which Patrick will answer questions about startups and his own experience.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Patrick</h2>
+
+      <p>
+        Patrick Lee is a serial entrepreneur best known for being a co-founder and former CEO of Rotten Tomatoes (rottentomatoes.com), a leading entertainment website focused on movie reviews and news. He is an advisor to a number of startups including Casetify, Instaread, Kiwi Campus, Oishii, WePloy, and Zeuss Technologies; and a mentor at a number of organizations including SOSV, Berkeley SkyDeck, Blue Startups, and Founder Institute. Patrick holds a BA in Cognitive Science from the University of California at Berkeley.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Patrick Lee" />
+    </div>
+  </div>
+</Layout>

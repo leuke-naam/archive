@@ -1,0 +1,43 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/andre-foeken.jpg'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      André Foeken<br />
+      CTO at Nedap Healthcare
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/programme#schedule" title="Back to full overview">&lt; Back to the full programme</a>
+      </code>
+
+      <h1 id="abstract">Making money with software</h1>
+
+      <p>
+        There are many ways to profit of the things you build. In this talk I will go into several common ways to monetise your software, ranging from asking money for your side projects, selling your time, and even some strategies for big companies. It all sounds easier than it actually is, in this talk I will try to give some tips and tricks specifically geared towards developers wanting to make an extra buck.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About André</h2>
+
+      <p>
+        André Foeken is the CTO of Nedap Healthcare. Nedap is a multinational with over nine hundred employees and is active across several different markets. Nedap Healthcare focuses mostly on the local Dutch market and supplies the Dutch care market with software solutions. Besides developing applications, Andre is interested in shaping organisations and communication strategies.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="André Foeken" />
+    </div>
+  </div>
+</Layout>

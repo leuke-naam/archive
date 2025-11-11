@@ -1,0 +1,35 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/chipsoft.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Chipsoft">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to full overview">&lt; Back to partner overview</a>
+      </code>
+
+      <h1 id="abstract">Chipsoft</h1>
+
+      <p>
+        Zorgprofessionals ondersteunen met de beste zorg-ICT. Dat is wat wij bij ChipSoft doen.Onze software zorgt ervoor dat iedereen in de zorg zich volledig kan richten op zijnbelangrijkste taak. Met gebruiksvriendelijke oplossing, HiX en Zorgplatform, ondersteunenwe zorgprofessionals bij elk denkbaar werkproces in de zorgketen. En die oplossingenperfectioneren en vernieuwen we iedere dag.
+      </p>
+
+      <p>
+        Een arts die een patiënt met COVID19 monitort op de IC? Een capaciteitsmanager die dewerkdruk voor verpleegkundigen wil verminderen? HiX. HiX is het elektronisch patiëntendossier(EPD) dat met zorgprofessionals en patiënten meedenkt en tegelijkertijd zorgt voor eenwaterdichte financiële afhandeling van alle patiëntbehandelingen.
+      </p>
+
+      <p>
+        Met Zorgplatform bieden we een dienst die artsen in staat stelt om op te vragen bij welkeandere zorgorganisaties gegevens over hun patiënten beschikbaar zijn. Met toestemming vande patiënt kan de arts vervolgens die gegevens overhalen naar zijn eigen EPD. Ook zorgtZorgplatform voor optimale communicatie tussen gezondheidsapps voor patiënten.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} alt="Chipsoft" class="photograph" />
+    </div>
+  </div>
+</Layout>

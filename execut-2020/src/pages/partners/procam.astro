@@ -1,0 +1,49 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/procam.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Silver Partner<br />
+      <a href="https://procam.nl/" title="Procam" target="_blank" rel="noopener">
+        <button>Procam</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <p>
+        Hey student! Je staat aan de vooravond van een belangrijke keuze: Een uitdagende startersbaan. Hoe goed ken jij jezelf? Wat zijn jouw talenten, en belangrijker: wat is jouw passie? Dit is exact waar wij jou bij Procam mee helpen. Dit doen we met de CareerCraft Academy. Jij bepaalt zelf waar je wilt gaan werken. Eenmaal gestart, dan krijg je naast een gave functie nog eens 2 jaar lang vanuit Procam aanvullende trainingen en coaching. Wij helpen jou bij het maken van de juiste keuzes door in te zoomen op de vragen 'wie ben ik', 'wat kan ik', en 'wat wil ik'.
+      </p>
+
+      <h2>Procam in het kort:</h2>
+
+      <ul style={{ listStyleType: 'square' }}>
+        <li>Voor pas afgestudeerde hbo'ers en academici.</li>
+        <li>Jij kiest zelf de startersbaan die het beste bij jou past.</li>
+        <li>Je krijgt een eigen ervaren coach.</li>
+        <li>Jij bepaalt met je coach jouw trainingsprogramma.</li>
+        <li>Allerlei trainingen.</li>
+        <li>Workshops, borrels, Techtalks en een buddyprogramma.</li>
+        <li>Marktconform startsalaris.</li>
+      </ul>
+
+      <code>Feel Inspired. Be Outstanding!</code>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="Procam Logo" />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,48 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/tom.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Tom van Beveren<br />
+      Freelance UX Designer. Founder of We are Colorblind.
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <h2>Designing with the Colorblind in Mind will improve your Design for Everyone</h2>
+
+      <p>
+        About 4% of the population has some form of color blindness. One in 12 men and 1 in 200 women are color blind and face challenges with a lot of online products like websites, apps, games, and webshops in their daily life. Thankfully, designing for the colorblind doesn't have to be difficult. In this talk, Tom explains how color blindness works, gives examples of what does and doesn't work for the colorblind and shows how designing with the colorblind in mind will also improve your design for everyone.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Tom</h2>
+
+      <p>
+        Tom is the founder of We are Colorblind and wants to make the world a better place for the colorblind. Colorblind himself (deuteranopia), he has a background as a UX Designer with a strong focus on holistic and inclusive design.
+      </p>
+
+      <p>
+        Check out <a href="https://twitter.com/wearecolorblind" target="_blank" rel="noopener">We are Colorblind on Twitter</a>.
+      </p>
+    </div>
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Tom van Beveren" />
+    </div>
+  </div>
+</Layout>

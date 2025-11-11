@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/pnoconsultants.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Silver Partner<br />
+      <a href="https://www.pnoconsultants.com" title="PNO Consultants" target="_blank" rel="noopener">
+        <button>PNO Consultants</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h1>About PNO Consultants</h1>
+
+      <p>
+        PNO Consultants helps organizations access funding for innovation and R&D projects. We specialize in European funding programs and have been supporting companies in securing grants for over 25 years.
+      </p>
+
+      <p>
+        We're looking for consultants who are passionate about innovation and technology, and who want to help companies bring their ideas to life through strategic funding support.
+      </p>
+
+      <p>
+        <code>
+          <a href="https://www.pnoconsultants.com" title="PNO Consultants" target="_blank" rel="noopener">https://www.pnoconsultants.com</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="PNO Consultants logo" />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,33 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/sara-lusini.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Sara Lusini">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Host</h1>
+
+      <p>
+        Sara will be our host during the event.
+      </p>
+
+      <h1>About Sara</h1>
+
+      <p>
+        Sara Lusini teaches courses in Research Methodology at the Department of Computer Science of Vrije Universiteit Amsterdam. She is also the Programme Coordinator for all Computer Science and Information Sciences Bachelor's and Master's programmes offered at the Department. She obtained a Bachelor's and a Master's degree in Formal Linguistics from Ca' Foscari University in Venice, and a PhD in Formal Linguistics from Leiden University. Before joining the VU, she worked as Lecturer and Programme Coordinator at Webster University in Leiden.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Sara Lusini" class="photograph" />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,53 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/arnoud-visser.jpg'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Arnoud Visser<br />
+      Programme director at University of Amsterdam
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/programme#schedule" title="Back to full overview">&lt; Back to the full programme</a>
+      </code>
+
+      <h1 id="abstract">Robots to the Rescue</h1>
+
+      <p>
+        Arnoud Visser will give a presentation about his work in robotics and the RoboCup Rescue Simulation League. In this league a disaster is simulated and a group of robots has to work together to find victims. Arnoud will sketch a picture of his work within this league, what the current challenges are and how they can be solved. Finally, he will tell you what the future of his field will look like.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Arnoud</h2>
+
+      <p>
+        Arnoud Visser's research focuses on cooperation of robot teams. Such a cooperation can be created by building a joint world model and/or by shared decision making. He was the founder of the Intelligent Robotics Lab, a place where robotics research in Amsterdam is conducted and shared.
+      </p>
+
+      <ul>
+        <li><code><a href="https://twitter.com/physar_nl" target="_blank">https://twitter.com/physar_nl</a></code></li>
+        <li><code><a href="https://www.linkedin.com/in/arnoudvissernl/" target="_blank" rel="noopener">https://www.linkedin.com/in/arnoudvissernl/</a></code></li>
+        <li><code><a href="http://scholar.google.com/citations?user=OWW8yNIAAAAJ" target="_blank" rel="noopener">http://scholar.google.com/citations?user=OWW8yNIAAAAJ</a></code></li>
+        <li><code><a href="https://www.semanticscholar.org/author/Arnoud-Visser/34648214" target="_blank" rel="noopener">https://www.semanticscholar.org/author/Arnoud-Visser/34648214</a></code></li>
+        <li><code><a href="https://www.researchgate.net/profile/Arnoud_Visser" target="_blank" rel="noopener">https://www.researchgate.net/profile/Arnoud_Visser</a></code></li>
+        <li><code><a href="https://staff.fnwi.uva.nl/a.visser/" target="_blank" rel="noopener">https://staff.fnwi.uva.nl/a.visser/</a></code></li>
+        <li><code><a href="http://www.intelligentroboticslab.nl/projects/" target="_blank" rel="noopener">http://www.intelligentroboticslab.nl/projects/</a></code></li>
+      </ul>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Arnoud Visser" />
+    </div>
+  </div>
+</Layout>

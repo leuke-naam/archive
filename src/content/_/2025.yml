@@ -1,0 +1,85 @@
+id: 2025
+name: exec(ut) 2025
+date: 2025-03-25
+programme:
+  - time: 09:00
+    common: Registration
+  - time: 09:45
+    common: Opening
+  - time: 10:15
+    activities:
+      - type: talk
+        activity: dylan-beattie
+  - time: 11:10
+    common: Coffee
+  - time: 11:40
+    activities:
+      - type: talk
+        activity: maikel-meeuwse
+      - type: workshop
+        activity: devoteam
+  - time: 12:20
+    common: Lunch
+  - time: 13:20
+    activities:
+      - type: talk
+        activity: hans-rietman
+      - type: workshop
+        activity: chipsoft
+  - time: 14:10
+    activities:
+      - type: talk
+        activity: martine-spaans
+      - type: workshop
+        activity: bpm-company
+  - time: 14:50
+    common: Coffee
+  - time: 15:20
+    activities:
+      - type: talk
+        activity: evert-hoogendoorn
+  - time: 16:10
+    activities:
+      - type: talk
+        activity: brenno-de-winter
+  - time: 17:00
+    common: Closing
+  - time: 17:15
+    common: Drinks
+committee:
+  - name: Thomas Valkenburg
+    role: chair
+    contact:
+  website: https://www.linkedin.com/in/thomas-valkenburg/
+  - name: Björn Koemans
+    role: treasurer
+    contact:
+  website: https://www.linkedin.com/in/bjornkoemans/
+  - name: Casper van Wetten
+    role: acquisition
+    contact:
+  website: https://www.linkedin.com/in/covanwetten/
+  - name: Isabelle Wittebols
+    role: acquisition
+    contact:
+  website: https://www.linkedin.com/in/isabelle-wittebols-277407255/
+  - name: Joep Swinkels
+    role: speakers
+    contact:
+  website: https://www.linkedin.com/in/joep-swinkels-9a8553227/
+  - name: Lotte Consten
+    role: speakers
+    contact:
+  website: https://www.linkedin.com/in/lotte-consten-30082223b/
+  - name: Marijn Helwerda
+    role: location
+    contact:
+  website: https://www.linkedin.com/in/marijn-helwerda-898119176/
+  - name: Tomas Meeuwse
+    role: promotion
+    contact:
+  website: https://www.linkedin.com/in/tomas-meeuwse-6a622420b/
+  - name: Maureen van Veen
+    role: board
+    contact:
+  website: https://www.linkedin.com/in/maureen-van-veen-9a3730222/

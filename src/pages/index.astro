@@ -1,0 +1,37 @@
+---
+import { getCollection } from "astro:content";
+
+const editions = await getCollection("editions");
+const hosts = await getCollection("hosts");
+const partners = await getCollection("partners");
+const speakers = await getCollection("speakers");
+const talks = await getCollection("talks");
+const venues = await getCollection("venues");
+const workshops = await getCollection("workshops");
+
+for (const entires of [editions, hosts, partners, speakers, talks, venues, workshops]) {
+  for (const entry of entires) {
+    const { id, data } = entry;
+
+    // console.log(id, data);
+  }
+}
+
+for (const edition of editions) {
+  const { id, data } = edition;
+
+  console.log(data);
+}
+---
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+</body>
+
+</html>

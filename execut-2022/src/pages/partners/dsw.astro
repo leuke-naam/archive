@@ -1,0 +1,33 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/dsw.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="DSW">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to full overview">&lt; Back to partner overview</a>
+      </code>
+
+      <h1 id="abstract">DSW</h1>
+
+      <p><strong>Development &amp; ICT at DSW</strong></p>
+
+      <p>
+        At DSW we prefer to create our own software applications. We hardly ever use ready-madeprograms. Our systems for processing healthcare expenses claims, for the registration ofnew clients or for robotics: our own people designed, developed and tested each and everyoneof these. Are you interested in development, but still lacking the skills? No problem! Wehave our own training programs for C# and SQL to make sure you can quickly become afull-fledged member of our teams for developing applications. Building our own chatbotNikkie or integrating IDEAL in our app, to make it easier for the insured to pay theirbills? Our developers consider it a piece of cake!
+      </p>
+
+      <p>
+        Want to know more? Come visit us at <a href="http://www.ictbijdsw.nl/">ictbijdsw.nl</a>.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} alt="DSW" class="photograph" />
+    </div>
+  </div>
+</Layout>

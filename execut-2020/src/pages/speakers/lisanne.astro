@@ -1,0 +1,45 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/lisanne.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Lisanne Brons<br />
+      Technical Lead at Microsoft. Diversity and Inclusion Ambassador.
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <p>The abstract for Lisanne's talk will be online shortly.</p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Lisanne</h2>
+
+      <p>
+        With a university degree in both Artificial Intelligence and Psychology Lisanne has always been fascinated about people and technology, and especially where the two interact. Currently she is leading a team of technical specialists at Microsoft, who help enterprise customers create a modern, innovative & secure workplace for their employees. She's at her best when she can show people worlds of new opportunities and help find courage to achieve things they've never done before. Whether that's inspiring customers about the possibilities of cloud technology. Or coach people to try new things and walk off the beaten track.
+      </p>
+
+      <p>
+        With a long life passion for diversity & inclusion, she strives to create a work culture where everyone can be themselves. Lisanne's personal mission is to tear down the stereotype image of "nerds". Which includes learning kids how to code, inspire girls to choose tech and empower other women in IT.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Lisanne Brons" />
+    </div>
+  </div>
+</Layout>

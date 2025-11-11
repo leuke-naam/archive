@@ -1,0 +1,105 @@
+---
+import { Image } from 'astro:assets'
+
+import nathaliePost from '~/assets/speakers/nathalie-post.png'
+import andyHaxby from '~/assets/speakers/andy-haxby.png'
+import marcSomberg from '~/assets/speakers/marc-somberg.png'
+import saraLusini from '~/assets/speakers/sara-lusini.png'
+import ramiIsmail from '~/assets/speakers/rami-ismail.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Speakers">
+  <div class="copy">
+    <div id="speakers">
+      <h1>Our remarkable speakers</h1>
+
+      <p>
+        <code>exec(ut)</code>'s speakers come from a wide variety of backgrounds and will be presenting an equally wide variety of interesting talks. Below you can find their bios and talk-abstracts, providing you with a sneak peak into their presentations.
+      </p>
+
+      <div class="speakergrid">
+        <div class="speakercard">
+          <a href="/speakers/nathalie-post" title="Talk">
+            <div class="photoblock">
+              <Image src={nathaliePost} class="speaker-photo" alt="Nathalie Post"/>
+            </div>
+
+            <div class="textblock">
+              <h2>Nathalie Post</h2>
+
+              <p>
+                Nathalie Post is cofounder at DEUS: human(ity)-centered AI. As Head of Strategy, she helps organisations apply artificial intelligence responsibly to create value for people, business &amp; society.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/andy-haxby" title="Talk">
+            <div class="photoblock">
+              <Image src={andyHaxby} class="speaker-photo" alt="Andy Haxby" />
+            </div>
+
+            <div class="textblock">
+              <h2>Andy Haxby</h2>
+
+              <p>
+                Andy Haxby is the director of Dutch software services company Competa IT and founder of the Fair Trade Software Foundation. His research interests include the application of Agile and ICT as tools for economic development.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/marc-somberg" title="Talk">
+            <div class="photoblock">
+              <Image src={marcSomberg} class="speaker-photo" alt="Marc Somberg" />
+            </div>
+
+            <div class="textblock">
+              <h2>Marc Somberg</h2>
+
+              <p>
+                Marc Somberg is Product Specialist Data Driven Healthcare at ChipSoft and is a member of the Strategic Innovation Team. He has a background in English Literature and Scientific Research. He is also responsible for Artificial Intelligence in the Dutch and Belgian Healthcare markets.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/sara-lusini" title="Talk">
+            <div class="photoblock">
+              <Image src={saraLusini} class="speaker-photo" alt="Sara Lusini" />
+            </div>
+
+            <div class="textblock">
+              <h2>Sara Lusini</h2>
+
+              <p>
+                Sara Lusini teaches courses in Research Methodology at the Department of Computer Science of Vrije Universiteit Amsterdam. She is also the Programme Coordinator for all Computer Science and Information Sciences Bachelor's and Master's programmes offered at the Department. She will be our host during the event.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/rami-ismail" title="Talk">
+            <div class="photoblock">
+              <Image src={ramiIsmail} class="speaker-photo" alt="Rami Ismail" />
+            </div>
+
+            <div class="textblock">
+              <h2>Rami Ismail</h2>
+
+              <p>
+                Rami Ismail is a Dutch-Egyptian independent games &amp; tool developer with over 20 titles across PC, console, web, and mobile. He co-founder of the influential now-retired indie games studio Vlambeer, Rami worked on award-winning and genre-defining games such as Ridiculous Fishing and Nuclear Throne. His versatility and work resulted in him receiving a wide range of recognition, including the Game Developers Choice Ambassador Award, the IndieCade Gamechanger Award, and a Forbes 30 Under 30 nomination.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

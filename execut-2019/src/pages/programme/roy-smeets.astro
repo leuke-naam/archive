@@ -1,0 +1,57 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/roy-smeets.jpg'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Roy Smeets<br />
+      VP Product Development, Hosting & ICT at Keylane
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/programme#schedule" title="Back to full overview">&lt; Back to the full programme</a>
+      </code>
+
+      <h1 id="abstract">"The Good, The Bad & The Ugly" of Product Development</h1>
+      <p>
+
+        For many of you Global Product Development (GPD) might seem interesting and appealing. And luckily many companies are both developing & selling software in a mogul industry nowadays. But that's only the bright side of things. When we deepdive in GPD and turn to the dark side we can adress things like; complex productportfolios, offshoring, and not invented here syndrome.
+      </p>
+
+      <p>
+        Over the past 10 years Roy has been leading international product development teams. During his talk he will share all his experiences: "The Good, The Bad & The Ugly".
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Roy</h2>
+
+      <p>
+        "You cannot be everything you want to be, but you can be a lot more of who you already are."
+      </p>
+
+      <p>
+        Roy is CTO and Vice President Product Development, Hosting & ICT at Keylane. He has an impressive track record in both product development and hosting in SaaS oriented standard software companies. Additionally, he has an entrepreneurial perspective on building solid, strong, cross-border teams. Previously he has been in various CTO and R&D management positions at Ingenico, Redknee and Nokia Siemens.
+      </p>
+
+      <p>
+        <code>
+          <a href="https://www.linkedin.com/in/roy-smeets-681227/" title="Roy Smeets" target="_blank" rel="noopener">https://www.linkedin.com/in/roy-smeets-681227/</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Roy Smeets" />
+    </div>
+  </div>
+</Layout>

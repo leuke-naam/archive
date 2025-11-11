@@ -1,0 +1,19 @@
+---
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Make sure to buy your tickets for <code>exec(ut)</code> now!<br />
+    </p>
+  </div>
+
+  <div class="copy" id="schedule">
+    <h1>Tickets</h1>
+
+    <p>Tickets are (of course) no longer available.</p>
+  </div>
+</Layout>

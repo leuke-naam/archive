@@ -1,0 +1,53 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/richard-vanhooijdonk.jpg'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Richard van Hooijdonk<br />
+      Futurist and Trendwatcher
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/programme#schedule" title="Back to full overview">&lt; Back to the full programme</a>
+      </code>
+
+      <h1 id="abstract">Trends 2030</h1>
+
+      <p>
+        We're about to experience major changes. We'll soon drive around smart cities in autonomous cars that just came out of a 3D printer. We'll reach the age of 300 and perhaps even become immortal. If we have to leave the earth in 500 years, will Mars be an alternative? Many jobs will no longer exist in the world of tomorrow. How will we ensure that people live fulfilling lives? What type of education and which skills will we need to create tomorrow's world together? New possibilities and business models are emerging. Organisations need to be prepared for the future.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Richard</h2>
+
+      <p>
+        In 2015, 2016 en 2017 Richard van Hooijdonk was chosen as the most asked trendwatcher and futurist of the Netherlands. His inspiration sessions have been attended by over 420,000 people. You often find Richard on radio and television. On television he frequently appears on RTL, (RTL Late Night, RTL Boulevard), SBS (SBS shownieuws), BNNVARA, and AVROTROS. At BNR Radio he presents his own programme 'Mindshift'.
+      </p>
+
+      <p>
+        With his international research team of 30 specialists Richard investigates many trends in the domain of robots, autonomous vehicles, internet of things, biotech, nanotech, neurotech, blockchain, 3D and 4D printing, and of course augmented- and virtual reality. This research is published weekly in articles, e-books, whitepapers, and many lectures. His book 'The World of Tomorrow' is by now a bestseller.
+      </p>
+
+      <p>
+        <code>
+          <a href="https://www.richardvanhooijdonk.com" title="Richard van Hooijdonk" target="_blank" rel="noopener">www.richardvanhooijdonk.com</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Richard van Hooijdonk" />
+    </div>
+  </div>
+</Layout>

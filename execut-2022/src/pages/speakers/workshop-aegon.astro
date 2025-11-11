@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets'
+
+import icon from '~/assets/partners/aegon.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Workshop Aegon">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <p>
+        In an interactive workshop you will get to know Aegon and the different departments. Together with a team you solve complex puzzles that have to do with, for example, finance and data science.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={icon} alt="Workshop Aegon" class="photograph" />
+    </div>
+  </div>
+</Layout>

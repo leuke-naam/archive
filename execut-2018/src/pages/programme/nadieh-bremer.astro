@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/nadieh-bremer.jpg'
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Nadieh Bremer<br />
+      Data Visualization Designer @ Visual Cinnamon
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <h1 id="abstract">Data sketches | a year of exotic data visualizations</h1>
+
+      <p>
+        "data sketches" was a year-long collaboration between Nadieh Bremer and Shirley Wu, both freelancing data visualization designers. Each month they chose a topic and visualised it in an overly elaborate and geeky manner. But besides sharing the end result, they also wrote extensively about the creation process. In this talk, Nadieh will share her most important lessons learned in the fundamental areas of data, sketching, and coding the visual onto the screen. She'll discuss how some months became favourites, what mistakes were made along the way, and how they were overcome. She'll especially highlight that many visualizations had humble, ugly-duckling beginnings, but through many (sometimes embarrassing) iterations they turned into unique and compelling results. Finally, she'll touch upon the impact and benefit of collaborating heavily with someone (halfway across the globe) for a year.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h1>About Nadieh</h1>
+
+      <p>
+        Nadieh Bremer is a graduated Astronomer turned Data Scientist turned Data Visualization Designer. After working for a consultancy and fintech company where she discovered her passion for the visualization of data, she's now freelancing under the name "Visual Cinnamon." She focuses on uniquely crafted (interactive) data visualizations that both engage and enlighten their audience — ranging from companies as extensive as Google News Lab to small start-ups. Her work spans from printed magazines such as Scientific American, to interactive experiences for the Guardian, to more promotionally focused, artful visualizations for press releases, data-driven reports, and data art for offices. As long as it's data that has a story to reveal.
+      </p>
+
+      <p>
+        <code>
+          <a href="https://www.visualcinnamon.com/" target="_blank" rel="noopener noreferrer">
+            www.visualcinnamon.com
+          </a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Nadieh Bremer" class="photograph" />
+    </div>
+  </div>
+</Layout>

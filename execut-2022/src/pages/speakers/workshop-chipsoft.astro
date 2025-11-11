@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets'
+
+import icon from '~/assets/partners/chipsoft.webp'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Workshop Chipsoft">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <p>
+        The fax is still (!) used to enable information exchange between healthcare institutions. Why? Why is the electronic exchange of medical data not self-evident, and why do healthcare providers still have to retype data, with all kinds of risks as a result. Imàn and Arnaud let you dive into the fascinating world of data exchange and lead an interactive discussion that gives you more insight into the enormous challenges we have to deal with, to make and keep healthcare future-proof.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={icon} alt="Workshop Chipsoft" class="photograph" />
+    </div>
+  </div>
+</Layout>

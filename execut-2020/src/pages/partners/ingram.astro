@@ -1,0 +1,39 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/ingram.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Gold Partner<br />
+      <a href="https://jobs.jobvite.com/ingrammicro/" title="Ingram" target="_blank" rel="noopener">
+        <button>Ingram Micro</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <p>
+        Ingram Micro helpt ondernemingen de belofte van technologie te realiseren. Geen ander bedrijf levert het complete spectrum aan wereldwijde technologie- en supply chain services aan partners over de hele wereld. Ingram Micro's wereldwijde infrastructuur en diepgaande expertise in technologieoplossingen, supply chain, cloud en mobility stellen zijn business partners in staat efficiënt en succesvol te opereren in de markten die zij bedienen. Ongeëvenaarde flexibiliteit, diepgaande kennis van de markt en betrouwbaarheid, die het resultaat zijn van decennia aan hechte relaties, maken Ingram Micro uniek en toonaangevend. Ontdek hoe Ingram Micro u kan helpen de belofte van technologie te realiseren.
+      </p>
+
+      <p>
+        Bezoek <a href="https://nl.ingrammicro.eu/" target="_blank" rel="noopener">https://nl.ingrammicro.eu/</a>.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="Ingram Logo" />
+    </div>
+  </div>
+</Layout>

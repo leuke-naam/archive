@@ -1,0 +1,63 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/asml.png'
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      <a href="https://www.workingatasml.com" target="_blank" title="ASML">
+        <button>ASML</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <h1>ASML - be part of progress</h1>
+
+      <p>
+        We make machines that make chips; the hearts of the devices that keep us
+        informed, entertained and safe. Devices that improve our quality of life
+        and help to tackle the world's toughest problems. We build some of the
+        most amazing machines that you will ever see, and the software to run
+        them.
+      </p>
+
+      <p>
+        ASML offers opportunities for graduates from practically every technical
+        field. You'll be working with people from around the world. We believe
+        that those different backgrounds, nationalities and perspectives make us
+        better. And because there's more to life than work, you can join your
+        colleagues in anything from running, cycling, football, or skiing in our
+        sports teams.
+      </p>
+
+      <p>
+        We offer a fulfilling career, not just a job. We reward employees
+        competitively and provide coaching, training, and personal career
+        development. Flexibility, enthusiasm, ambition, and customer focus are
+        the foundation for a world of opportunity.
+      </p>
+
+      <p>
+        <code>
+          <a
+            href="https://www.workingatasml.com/students"
+            target="_blank"
+            rel="noopener noreferrer">
+            www.workingatasml.com
+          </a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} alt="ASML logo" class="photograph" />
+    </div>
+  </div>
+</Layout>

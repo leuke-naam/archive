@@ -1,0 +1,41 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/ross-tuck.jpg'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Ross Tuck<br />
+      Principal Engineer at CastorEDC, consultant and speaker
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/programme#schedule" title="Back to full overview">&lt; Back to the full programme</a>
+      </code>
+
+      <h2>About Ross</h2>
+
+      <p>
+        Ross Tuck is a developer and speaker. By day, he works at Castor EDC, improving medical research. By evening, he helps organise the local DomCode user group. Originally from the US, he lives in Utrecht with his girlfriend and cat.
+      </p>
+
+      <p>
+        <code>
+          <a href="http://rosstuck.com/" title="Ross Tuck" target="_blank" rel="noopener">http://rosstuck.com/</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Ross Tuck" />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,45 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/joost.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Joost van Dongen<br />
+      Lead programmer and co-founder of Ronimo Games
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <h2>Code as a tool for creative expression</h2>
+
+      <p>
+         Programming well is an art, but can programming also be used to make art? In this talk Joost will show that with the right mindset, code is a tool for creative expression, in no way less capable of producing art than a brush, pencil or musical instrument. He will show a few examples of the art he has made through code: from abstract visuals, to an automated composer, to the live performance video game Cello Fortress.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Joost</h2>
+
+      <p>
+        Joost van Dongen is lead programmer and co-founder of Ronimo Games, the Utrecht-based independent studio behind the award winning games Awesomenauts and Swords & Soldiers 1 & 2. When they were still students, they also made the original version of De Blob. In his spare time Joost made the abstract racing game Proun and the live performance game Cello Fortress. He is currently working an an unannounced new game at Ronimo, and in his spare time on an album with instrumental cello music and on a procedural music generator. Joost regularly writes about game development and other creative endeavours on his blog at <a href="http://www.joostvandongen.com/" target="_blank" rel="noopener">www.joostvandongen.com</a>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Joost van Dongen" />
+    </div>
+  </div>
+</Layout>

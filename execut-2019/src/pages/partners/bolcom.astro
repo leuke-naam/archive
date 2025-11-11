@@ -1,0 +1,45 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/bolcom.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Silver Partner<br />
+      <a href="https://careers.bol.com" title="bol.com" target="_blank" rel="noopener">
+        <button>bol.com</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h1>About bol.com</h1>
+
+      <p>
+        Life at bol.com is… working together with energetic colleagues to achieve one goal: making millions of customers happy! Really making impact and make the daily lives of our customers easier and more enjoyable. We share an enormous passion for continuously improving everything we do. As bol.commer you can really contribute to that innovation.
+      </p>
+
+      <p>
+        What are we looking for? We want professionals that work autonomously. Who really want to make a difference and work hard together every day to do it better.
+      </p>
+
+      <p>
+        Are you in? Check out <code><a href="http://careers.bol.com" title="bol.com" target="_blank" rel="noopener">http://careers.bol.com</a></code> or send an email to <code><a href="mailto:vleduc@bol.com" title="Veronique Leduc" target="_blank">vleduc@bol.com</a></code>.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="bol.com logo" />
+    </div>
+  </div>
+</Layout>

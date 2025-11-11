@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/sticky.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Sticky">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to full overview">&lt; Back to partner overview</a>
+      </code>
+
+      <h1 id="abstract">Sticky</h1>
+
+      <p>
+        Sticky is the association for computing and information sciences at Utrecht University(9 programs in total). Most students that follow these programs join Sticky, makingSticky count over 1600 members. To facilitate amazing activities for all these people,Sticky has over 30 committees and tasksgroups.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} alt="Sticky" class="photograph" />
+    </div>
+  </div>
+</Layout>

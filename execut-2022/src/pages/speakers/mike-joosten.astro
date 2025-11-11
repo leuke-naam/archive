@@ -1,0 +1,35 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/mike-joosten.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Mike Joosten">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <p><strong>View the world through APIs</strong></p>
+
+      <p>
+        In an ever-expanding digital world REST APIs provide a common scalable architecture to share and manage data over the internet. Nowadays they are undeniably the backbone of any web application. This keynote aims to give more insights on how APIs function, the benefits they bring, and the way they are built. Join us in learning more about this cornerstone of internet traffic.
+      </p>
+
+      <h1>Bio</h1>
+
+      <p>
+        Mike Joosten is a Software Engineer at ING Belgium. In his spare time he invests his time into photography, design, music, aviation and history.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Mike Joosten" class="photograph" />
+    </div>
+  </div>
+</Layout>

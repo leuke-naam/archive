@@ -1,0 +1,43 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/gabi.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Gabriela D'Ávila Ferrara<br />
+      Developer Advocate at Google Cloud and passionate software developer.
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <p>
+        Gabi will touch the subject of BigQuery ML (Machine Learning). A full abstract for her talk will be online shortly.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Gabi</h2>
+
+      <p>
+        Gabi is a Developer Advocate at Google Cloud and a passionate Software Engineer. She likes simplifying complex systems, and believes abstractions are best when they can be understood in a real life example. She's driven to go beyond DBA lingo to make database and storage technology more accessible to technical practitioners.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Gabriela D'Ávila" />
+    </div>
+  </div>
+</Layout>

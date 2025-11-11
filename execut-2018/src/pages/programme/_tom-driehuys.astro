@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/tom-driehuys.jpg'
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Tom Driehuys<br />
+      Director Forensic Technology Solutions @ PwC
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <h1 id="abstract">Problem solving based on forensic science</h1>
+
+      <p>
+        Tom will discuss the interesting and striking cases he encountered during his career within the domain of forensics.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h1>About Tom Driehuys</h1>
+
+      <p>
+        Tom is a Forensic, Cybercrime and IT security expert, working for the PwC Forensic Technology Solutions practice in The Netherlands.
+      </p>
+
+      <p>
+        Prior to joining PwC in 2013, he worked for EY and Fox-IT, where he was responsible for large IT incident response investigations and management of the Forensic IT team in his role as Operations Manager.
+      </p>
+
+      <p>
+        Tom is interested in IT Security and forensics and is ISC2 certified. He was employed for one year at a large company in The Hague in the role of Corporate Information Security Officer during his time at Fox-IT.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Tom Driehuys" class="photograph" />
+    </div>
+  </div>
+</Layout>

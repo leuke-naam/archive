@@ -1,0 +1,33 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/rami-ismail.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Rami Ismail">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Games - Code but not Code</h1>
+
+      <p>
+        Game Developer Rami Ismail discusses the way common code structures and concepts apply or do not apply to game development - and why thinking about games as products of code is both a risk and an opportunity.
+      </p>
+
+      <h1>About Rami</h1>
+
+      <p>
+        Rami Ismail is a Dutch-Egyptian independent games &amp; tool developer with over 20 titles across PC, console, web, and mobile. The co-founder of the influential now-retired indie games studio Vlambeer, Rami worked on award-winning and genre-defining games such as Ridiculous Fishing and Nuclear Throne. His development of tools like the industry-standard dopresskit.com, his prolific &amp; popular public speaking, and highly-regarded consultancy and insights have helped shape industry opportunities for game communities &amp; independent game developers worldwide. Rami continues to advocate the creation of a fairer and more equal industry for developers anywhere through his work at gamedev.world. His versatility and work resulted in him receiving a wide range of recognition, including the Game Developers Choice Ambassador Award, the IndieCade Gamechanger Award, and a Forbes 30 Under 30 nomination.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Rami Ismail" class="photograph" />
+    </div>
+  </div>
+</Layout>

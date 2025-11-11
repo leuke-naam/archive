@@ -1,0 +1,151 @@
+#navigation {
+  width: 100%;
+  clear: both;
+  display: block;
+  position: relative;
+}
+
+#navigation {
+  line-height: 70px;
+  background-color: var(--brown);
+  font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--off-white);
+}
+
+#navigation div {
+  display: inline-block;
+}
+
+/* Strip the ul of padding and list styling */
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+}
+
+/* Create a horizontal list with spacing */
+#navigation li {
+  display: inline-block;
+  float: left;
+  margin-right: 1px;
+}
+
+/* Style for menu links */
+#navigation li a {
+  display: block;
+  min-width: 140px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--off-white);
+}
+
+/* Hover state for top level links */
+#navigation li:hover a {
+  color: var(--green);
+}
+
+/* Style for dropdown links */
+#navigation li:hover ul a {
+  background: var(--brown);
+  color: var(--off-white);
+  height: 40px;
+  line-height: 40px;
+}
+
+/* Hover state for dropdown links */
+#navigation li:hover ul a:hover {
+  background: var(--green);
+  color: var(--off-white);
+}
+
+/* Hide dropdown links until they are needed */
+#navigation li ul {
+  display: none;
+}
+
+/* Make dropdown links vertical */
+#navigation li ul li {
+  display: block;
+  float: none;
+}
+
+/* Prevent text wrapping */
+#navigation li ul li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 20px;
+}
+
+/* Display the dropdown on hover */
+#navigation ul li a:hover+.hidden,
+.hidden:hover {
+  display: block;
+}
+
+/* Style 'show menu' label button and hide it by default */
+.show-menu {
+  font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: var(--red);
+  background: var(--green);
+  text-align: center;
+  display: none;
+}
+
+/* Hide checkbox */
+input[type=checkbox] {
+  display: none;
+}
+
+/* Show menu when invisible checkbox is checked */
+input[type=checkbox]:checked~#menu {
+  display: block;
+}
+
+/* Responsive Styles */
+@media screen and (max-width : 880px) {
+  nav {
+    line-height: 50px;
+  }
+
+  /* Make dropdown links appear inline */
+  #navigation ul {
+    width: 100%;
+    position: static;
+    display: none;
+  }
+
+  /* Create vertical spacing */
+  #navigation li {
+    margin-top: 1px;
+    background-color: var(--brown)
+  }
+
+  /* Make all menu links full width */
+  #navigation ul li,
+  #navigation li a {
+    width: 100%;
+  }
+
+  /* Display 'show menu' link */
+  .show-menu {
+    display: inline-block;
+    float: right;
+    width: 70px;
+  }
+}
+
+#logo {
+  height: 30px;
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#hamburger {
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,70 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/pwc.png'
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      <a
+        href="https://www.pwc.nl/nl/carriere/next-digital-leader.html"
+        target="_blank"
+        title="PwC"
+      >
+        <button>PwC</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <h1>Shape your Digital Future at PwC</h1>
+
+      <p>
+        Do you want to take the lead in the digital era? Let's bring business,
+        technology, and experience together to shape your personal value
+        proposition within the digital world, with us, and become our Next
+        Digital Leader. Reimagine your tomorrow and pursue your passions.
+      </p>
+
+      <p>
+        In addition to leadership, communication, and relationship skills that
+        have always been key attributes to a PwC Professional, skills in data
+        analytics and information management are more valuable than ever. We
+        want to ensure that we are empowering our staff to drive innovation and
+        lead change — to be the leaders who will build their own futures and our
+        future at PwC.
+      </p>
+
+      <p>
+        No two career paths are alike and we’ll help you design your own. We
+        provide the training, coaching, and client experiences that help you
+        build relationships and shape your career your own way. We are in the
+        midst of a rapid transformation in the world of work. Automation, AI,
+        technology, and megatrends are all impacting how, where, and when we
+        work.
+      </p>
+
+      <p>Unlock your power and become one of our next digital leaders.</p>
+
+      <p>
+        <code>
+          <a
+            href="https://www.pwc.nl/nl/carriere/next-digital-leader.html"
+            target="_blank"
+            rel="noopener noreferrer">
+            More information
+          </a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} alt="PwC Logo" class="photograph" />
+    </div>
+  </div>
+</Layout>

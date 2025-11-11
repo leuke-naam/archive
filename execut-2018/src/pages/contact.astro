@@ -1,0 +1,124 @@
+---
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      <code>exec(ut)</code> is an event organised by Stichting Sticky<br />
+
+      <a href="mailto:conference@execut.nl" title="Get in touch">
+        <button class="button">conference@execut.nl</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="main">
+      <h1>Organisation</h1>
+
+      <p>
+        <code>exec(ut)</code> is an event organised by
+        <a
+          href="https://www.stichtingsticky.nl/"
+          title="Stichting Sticky">Stichting Sticky</a>.
+          Its organising committee consists of six members, all of whom are
+        students of computing- and information-sciences at Utrecht University:
+      </p>
+
+      <div class="committee">
+        <div>
+          <div class="name">
+            <a href="https://www.rcdewit.nl/" title="Rob de Wit" target="_blank">Rob de Wit</a>
+          </div>
+          <div class="role">Chairman</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a
+              href="https://www.linkedin.com/in/danny-knemeijer-a6b12569"
+              title="Danny Knemeijer"
+              target="_blank">Danny Knemeijer</a>
+          </div>
+          <div class="role">Treasurer</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a
+              href="https://www.linkedin.com/in/alma-liezenga-1387729a/"
+              title="Alma Liezenga"
+              target="_blank">Alma Liezenga</a>
+          </div>
+          <div class="role">Acquisition</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a
+              href="http://www.duijf.io/"
+              title="Laurens Duijvesteijn"
+              target="_blank">Laurens Duijvesteijn</a>
+          </div>
+          <div class="role">Speakers</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a
+              href="https://www.linkedin.com/in/bianca-beerepoot-a2955212a/"
+              title="Bianca Beerepoot"
+              target="_blank">Bianca Beerepoot</a>
+          </div>
+          <div class="role">Location and logistics</div>
+        </div>
+
+        <div>
+          <div class="name">
+            <a
+              href="https://www.linkedin.com/in/zo%C3%AB-coenen-6b89ba104/"
+              title="Zoe Coenen"
+              target="_blank">Zoë Coenen</a>
+          </div>
+          <div class="role">Promotion</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column contact" id="side">
+      <h1>Contact</h1>
+
+      <p>
+        Stichting Sticky<br />
+        Attn. exec(ut)<br />
+        Princetonplein 5<br />
+        3584CC Utrecht
+      </p>
+
+      <a href="mailto:conference@execut.nl" title="e-mail us">conference@execut.nl</a>
+    </div>
+
+    <div class="column" id="fullwidth">
+      <h1>Acknowledgements</h1>
+
+      <p>
+        Aside from our speakers, hosts, and parters, there are a few people and
+        organisations whom we would like to thank for their contributions to the
+        organisation of <code>exec(ut)</code>. These are, in no particular
+        order:
+      </p>
+
+      <p>
+        <code>
+          DomCode, for letting us rip-off their code of conduct;<br />
+          Ross Tuck, for his invaluable tips and tricks about organising conferences;<br />
+          Forel Logistiek, for providing us with a van and driver;<br />
+          and Emiel van Rijn, for bringing us together.<br />
+        </code>
+      </p>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,43 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/achmea.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Gold Partner<br />
+      <a href="https://www.werkenbijachmea.nl" title="Achmea" target="_blank" rel="noopener">
+        <button>Achmea</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h1>Over Achmea</h1>
+
+      <p>
+        Verzekeren gaat in deze tijd wel wat verder dan je vakantie of 'later'. Want hoe regelen we de aansprakelijkheid rond het gebruik van drones, de risico's van zelfrijdende auto's, of het uitlenen en verhuren van spullen in de deeleconomie? Zeker bij Achmea met merken als Centraal Beheer, Interpolis, Zilveren Kruis en FBTO, en circa 12.500 medewerkers in Nederland, zijn we niet alleen de grootste, maar ook de meest vertrouwde digitale verzekeraar van ons land. Denk aan 10 miljoen klanten met elk hun eigen risico's en verzekeringswensen. Dat betekent dat we een enorme verantwoordelijkheid dragen. Kortom, een uitdagende werkomgeving met complexe en maatschappelijk relevante vraagstukken, en eindeloos veel mogelijkheden om jezelf te ontwikkelen. Je krijgt veel ruimte voor eigen inbreng en eigen verantwoordelijkheid, zodat je ook écht een verschil kunt maken; binnen Achmea en (in)direct op het leven van veel mensen. Zo ben je verzekerd van een uitstekende start van een veelbelovende carrière.
+      </p>
+
+      <p>
+        <code>
+          <a href="https://www.werkenbijachmea.nl" title="Werken bij Achmea" target="_blank" rel="noopener">https://www.werkenbijachmea.nl</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="Achmea logo" />
+    </div>
+  </div>
+</Layout>

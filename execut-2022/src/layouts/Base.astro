@@ -1,0 +1,102 @@
+---
+import location from '~/assets/location.jpg'
+
+import Footer from '~/components/Footer.astro'
+import Navigation from '~/components/Navigation.astro'
+
+import '@fontsource/lora/400.css'
+import '@fontsource/lora/700.css'
+import '@fontsource/ubuntu/400.css'
+import '@fontsource/ubuntu-mono/400.css'
+
+import '~/styles/style.css'
+import '~/styles/menu.css'
+
+interface Props {
+  title: string
+}
+
+const { title } = Astro.props
+
+const keywords = [
+  'exec(ut)',
+  'execut',
+  'execute',
+  'conference',
+  'congres',
+  'symposium',
+  'utrecht',
+  'studievereniging',
+  'sticky',
+  'stichting',
+  'it',
+  'tech',
+  'technology',
+  'software',
+  'student',
+  'students',
+  'computer',
+  'information',
+  'science',
+  'sciences',
+]
+
+const description = 'exec(ut) is a conference for and by IT students. Its fifth edition is taking place in 2022. Visit our website for tickets and more info.'
+---
+
+<!DOCTYPE html>
+
+<!-- Website created by Rob C. de Wit for exec(ut) 2018 & 2019, adapted by Thomas Hes for exec(ut) 2020. Backend created by exec(ut) committee 2021. -->
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="theme-color" content="#ef4955" />
+  <meta name="color-scheme" content="only light" />
+
+  <meta name="author" content="Stichting Sticky" />
+  <meta name="keywords" content={keywords.join()} />
+  <meta name="description" content={description} />
+
+  <meta name="generator" content={Astro.generator} />
+
+  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+
+  <title>{`${title} - exec(ut) 2022`}</title>
+</head>
+
+<body>
+  <a href="https://execut.nl/" class="old">
+    <div class="old_banner">
+      <span>This is the archived version of 2022's conference website. Click here for currently relevant info.</span>
+    </div>
+  </a>
+
+  <div class="container">
+    <Navigation />
+
+    <div class="content">
+      <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+        <p>
+          A conference for and by IT students<br />
+          March 28th, 2022 in Flint, Amersfoort<br />
+          <a href="/tickets" title="Click here to get your ticket">
+            <button>Get your tickets here!</button>
+          </a>
+        </p>
+      </div>
+
+      <slot />
+    </div>
+
+    <Footer />
+  </div>
+</body>
+
+</html>

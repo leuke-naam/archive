@@ -1,0 +1,108 @@
+name: exec(ut) 2018
+date: 2018-04-23
+programme:
+  - time: 09:30
+    organizational: Registration and coffee
+  - time: 10:00
+    organizational: Opening and welcome
+  - time: 10:15
+    activities:
+      - type: talk
+        activity: 2018/talks/data-sketches
+  - time: 11:00
+    activities:
+      - type: talk
+        activity: 2018/talks/digitizing-your-old-8mm-films-with-a-pi
+  - time: 11:30
+    activities:
+      - type: talk
+        activity: 2018/talks/privacy-digital-crime-espionage
+  - time: 12:00
+    organizational: Lunch
+  - time: 13:00
+    activities:
+      - type: talk
+        activity: 2018/talks/priming-persuasive-technology
+  # - time: 13:30
+  #   activities:
+  #     - type: talk
+  #       activity: 2018/talks/problem-solving-based-on-forensic-science
+  - time: 14:00
+    activities:
+      - type: talk
+        activity: 2018/talks/production-an-owners-manual
+  - time: 14:30
+    organizational: Coffee break
+  - time: 15:00
+    activities:
+      - type: talk
+        activity: 2018/talks/fewer-assumptions-and-better-products
+  - time: 15:30
+    activities:
+      - type: talk
+        activity: 2018/talks/winter-olympics-2018
+  - time: 16:00
+    activities:
+      - type: talk
+        activity: 2018/talks/everything-is-anything
+  - time: 16:45
+    organizational: Closing and drinks
+talks:
+  - 2018/talks/data-sketches
+  - 2018/talks/digitizing-your-old-8mm-films-with-a-pi
+  - 2018/talks/privacy-digital-crime-espionage
+  - 2018/talks/priming-persuasive-technology
+  # - 2018/talks/problem-solving-based-on-forensic-science
+  - 2018/talks/production-an-owners-manual
+  - 2018/talks/fewer-assumptions-and-better-products
+  - 2018/talks/winter-olympics-2018
+  - 2018/talks/everything-is-anything
+speakers:
+  - 2018/speakers/arjen-kamphuis
+  - 2018/speakers/fabian-van-noort
+  - 2018/speakers/igor
+  - 2018/speakers/jago-de-vreede
+  - 2018/speakers/mischa-coster
+  - 2018/speakers/nadieh-bremer
+  - 2018/speakers/paul-lemon
+  - 2018/speakers/ross-tuck
+  # - 2018/speakers/tom-driehuys
+host: 2018/hosts/bruno-lauwers
+partners:
+  platinum:
+    - 2018/partners/pwc
+  gold:
+    - 2018/partners/chipsoft
+    - 2018/partners/nedap
+  silver:
+    - 2018/partners/topicus
+    - 2018/partners/quintor
+    - 2018/partners/capgemini
+    - 2018/partners/ing
+  bronze:
+    - 2018/partners/asml
+    - 2018/partners/brunel
+committee:
+  - name: Rob de Wit
+    role: chair
+    contact: https://www.rcdewit.nl/
+  - name: Danny Knemeijer
+    role: treasurer
+    contact: https://www.linkedin.com/in/danny-knemeijer-a6b12569/
+  - name: Alma Liezenga
+    role: acquisition
+    contact: https://www.linkedin.com/in/alma-liezenga-1387729a/
+  - name: Laurens Duijvesteijn
+    role: speakers
+    contact: https://www.linkedin.com/in/laurens-duijvesteijn-12345678/
+  - name: Bianca Beerepoot
+    role: location
+    contact: https://www.linkedin.com/in/bianca-beerepoot-87654321/
+  - name: Zoë Coenen
+    role: promotion
+    contact: https://www.linkedin.com/in/zoe-coenen-13579246/
+acknowledgements: |
+  DomCode, for letting us rip-off their code of conduct;
+  Ross Tuck, for his invaluable tips and tricks about organising conferences;
+  Forel Logistiek, for providing us with a van and driver;
+  and Emiel van Rijn, for bringing us together.

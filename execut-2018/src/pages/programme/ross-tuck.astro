@@ -1,0 +1,44 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/ross-tuck.jpg'
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Ross Tuck<br />
+      Freelance developer, consultant and speaker
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <h1 id="abstract">Everything is Anything: The Unlikely Wisdom of Historical Stabbings</h1>
+
+      <p>
+        This is not a talk about stabbing people. Violence is bad. But it is a talk about two people who tried to stab each other hundreds of years ago. It's also a talk about getting inspiration from unlikely sources — about how skills might not be transferable, but mastering a skill could be. About how, when the chips are down, anything can be everything.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h1>About Ross</h1>
+      <p>
+        Ross Tuck is a freelance developer, consultant, and speaker. He lives in Utrecht and co-organizes DomCode, a cross-language user group. Tweet him at <code>@rosstuck</code>.
+      </p>
+
+      <p>
+        <code>
+          <a href="http://rosstuck.com/" target="_blank" rel="noopener noreferrer">http://rosstuck.com/</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Ross Tuck" class="photograph" />
+    </div>
+  </div>
+</Layout>

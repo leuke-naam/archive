@@ -1,0 +1,24 @@
+{
+  "name": "execut-2022",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://2022.execut.nl/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stichting-sticky/execut-2022.git"
+  },
+  "author": "Semele <hello@semele.fyi>",
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "private": true,
+  "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
+    "@fontsource/lora": "^5.2.8",
+    "@fontsource/ubuntu": "^5.2.8",
+    "@fontsource/ubuntu-mono": "^5.2.8",
+    "astro": "^5.14.5"
+  }
+}

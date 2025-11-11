@@ -1,0 +1,46 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/levarne.svg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Levarne">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to full overview">&lt; Back to partner overview</a>
+      </code>
+
+      <h1 id="abstract">Levarne</h1>
+
+      <p>
+        Werk je mee aan de software op elektrische auto's?<br />
+        Snap je wat er nodig is om het logistieke processen mogelijk te maken tijdens een Formule 1 race op Zandvoort?<br />
+        Hoe optimaliseer je advertentie gedrag op een e-Commerce toepassing voor de grootste drogisterij van Nederland?<br />
+        Weet je hoeveel medestudenten jouw software en code gebruiken op de Nationale Carrièrebeurs App?
+      </p>
+
+      <p>
+        Binnen Levarne is er veel ruimte voor eigen initiatief en persoonlijke ontwikkeling. Jij gaatonderdeel uitmaken van een jong en ambitieus team waarin iedereen gelijk is. Samen weten webijzondere mijlpalen te halen en daar zijn we trots op!
+      </p>
+
+      <p>
+        Kom je bij Levarne werken? Dan kun je altijd rekenen op collega's die niet alleen klaarstaanom klanten te helpen, maar ook hun collega's graag een helpende hand te bieden. Samenwerkenstaat bij Levarne centraal. Met elkaar boek je de beste resultaten.
+      </p>
+
+      <p>
+        Zodra je binnenkomt voel je direct de informele, gezellige sfeer. Dit merk je aan de manierwaarop we elkaar begroeten en hoe we met elkaar omgaan. De echte Levarniaan is een vakidiootpur sang, in de goede zin van het woord. Je herkent je collega's als ware kennisdelers, dietrots hun vakgebied uitdragen.
+      </p>
+
+      <p>
+        Even ontspannen tijdens een drukke dag? Dat kan altijd! Wij zijn erg fanatiek als het gaatom voetballen, artistieke tekeningen, saucijzenbroodjes en Lego.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} alt="Levarne" class="photograph" />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,136 @@
+---
+import { Image } from 'astro:assets'
+
+import achmea from '~/assets/partners/achmea.png'
+import adyen from '~/assets/partners/adyen.png'
+import asml from '~/assets/partners/asml.png'
+import belastingdienst from '~/assets/partners/belastingdienst.png'
+import bolcom from '~/assets/partners/bolcom.png'
+import infi from '~/assets/partners/infi.png'
+import ing from '~/assets/partners/ing.png'
+import keylane from '~/assets/partners/keylane.png'
+import nedap from '~/assets/partners/nedap.png'
+import ortecfinance from '~/assets/partners/ortecfinance.png'
+import pnoconsultants from '~/assets/partners/pnoconsultants.png'
+import pwc from '~/assets/partners/pwc.png'
+import sticky from '~/assets/partners/sticky.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      <code>exec(ut)</code> would not be possible without our partners<br />
+    </p>
+  </div>
+
+  <div class="copy">
+    <h1>About our partnerships</h1>
+
+    <p>
+      Organising <code>exec(ut)</code> is only made possible through the contributions of our partners. Below you can find a list of our partners, most of whom you will be able to meet on the day itself. They will be attending <code>exec(ut)</code> with a stand, so make sure to stop by and have a chat!
+    </p>
+
+    <hr />
+
+    <div class="partner-overview">
+      <div class="partner-tier" id="principal">
+        <h1>Principal partner</h1>
+
+        <a href="/partners/keylane" title="More about Keylane">
+          <div class="partner" id="keylane">
+            <Image src={keylane} class="partner-logo" id="principal-logo" alt="Partner logo" />
+          </div>
+        </a>
+      </div>
+
+      <div class="partner-tier" id="gold">
+        <h1>Gold partners</h1>
+
+        <a href="/partners/achmea" title="More about Achmea">
+          <div class="partner" id="achmea">
+            <Image src={achmea} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+
+        <a href="https://www.svsticky.nl" title="More about Sticky" target="_blank" rel="noopener">
+          <div class="partner" id="sticky">
+            <Image src={sticky} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+
+        <a href="/partners/nedap" title="More about Nedap">
+          <div class="partner" id="nedap">
+            <Image src={nedap} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+
+        <a href="/partners/pwc" title="More about PwC">
+          <div class="partner" id="pwc">
+            <Image src={pwc} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+      </div>
+
+      <div class="partner-tier" id="silver">
+        <h1>Silver partners</h1>
+
+        <a href="/partners/belastingdienst" title="More about Belastingdienst">
+          <div class="partner" id="belastingdienst">
+            <Image src={belastingdienst} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+
+        <a href="/partners/bolcom" title="More about bol.com">
+          <div class="partner" id="bolcom">
+            <Image src={bolcom} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+
+        <a href="/partners/infi" title="More about Infi">
+          <div class="partner" id="infi">
+            <Image src={infi} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+
+        <a href="/partners/ing" title="More about ING">
+          <div class="partner" id="ing">
+            <Image src={ing} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+
+        <a href="/partners/pno-consultants" title="More about PNO Consultants">
+          <div class="partner" id="pnoconsultants">
+            <Image src={pnoconsultants} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+
+        <a href="/partners/ortec-finance" title="More about Ortec Finance">
+          <div class="partner" id="ortecfinance">
+            <Image src={ortecfinance} class="partner-logo" alt="Partner logo" />
+          </div>
+        </a>
+      </div>
+
+      <div class="partner-tier" id="bronze">
+        <h1>Bronze partners</h1>
+
+        <div class="logos">
+          <a href="/partners/asml" title="More about ASML">
+            <div class="partner" id="asml">
+              <Image src={asml} class="partner-logo" alt="Partner logo" />
+            </div>
+          </a>
+
+          <a href="/partners/adyen" title="More about Adyen">
+            <div class="partner" id="adyen">
+              <Image src={adyen} class="partner-logo" alt="Partner logo" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

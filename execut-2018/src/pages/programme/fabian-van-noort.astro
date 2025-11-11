@@ -1,0 +1,49 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/fabian-vannoort.jpg'
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Fabian van Noort<br />
+      Design researcher at Valsplat
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <h1 id="abstract">
+        Fewer assumptions and better products: the power of UX research
+      </h1>
+
+      <p>
+        Fabian will talk about how he became a user researcher, his experience thus far and how the user research discipline fits into existing teams and organisations.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h1>About Fabian</h1>
+
+      <p>
+        Fabian has a heart for digital and for people. After having been immersed in studying the tech side of things, he turned to cognitive psychology to understand the human side of tech. Working as a design researcher at Valsplat, he helps teams and organisations in empathising with the human side of their digital products. Extensive interviewing to understand what people need, diving into Google Analytics to see how people tend to behave and conducting user testing to find out why people behave the way they do is all in a day's work.
+      </p>
+
+      <p>
+        <code>
+          <a href="http://fabianvannoort.nl/" target="_blank" rel="noopener noreferrer">
+            http://fabianvannoort.nl/
+          </a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Fabian van Noort" class="photograph" />
+    </div>
+  </div>
+</Layout>

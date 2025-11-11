@@ -1,0 +1,69 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/beyza-unal.jpg'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Beyza Unal<br />
+      Cyber security researcher at Chatham House
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="fullwidth">
+      <code>
+        <a href="/programme#schedule" title="Back to full overview">&lt; Back to the full programme</a>
+      </code>
+
+      <h1 id="abstract">Cybersecurity of weapons systems in a digital age</h1>
+
+      <p>
+        Digital technology has been increasingly used in nuclear and conventional weapons systems widely. Such use poses cybersecurity risks that may impact both military planning and political decision-making.
+      </p>
+
+      <p>
+        Realising that cyber is not only a technical issue, the speaker is going to introduce the political considerations of cybersecurity of weapons systems.
+      </p>
+
+      <p>
+        In this talk, the speaker will examine existing cyber threats, vulnerabilities and consequences to weapons systems. She will make recommendations for the military and political cadre.
+      </p>
+    </div>
+
+    <div class="column" id="biography">
+      <h2>About Beyza</h2>
+
+      <p>
+        Dr Beyza Unal is a senior research fellow with the International Security Department at Chatham House.
+      </p>
+
+      <p>
+        She specializes in nuclear and cyber policies, conducting research on cybersecurity and critical national infrastructure security and cybersecurity of nuclear weapons systems. Dr Unal also conducts research on urban preparedness and city resilience against CBRN threats. She formerly worked in the Strategic Analysis Branch at NATO Allied Command and Transformation, taught International Relations, transcribed interviews on Turkish political history, and served as an international election observer during the 2010 Iraqi parliamentary elections.
+      </p>
+
+      <p>
+        Dr Unal is interested in NATO's defence and security policy as well as security in the Middle East, and has been given various fellowships for her achievements - most notably she is a William J Fulbright Alumni.
+      </p>
+
+      <p>
+        She has also received funding from the US Department of Energy to participate workshops in Brookhaven National Laboratory, the James Martin Centre for Nonproliferation Studies, and Sandia National Laboratory.
+      </p>
+
+      <p>
+        <code>
+          <a href="https://twitter.com/beyzaunal" title="@beyzaunal" target="_blank" rel="noopener">twitter.com/beyzaunal</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} class="photograph" alt="Beyza Unal" />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,90 @@
+---
+import Footer from '~/components/Footer.astro'
+import Navigation from '~/components/Navigation.astro'
+
+import '@fontsource/lora/400.css'
+import '@fontsource/lora/700.css'
+import '@fontsource/ubuntu/400.css'
+import '@fontsource/ubuntu-mono/400.css'
+
+import '~/styles/style.css'
+import '~/styles/menu.css'
+
+interface Props {
+  title?: string
+}
+
+const { title = 'exec(ut) - a conference for and by IT students' } = Astro.props
+
+const keywords = [
+  'exec(ut)',
+  'execut',
+  'execute',
+  'conference',
+  'congres',
+  'symposium',
+  'utrecht',
+  'studievereniging',
+  'sticky',
+  'stichting',
+  'it',
+  'tech',
+  'technology',
+  'software',
+  'student',
+  'students',
+  'computer',
+  'information',
+  'science',
+  'sciences',
+]
+
+const description = 'A new general software and technology conference that will take place on April 23rd, 2018 in the city of Utrecht. Visit our website for information and tickets.'
+---
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="theme-color" content="#ef4955" />
+  <meta name="color-scheme" content="only lighter" />
+
+  <meta name="author" content="Stichting Sticky" />
+  <meta name="keywords" content={keywords.join()} />
+  <meta name="description" content={description} />
+
+  <meta name="generator" content={Astro.generator} />
+
+  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+
+  <title>{title}</title>
+</head>
+
+<body>
+  <a href="https://execut.nl/" class="old">
+    <div class="old_banner">
+      <span>
+        This is the archived version of 2018's conference website. Click here for currently relevant info.
+      </span>
+    </div>
+  </a>
+
+  <div class="container">
+    <Navigation />
+
+    <div class="content">
+      <slot />
+    </div>
+
+    <Footer />
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/belastingdienst.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Silver Partner<br />
+      <a href="https://werken.belastingdienst.nl/vakgebieden/ict#utm_source=event&utm_medium=referral_link&utm_campaign=UTM_campaign&utm_term=campus_event_180319&utm_content=execut" title="Belastingdienst" target="_blank" rel="noopener">
+        <button>Belastingdienst</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h1>ICT met impact: miljoenen vooraf ingevulde aangiftes online beschikbaar stellen</h1>
+
+      <p>
+        De Belastingdienst is 24 uur per dag, 7 dagen per week in beweging. Onze systemen beschikken over fiscale gegevens van miljoenen burgers en bedrijven en er gaat dagelijks circa één miljard euro aan belastinggeld doorheen. Over ICT met impact gesproken. Bij de Belastingdienst ga je aan de slag met nieuwe technieken zoals blockchain en Watson-technologie (AI). Ook kan je werken met legacy-systemen (o.a. COBOL) en met alle middleware, o.a. met automation (bijvoorbeeld Jenkins) en cloudoplossingen. Daarnaast kan je ook op infrastructuurgebied werken met programma's en systemen zoals Cisco, F5, Bluecoat en Aruba Cloud. En dit alles moet natuurlijk superveilig zijn, omdat we over de gegevens van iedere Nederlander beschikken.
+      </p>
+
+      <p>
+        Heb je straks je studie afgerond en wil je werken én verder leren? Dat ben je bij de Belastingdienst op je plek. Als je goed kunt samenwerken, graag je kennis wilt delen en kunt meegroeien met de organisatie ben je verzekerd van een uitdagende technische functie.
+      </p>
+
+      <p>
+        Benieuwd naar je mogelijkheden als ICT'er bij de Belastingdienst? Kijk dan op:<br />
+        <code>
+          <a href="https://werken.belastingdienst.nl/vakgebieden/ict#utm_source=event&utm_medium=referral_link&utm_campaign=UTM_campaign&utm_term=campus_event_180319&utm_content=execut" title="Belastingdienst" target="_blank" rel="noopener">https://www.belastingdienst.nl/vakgebieden/ict</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="Belastingdienst logo" />
+    </div>
+  </div>
+</Layout>

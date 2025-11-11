@@ -1,0 +1,139 @@
+---
+import { Image } from 'astro:assets'
+
+import hindaHaned from '~/assets/speakers/hinda-haned.png'
+import ankeSchlichting from '~/assets/speakers/anke-schlichting.jpg'
+import matthijsVanDeLaar from '~/assets/speakers/matthijs-van-de-laar.jpg'
+import michielOvereem from '~/assets/speakers/michiel-overeem.png'
+import marcSomberg from '~/assets/speakers/marc-somberg.png'
+import mikeJoosten from '~/assets/speakers/mike-joosten.png'
+import saraLusini from '~/assets/speakers/sara-lusini.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Speakers">
+  <div class="copy">
+    <div id="speakers">
+      <h1>Our remarkable speakers</h1>
+
+      <p>
+        <code>exec(ut)</code>'s speakers come from a wide variety of backgrounds and will be presenting an equally wide variety of interesting talks. Below you can find their bios and talk-abstracts, providing you with a sneak peak into their presentations.
+      </p>
+
+      <div class="speakergrid">
+        <div class="speakercard">
+          <a href="/speakers/hinda-haned" title="Talk">
+            <div class="photoblock">
+              <Image src={hindaHaned} class="speaker-photo" alt="Hinda Haned" />
+            </div>
+
+            <div class="textblock">
+              <h2>Hinda Haned</h2>
+
+              <p>
+                Hinda Haned is an endowed professor of data science at the university of Amsterdam, where she is scientific co-director of the Civic AI lab. Her research focuses on developing solutions for best practices for safe and responsible data science.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/anke-schlichting" title="Talk">
+            <div class="photoblock">
+              <Image src={ankeSchlichting} class="speaker-photo" alt="Anke Schlichting" />
+            </div>
+
+            <div class="textblock">
+              <h2>Anke Schlichting</h2>
+
+              <p>
+                Anke Schlichting is part of the Aegon Netherlands board and is responsible for transformation, technology and financial services. In her talk she will tell us all about how a big company as Aegon transforms itself constantly in this highly competitive environment.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/matthijs-van-de-laar" title="Talk">
+            <div class="photoblock">
+              <Image src={matthijsVanDeLaar} class="speaker-photo" alt="Matthijs van de Laar" />
+            </div>
+
+            <div class="textblock">
+              <h2>Matthijs van de Laar</h2>
+
+              <p>
+                Matthijs van de Laar is co-founder and creative director of Dutch game studio Twirlbound, a small development team focusing on colorful open world action adventure games. Beyond running a creative business, Matthijs is mainly concerned with the production, narrative and UX of their games.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/michiel-overeem" title="Talk">
+            <div class="photoblock">
+              <Image src={michielOvereem} class="speaker-photo" alt="Michiel Overeem" />
+            </div>
+
+            <div class="textblock">
+              <h2>Michiel Overeem</h2>
+
+              <p>
+                Michiel Overeem is a Lead Software Architect at AFAS Software. He is part of the team responsible for their low-code platform. As a PhD candidate with Utrecht University he conducts research on low-code platforms.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/marc-somberg" title="Talk">
+            <div class="photoblock">
+              <Image src={marcSomberg} class="speaker-photo" alt="Marc Somberg" />
+            </div>
+
+            <div class="textblock">
+              <h2>Marc Somberg</h2>
+
+              <p>
+                Marc Somberg is Pre Sales Consultant at Chipsoft and is a member of the Strategic Innovation Team. He has a background in English Literature and Scientific Research. He is also responsible for Artificial Intelligence in the Dutch and Belgian Healthcare markets.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/mike-joosten" title="Talk">
+            <div class="photoblock">
+              <Image src={mikeJoosten} class="speaker-photo" alt="Mike Joosten" />
+            </div>
+
+            <div class="textblock">
+              <h2>Mike Joosten</h2>
+
+              <p>
+                Mike Joosten is a Software Engineer at ING Belgium. In his spare time he invests his time into photography, design, music, aviation and history. This keynote aims to give more insights on how APIs function.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/speakers/sara-lusini" title="Host">
+            <div class="photoblock">
+              <Image src={saraLusini} class="speaker-photo" alt="Sara Lusini" />
+            </div>
+
+            <div class="textblock">
+              <h2>Sara Lusini</h2>
+
+              <p>
+                Sara Lusini teaches courses in Research Methodology at the Department of Computer Science of Vrije Universiteit Amsterdam. She is also the Programme Coordinator for all Computer Science and Information Sciences programmes. Sara will be our host during the event.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,124 @@
+---
+import { Image } from 'astro:assets'
+
+import pwcLogo from '~/assets/partners/pwc.png'
+import chipsoftLogo from '~/assets/partners/chipsoft.png'
+import nedapLogo from '~/assets/partners/nedap.png'
+import topicusLogo from '~/assets/partners/topicus.png'
+import quintorLogo from '~/assets/partners/quintor.jpg'
+import capgeminiLogo from '~/assets/partners/capgemini.png'
+import ingLogo from '~/assets/partners/ing.png'
+import asmlLogo from '~/assets/partners/asml.png'
+import brunelLogo from '~/assets/partners/brunel.png'
+import location from '~/assets/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      <code>exec(ut)</code> would not be possible without our amazing partners
+    </p>
+  </div>
+
+  <div class="copy">
+    <h1>About our partnerships</h1>
+
+    <p>
+      Organising <code>exec(ut)</code> is only made possible through the contributions
+      of our partners, to whom we are very grateful for their support. Below you
+      can find a list of our partners, most of whom you will be able to meet on the
+      day itself. They will be attending <code>exec(ut)</code> with a stand, so make
+      sure to stop by and have a chat!
+    </p>
+
+    <hr />
+
+    <div class="partner-overview">
+      <div class="partner-tier" id="principal">
+        <h1>Principal partner</h1>
+
+        <a href="/partners/pwc" target="_blank" title="More about PwC">
+          <div class="partner" id="pwc">
+            <Image src={pwcLogo} alt="PwC" class="partner-logo" />
+          </div>
+        </a>
+      </div>
+
+      <div class="partner-tier" id="gold">
+        <h1>Gold partners</h1>
+
+        <a href="/partners/chipsoft" title="More about ChipSoft">
+          <div class="partner" id="chipsoft">
+            <Image src={chipsoftLogo} alt="ChipSoft" class="partner-logo" />
+          </div>
+        </a>
+
+        <a
+          href="https://www.nedap.com"
+          target="_blank"
+          title="More about Nedap"
+        >
+          <div class="partner" id="nedap">
+            <Image src={nedapLogo} alt="Nedap" class="partner-logo" />
+          </div>
+        </a>
+      </div>
+
+      <div class="partner-tier" id="silver">
+        <h1>Silver partners</h1>
+
+        <a
+          href="https://www.topicus.nl"
+          target="_blank"
+          title="More about Topicus"
+        >
+          <div class="partner" id="topicus">
+            <Image src={topicusLogo} alt="Topicus" class="partner-logo" />
+          </div>
+        </a>
+
+        <a href="/partners/quintor" title="More about Quintor">
+          <div class="partner" id="quintor">
+            <Image src={quintorLogo} alt="Quintor" class="partner-logo" />
+          </div>
+        </a>
+
+        <a href="/partners/capgemini" title="More about Capgemini">
+          <div class="partner" id="capgemini">
+            <Image src={capgeminiLogo} alt="Capgemini" class="partner-logo" />
+          </div>
+        </a>
+
+        <a href="/partners/ing" title="More about ING">
+          <div class="partner" id="ing">
+            <Image src={ingLogo} alt="ING" class="partner-logo" />
+          </div>
+        </a>
+      </div>
+
+      <div class="partner-tier" id="bronze">
+        <h1>Bronze partners</h1>
+
+        <div class="logos">
+          <a href="/partners/asml" title="More about ASML">
+            <div class="partner" id="asml">
+              <Image src={asmlLogo} alt="ASML" class="partner-logo" />
+            </div>
+          </a>
+
+          <a
+            href="https://www.brunel.nl"
+            target="_blank"
+            title="More about Brunel"
+          >
+            <div class="partner" id="brunel">
+              <Image src={brunelLogo} alt="Brunel" class="partner-logo" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

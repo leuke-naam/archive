@@ -1,0 +1,35 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/anke-schlichting.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Anke Schlichting">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Abstract</h1>
+
+      <p><strong>IT journeys</strong></p>
+
+      <p>
+        Anke Schlichting is part of the Aegon Netherlands board and is responsible for transformation, technology and financial services. In her talk she will tell us all about how a big company as Aegon transforms itself constantly in this highly competitive environment.
+      </p>
+
+      <h1>Bio</h1>
+
+      <p>
+        Anke Schlichting is part of the Aegon NL Board responsible for transformation, technology  (IT/Digital servicing for Aegon's retail and wholesale businesses) and Financial Services  (collections & disbursements). In this responsibility Anke manages the balance between  efficiency/effectiveness in terms of cost control, security and reliable operations, and  continued value to our customers in terms of new services and alliances, unlocking the value  of data and innovations. Previously Anke was the IT Director of APG, the largest NL pension  provider and one of the world's largest asset managers. Anke started her career at Accenture  and was the partner responsible for the Financial Services client delivery organization in NL.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Anke Schlichting" class="photograph" />
+    </div>
+  </div>
+</Layout>

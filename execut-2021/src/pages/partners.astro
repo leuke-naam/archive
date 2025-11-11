@@ -1,0 +1,64 @@
+---
+import { Image } from 'astro:assets'
+
+import chipsoft from '~/assets/partners/chipsoft.gif'
+import bpmCompany from '~/assets/partners/bpm-company.png'
+import sticky from '~/assets/partners/sticky.png'
+import sogeti from '~/assets/partners/sogeti.png'
+import picnic from '~/assets/partners/picnic.png'
+import optiver from '~/assets/partners/optiver.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Partners">
+  <div class="partner-overview">
+    <div class="partner-tier">
+      <h1>Platinum partners</h1>
+
+      <a href="/sponsor/chipsoft" title="More about Chipsoft">
+        <div class="partner">
+          <Image src={chipsoft} class="partner-logo" alt="ChipSoft logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+    </div>
+
+    <div class="partner-tier">
+      <h1>Gold partners</h1>
+
+      <a href="/sponsor/bpm-company" title="More about BPM Company">
+        <div class="partner">
+          <Image src={bpmCompany} class="partner-logo" alt="BPM Company logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+
+      <a href="/sponsor/sticky" title="More about Sticky">
+        <div class="partner">
+          <Image src={sticky} class="partner-logo" alt="Sticky logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+    </div>
+
+    <div class="partner-tier">
+      <h1>Silver partners</h1>
+
+      <a href="/sponsor/sogeti" title="More about Sogeti">
+        <div class="partner">
+          <Image src={sogeti} class="partner-logo" alt="Sogeti logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+
+      <a href="/sponsor/picnic" title="More about Picnic">
+        <div class="partner">
+          <Image src={picnic} class="partner-logo" alt="Picnic logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+
+      <a href="/sponsor/optiver" title="More about Optiver">
+        <div class="partner">
+          <Image src={optiver} class="partner-logo" alt="Optiver logo" style={{ maxWidth: '50%' }} />
+        </div>
+      </a>
+    </div>
+  </div>
+</Layout>

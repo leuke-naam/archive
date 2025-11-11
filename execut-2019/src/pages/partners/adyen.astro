@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/adyen.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Bronze partner<br />
+      <a href="https://www.adyen.com/about" title="Adyen" target="_blank" rel="noopener">
+        <button>Adyen</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h1>About Adyen</h1>
+
+      <p>
+        Speed is the foundation of our company. We think fast. We work fast. We launch fast. We put our merchants at the center of everything we do, and we never stop until the job is done. We're creating our own path, with a global team driving sustainable growth. We don't do hierarchy, egos or boundaries. "Not possible" is not in our vocabulary — "freedom" is. This is who we are: honest, direct and always bringing an element of fun into our work.
+      </p>
+
+      <p>
+        Adyen is the payments platform of choice for the world's leading companies, delivering frictionless payments across online, mobile and in-store channels. It is the only provider of a modern end-to-end infrastructure, connecting directly to Visa, Mastercard, and consumers' globally preferred payment methods. With offices around the world, Adyen serves nine of the 10 largest U.S. internet companies and many worldwide retailers. Customers include Facebook, Uber, Bonobos, and Spotify.
+      </p>
+
+      <p>
+        <code>
+          <a href="https://www.adyen.com/about" title="About Adyen" target="_blank" rel="noopener">https://www.adyen.com/about</a>
+        </code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="Adyen logo" />
+    </div>
+  </div>
+</Layout>

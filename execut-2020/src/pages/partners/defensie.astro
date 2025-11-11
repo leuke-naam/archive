@@ -1,0 +1,35 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/defensie.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Silver Partner<br />
+      <a href="https://werkenbijdefensie.nl/interessegebieden/computers-netwerken-en-ict" title="Defensie" target="_blank" rel="noopener">
+        <button>Ministerie van Defensie</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <p>
+        Defensie´s company bio will be available soon.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="Defensie Logo" />
+    </div>
+  </div>
+</Layout>

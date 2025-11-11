@@ -1,0 +1,39 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/bpm-company.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="BPM Company">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to full overview">&lt; Back to partner overview</a>
+      </code>
+
+      <h1 id="abstract">BPM Company</h1>
+
+      <p>
+        BPM Company is an innovative company and has the ambition to be a quality market leaderin the field of digitization. We started in 2011 as the first Dutch Pegasystems partnerand have since grown into the first Dutch Pega Gold partner.
+      </p>
+
+      <p>
+        We believe that personal development is of fundamental importance and we facilitate itthrough extensive soft- and hard-skill training courses and our instructive knowledgesessions.
+      </p>
+
+      <p>
+        We have our own projects at large reputable organizations where our employees can reallymake a difference and actually influence the application and digital transformation ofthe organization.
+      </p>
+
+      <p>
+        Working with us means working for a stable and familiar organization with short lines ofcommunication and where you as an employee are of central importance. Our culture is basedon strong core values ​​and we have an eye for the social well-being of our employees.Work/life balance is therefore an important theme, as well as, our BBQ evenings, annualski trip, cozy Christmas dinner and many other (digital) social activities.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} alt="BPM Company" class="photograph" />
+    </div>
+  </div>
+</Layout>

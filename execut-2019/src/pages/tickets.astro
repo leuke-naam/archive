@@ -1,0 +1,27 @@
+---
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Make sure to buy your tickets for <code>exec(ut)</code> now!<br />
+    </p>
+  </div>
+
+  <div class="copy" id="schedule">
+    <h1>Tickets</h1>
+
+    <p>
+      Only a limited number of tickets are available for <code>exec(ut)</code>, so make sure to get yours now!
+    </p>
+
+    <p>
+      In addition to your admission, you can select two options: the limited edition <a href="/img/shirt.jpg" title="Concept art for the conference shirt" target="_blank">exec(at) shirt</a> and CO<sup>2</sup>-compensation for the day. The t-shirt can be collected on the day itself upon showing your ticket. Proceeds from the CO<sup>2</sup>-compensation will go towards <a href="https://www.weforest.org/project/zambia-luanshya" title="WeForest" target="_blank" rel="noopener">WeForest</a>, who will be planting trees on our behalf. Processing of these donations is managed by <a href="https://simpact.co/" title="Simpact" target="_blank" rel="noopener">Simpact B.V.</a>
+    </p>
+
+    <span><code>Tickets are (of course) no longer available.</code></span>
+  </div>
+</Layout>

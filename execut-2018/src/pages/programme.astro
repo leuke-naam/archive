@@ -1,0 +1,322 @@
+---
+import { Image } from 'astro:assets'
+
+import Layout from '~/layouts/Base.astro'
+
+import arjenKamphuis from '~/assets/speakers/arjen-kamphuis.jpg'
+import brunoLauwers from '~/assets/speakers/bruno-lauwers.jpg'
+import fabianVannoort from '~/assets/speakers/fabian-van-noort.jpg'
+import igor from '~/assets/speakers/igor.jpg'
+import jagoDeVreede from '~/assets/speakers/jago-de-vreede.jpg'
+import mischaCoster from '~/assets/speakers/mischa-coster.jpg'
+import nadiehBremer from '~/assets/speakers/nadieh-bremer.jpg'
+import paulLemon from '~/assets/speakers/paul-lemon.jpg'
+import rossTuck from '~/assets/speakers/ross-tuck.jpg'
+import tomDriehuys from '~/assets/speakers/tom-driehuys.jpg'
+import location from '~/assets/location.jpg'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      <code>exec(ut)</code> offers 9 consecutive talks over the course of the day.<br />
+
+      <a href="#speakers" title="Jump to speakers">
+        <button class="button">View speakers</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy">
+    <div id="schedule">
+      <h1>Schedule</h1>
+
+      <p>
+        Over the course of the day our venue will host nine consecutive speakers, each of whom will give a talk on a particular aspect of software and technology. In addition to this lunch and drinks are provided, offering a chance for networking with other attendees and our partners.
+      </p>
+
+      <p>
+        The entire day is hosted by our dear friend, the one and only Bruno Lauwers.
+      </p>
+
+      <div class="schedule-table">
+        <div class="schedule-row organisational">
+          <div><code>09:30</code></div>
+          <div>Registration and coffee</div>
+        </div>
+
+        <div class="schedule-row organisational">
+          <div><code>10:00</code></div>
+          <div>Opening and welcome</div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>10:15</code></div>
+          <div>Nadieh Bremer</div>
+          <div>
+            <a href="/programme/nadieh-bremer" title="Talk">
+              data sketches | a year of exotic data visualizations
+            </a>
+          </div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>11:00</code></div>
+          <div>Jago de Vreede</div>
+          <div>
+            <a href="/programme/jago-de-vreede" title="Talk">
+              Digitizing your old 8mm films with a PI
+            </a>
+          </div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>11:30</code></div>
+          <div>Arjen Kamphuis</div>
+          <div>
+            <a href="/programme/arjen-kamphuis" title="Talk">
+              Privacy, digital crime &amp; espionage | Fixing everyday &amp; strategic security challenges
+            </a>
+          </div>
+        </div>
+
+        <div class="schedule-row organisational">
+          <div><code>12:00</code></div>
+          <div>Lunch</div>
+        </div>
+        <div class="schedule-row">
+          <div><code>13:00</code></div>
+          <div>Mischa Coster</div>
+          <div>
+            <a href="/programme/mischa-coster" title="Talk">
+              Priming &amp; Persuasive Technology
+            </a>
+          </div>
+        </div>
+
+        <!-- <div class="schedule-row">
+          <div>
+            <code>13:30</code>
+          </div>
+          <div>Tom Driehuys</div>
+          <div>
+            <a href="/programme/tom-driehuys" title="Talk">
+              Problem solving based on forensic science
+            </a>
+          </div>
+        </div> -->
+
+        <div class="schedule-row">
+          <div><code>14:00</code></div>
+          <div>Igor</div>
+          <div>
+            <a href="/programme/igor" title="Talk">
+              Production: An Owner's Manual
+            </a>
+          </div>
+        </div>
+
+        <div class="schedule-row organisational">
+          <div><code>14:30</code></div>
+          <div>Coffee break</div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>15:00</code></div>
+          <div>Fabian van Noort</div>
+          <div>
+            <a href="/programme/fabian-van-noort" title="Talk">
+              Fewer assumptions and better products: the power of UX research
+            </a>
+          </div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>15:30</code></div>
+          <div>Paul Lemon</div>
+          <div>
+            <a href="/programme/paul-lemon" title="Talk">
+              Winter Olympics 2018
+            </a>
+          </div>
+        </div>
+
+        <div class="schedule-row">
+          <div><code>16:00</code></div>
+          <div>Ross Tuck</div>
+          <div>
+            <a href="/programme/ross-tuck" title="Talk">
+              Everything is Anything:<br />
+              The Unlikely Wisdom of Historical Stabbings
+            </a>
+          </div>
+        </div>
+
+        <div class="schedule-row organisational">
+          <div><code>16:45</code></div>
+          <div>Closing and drinks</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="invisible">You got me, this is a dirty CSS hack.</p>
+
+    <div id="speakers">
+      <h1>Speakers</h1>
+
+      <p>
+        Our speakers come from a wide variety of backgrounds and will be presenting an equally wide variety of interesting talks. Below you can find their bios and talk-abstracts, providing you with a sneak peak into their presentations.
+      </p>
+
+      <div class="speakergrid">
+        <div class="speakercard">
+          <a href="/programme/nadieh-bremer" title="Talk">
+            <div class="photoblock">
+              <Image
+                src={nadiehBremer}
+                class="speaker-photo"
+                alt="Nadieh Bremer" />
+            </div>
+            <div class="textblock">
+              <h2>Nadieh Bremer</h2>
+              <p>Data Visualization Designer<br />Visual Cinnamon</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/programme/ross-tuck" title="Talk">
+            <div class="photoblock">
+              <Image
+                src={rossTuck}
+                class="speaker-photo"
+                alt="Ross Tuck" />
+            </div>
+            <div class="textblock">
+              <h2>Ross Tuck</h2>
+              <p>Freelance developer, consultant and speaker</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/programme/igor" title="Talk">
+            <div class="photoblock">
+              <Image
+                src={igor}
+                class="speaker-photo"
+                alt="Igor" />
+            </div>
+            <div class="textblock">
+              <h2>Igor</h2>
+              <p>Reliability Engineer<br />Travis CI</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/programme/arjen-kamphuis" title="Talk">
+            <div class="photoblock">
+              <Image
+                src={arjenKamphuis}
+                class="speaker-photo"
+                alt="Arjen Kamphuis" />
+            </div>
+            <div class="textblock">
+              <h2>Arjen Kamphuis</h2>
+              <p>Technology &amp; Security Director<br />Pretty Good Knowledge</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/programme/fabian-van-noort" title="Talk">
+            <div class="photoblock">
+              <Image
+                src={fabianVannoort}
+                class="speaker-photo"
+                alt="Fabian van Noort" />
+            </div>
+            <div class="textblock">
+              <h2>Fabian van Noort</h2>
+              <p>UX researcher<br />Valsplat</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard">
+          <a href="/programme/jago-de-vreede" title="Talk">
+            <div class="photoblock">
+              <Image
+                src={jagoDeVreede}
+                class="speaker-photo"
+                alt="Jago de Vreede" />
+            </div>
+            <div class="textblock">
+              <h2>Jago de Vreede</h2>
+              <p>Software engineer<br />Quintor</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- <div class="speakercard" id="tom">
+          <a href="/programme/tom-driehuys">
+            <div class="photoblock">
+              <Image
+                src={tomDriehuys}
+                class="speaker-photo"
+                alt="Tom Driehuys" />
+            </div>
+            <div class="textblock">
+              <h2>Tom Driehuys</h2>
+              <p>Director Forensic Technology Solutions<br />PwC</p>
+            </div>
+          </a>
+        </div> -->
+
+        <div class="speakercard" id="mischa">
+          <a href="/programme/mischa-coster">
+            <div class="photoblock">
+              <Image
+                src={mischaCoster}
+                class="speaker-photo"
+                alt="Mischa Coster" />
+            </div>
+            <div class="textblock">
+              <h2>Mischa Coster</h2>
+              <p>Media psychologist, researcher, public speaker, author</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard" id="paul">
+          <a href="/programme/paul-lemon">
+            <div class="photoblock">
+              <Image
+                src={paulLemon}
+                class="speaker-photo"
+                alt="Paul Lemon" />
+            </div>
+            <div class="textblock">
+              <h2>Paul Lemon</h2>
+              <p>Senior Director - Sports Engineering<br /> Gracenote</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="speakercard" id="bruno">
+          <div class="photoblock">
+            <Image
+              src={brunoLauwers}
+              class="speaker-photo"
+              alt="Bruno Lauwers" />
+          </div>
+          <div class="textblock">
+            <h2>Bruno Lauwers</h2>
+            <p>Hosting exec(ut)<br />Software developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

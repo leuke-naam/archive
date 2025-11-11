@@ -1,0 +1,59 @@
+---
+import { Image } from 'astro:assets'
+
+import location from '~/assets/banners/location.jpg'
+import polar from '~/assets/polar.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      <code>exec(ut)</code> will be hosted in Polar, Jaarbeurs Mediaplaza<br />
+      <a href="#directions" title="Travel Directions"><button class="button">Travel directions</button></a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="main">
+      <h1>About Mediaplaza</h1>
+
+      <p>
+        As the <code>(ut)</code> in <code>exec(ut)</code> suggests, the conference is to be hosted in Utrecht. The venue of the event will be the famous Jaarbeurs, which is located a stone's throw away from Utrecht Central Station. Both Polar and Flame, the networking area/barzone, will be at our disposal throughout the day.
+      </p>
+
+      <p>
+        Polar has a clean, white look. This is perfectly in line with <code>exec(ut)</code>'s futuristic theme. After a captivating talk in Polar, we are welcomed by coziness and warmth in the Flame foyer.
+      </p>
+    </div>
+
+    <div class="column" id="side">
+      <h1>Polar</h1>
+      <Image src={polar} class="impression" alt="Polar - Jaarbeurs" />
+    </div>
+
+    <div class="column" id="fullwidth">
+      <h1 id="directions">Travel directions</h1>
+      <p>
+        <code>
+          Jaarbeurs Mediaplaza<br />
+          Croeselaan 6<br />
+          3521CA, Utrecht<br />
+          The Netherlands
+        </code>
+      </p>
+
+      <p>
+        <b>Important note: </b>Google Maps will send you to the wrong side of the building. Please navigate to Kinepolis Jaarbeurs and subsequently follow the signs for <code>exec(ut)</code> towards the entrance.
+      </p>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.302294570152!2d5.110242177853186!3d52.0924297719522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f42e80b5a65%3A0xcb73f73b5ccc3eb6!2sTivoliVredenburg!5e0!3m2!1sen!2snl!4v1760629484870!5m2!1sen!2snl"
+        style={{ width: '100%', height: '250px', border: 0 }}
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" />
+    </div>
+  </div>
+</Layout>

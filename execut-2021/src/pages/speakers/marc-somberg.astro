@@ -1,0 +1,37 @@
+---
+import { Image } from 'astro:assets'
+
+import portrait from '~/assets/speakers/marc-somberg.png'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout title="Marc Somberg">
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/speakers" title="Back to full overview">&lt; Back to the speakers</a>
+      </code>
+
+      <h1 id="abstract">Augmented Intelligence: one of the most hyped and misunderstood technologies in the healthcare industry</h1>
+
+      <p>
+        Artificial Intelligence is one of the most hyped and misunderstood technologies in the healthcare industry. What are the reasons that AI is not already broadly implemented in hospitals and clinics? What does it take to bring a machine learning model from theory to practice?
+      </p>
+
+      <p>
+        I will answer these questions, share some of my experiences in working with some of the leading AI and medical specialists, and perhaps use some unnecessary pictures of giant robots and people staring at equations.
+      </p>
+
+      <h1>About Marc</h1>
+
+      <p>
+        Marc Somberg is Product Specialist Data Driven Healthcare at ChipSoft and is a member of the Strategic Innovation Team. He has a background in English Literature and Scientific Research. He is also responsible for Artificial Intelligence in the Dutch and Belgian Healthcare markets.
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={portrait} alt="Marc Somberg" class="photograph" />
+    </div>
+  </div>
+</Layout>

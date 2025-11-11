@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets'
+
+import logo from '~/assets/partners/infi.png'
+import location from '~/assets/banners/location.jpg'
+
+import Layout from '~/layouts/Base.astro'
+---
+
+<Layout>
+  <div class="banner" style={{ backgroundImage: `url(${location.src})` }}>
+    <p>
+      Silver Partner<br />
+      <a href="https://infi.nl/" title="Infi" target="_blank" rel="noopener">
+        <button>Infi</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="copy" id="two-column">
+    <div class="column" id="biography">
+      <code>
+        <a href="/partners" title="Back to partner overview">&lt; Back to the partner overview</a>
+      </code>
+
+      <h1>Ontwikkelen doen we samen</h1>
+
+      <p>
+        Een gedreven team van waarmakers werkt sinds 2003 in Utrecht en Amsterdam samen om software te bouwen voor bijzondere wereldveroveraars als klant. We ontwikkelen voornamelijk complexe backends, mooie websites en toffe apps. En dat doen we het liefst voor innovatieve start-ups en scale-ups die 100% draaien op techniek die wij voor hen bouwen. Zo zorgen wij ervoor dat elke regel code die wij tikken ook écht verschil maakt. En dat voelt goed!
+      </p>
+
+      <h2>We hebben van onze hobby ons werk gemaakt</h2>
+
+      <p>
+        Wij noemen onszelf met liefde nerds. Wij zijn van kinds af aan gefascineerd door techniek, en nog steeds niet te oud om te leren. Infi is de plek waar we deze passie dagelijks met elkaar delen. In ons werk staat onze liefde voor techniek centraal.
+      </p>
+
+      <p>
+        <code><a href="https://infi.nl/" title="Infi" target="_blank" rel="noopener">https://infi.nl/</a></code>
+      </p>
+    </div>
+
+    <div class="column" id="photograph">
+      <Image src={logo} class="photograph" alt="Infi logo" />
+    </div>
+  </div>
+</Layout>
