@@ -3,25 +3,20 @@ import { glob } from 'astro/loaders'
 
 export type Programme = z.infer<typeof Programme>
 
-const Programme = z.union([
-  z.object({
-    time: z.string().time(),
-    activities: z.discriminatedUnion('type', [
-      z.object({
-        type: z.literal('talk'),
-        activity: reference('talks'),
-      }),
-      z.object({
-        type: z.literal('workshop'),
-        activity: reference('workshops'),
-      }),
-    ]).array().default([]),
-  }),
-  z.object({
-    time: z.string().time(),
-    organizational: z.string(),
-  }),
-]).array()
+const Programme = z.object({
+  time: z.string().time(),
+  activities: z.discriminatedUnion('type', [
+    z.object({
+      type: z.literal('talk'),
+      activity: reference('talks'),
+    }),
+    z.object({
+      type: z.literal('workshop'),
+      activity: reference('workshops'),
+    }),
+  ]).array().default([]),
+  organizational: z.string(),
+}).partial({ activities: true, organizational: true }).array()
 
 export type Role = z.infer<typeof Role>
 
@@ -86,8 +81,8 @@ const Edition = z.object({
   talks: reference('speakers').array().optional(),
   workshops: reference('workshops').array().optional(),
   speakers: reference('speakers').array().optional(),
-  hosts: reference('hosts').array().optional(),
-  host: reference('hosts').optional(),
+  hosts: reference('people').array().optional(),
+  host: reference('people').optional(),
   partners: z.record(Tier, reference('partners').array()).optional(),
   venue: reference('venues').optional(),
   committee: Committee,
@@ -109,20 +104,6 @@ const Edition = z.object({
 const editions = defineCollection({
   loader: glob({ pattern: '[^_]*.(yml|yaml)', base: './src/content/' }),
   schema: Edition,
-})
-
-export type Host = z.infer<ReturnType<typeof Host>>
-
-const Host = ({ image }: SchemaContext) => z.object({
-  name: z.string(),
-  description: z.string().optional(),
-  portrait: image().optional(),
-  contact: Contact.optional(),
-})
-
-const hosts = defineCollection({
-  loader: glob({ pattern: ['*/hosts/[^_]*.md', '*/host.md'], base: './src/content/' }),
-  schema: Host,
 })
 
 export type Partner = z.infer<ReturnType<typeof Partner>>
@@ -151,18 +132,18 @@ const Talk = z.object({
   speaker: reference('speakers'),
 })
 
-export type Speaker = z.infer<ReturnType<typeof Speaker>>
+export type Person = z.infer<ReturnType<typeof People>>
 
-const Speaker = ({ image }: SchemaContext) => z.object({
+const People = ({ image }: SchemaContext) => z.object({
   name: z.string(),
   description: z.string().optional(),
   portrait: image().optional(),
   contact: Contact.optional(),
 })
 
-const speakers = defineCollection({
-  loader: glob({ pattern: '*/speakers/[^_]*.md', base: './src/content/' }),
-  schema: Speaker,
+const people = defineCollection({
+  loader: glob({ pattern: '*/people/[^_]*.md', base: './src/content/' }),
+  schema: People,
 })
 
 const talks = defineCollection({
@@ -207,9 +188,8 @@ const workshops = defineCollection({
 
 export const collections = {
   editions,
-  hosts,
+  people,
   partners,
-  speakers,
   talks,
   venues,
   workshops,

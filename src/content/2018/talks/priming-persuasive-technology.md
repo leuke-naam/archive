@@ -1,6 +1,6 @@
 ---
 title: Priming & Persuasive Technology
-speaker: 2018/speakers/mischa-coster
+speaker: 2018/people/mischa-coster
 ---
 
 In his talk on 'Priming & Persuasive Technology' Mischa wil share some key methodologies and psychological tactics on how to influence and persuade customers/users to behave in the way you would like them to. This means using technology-based insights and technology-delivered messaging to persuade users to buy, behave healthy, share your proposition or perform any other desired target behaviour.

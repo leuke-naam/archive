@@ -1,6 +1,6 @@
 ---
 title: Winter Olympics 2018
-speaker: 2018/speakers/paul-lemon
+speaker: 2018/people/paul-lemon
 ---
 
 Gracenote Sports are a global sports data provider supplying rich data covering schedules, results, live scores and historical data over 220 sports internationally. This talk will cover the challenge of delivering this service for the Winter Olympics 2018 for a range of international broadcasters.

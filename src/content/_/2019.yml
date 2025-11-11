@@ -47,32 +47,25 @@ programme:
 committee:
   - name: Alma Liezenga
     role: chair
-    contact:
-  website: https://www.linkedin.com/in/alma-liezenga-1387729a/
+    contact: https://www.linkedin.com/in/alma-liezenga-1387729a/
   - name: Diede van der Hoorn
     role: treasurer
-    contact:
-  website: https://www.linkedin.com/in/diede-van-der-hoorn/
+    contact: https://www.linkedin.com/in/diede-van-der-hoorn/
   - name: Bianca Beerepoot
     role: acquisition
-    contact:
-  website: https://www.linkedin.com/in/bianca-beerepoot/
+    contact: https://www.linkedin.com/in/bianca-beerepoot/
   - name: Kristi Bergman
     role: speakers
-    contact:
-  website: https://www.linkedin.com/in/kristi-bergman-77bb16129/
+    contact: https://www.linkedin.com/in/kristi-bergman-77bb16129/
   - name: Ruben Schenkhuizen
     role: speakers
-    contact:
-  website: https://www.linkedin.com/in/ruben-schenkhuizen-658426a6/
+    contact: https://www.linkedin.com/in/ruben-schenkhuizen-658426a6/
   - name: Amber Norder
     role: location
-    contact:
-  website: https://www.linkedin.com/in/amber-norder-091a38115/
+    contact: https://www.linkedin.com/in/amber-norder-091a38115/
   - name: Rob de Wit
     role: promotion
-    contact:
-  website: https://www.rcdewit.nl/
+    contact: https://www.rcdewit.nl/
 acknowledgements: |
   DomCode, for letting us rip-off their code of conduct;
   Simpact, for helping us navigate the world of CO2 compensation;
