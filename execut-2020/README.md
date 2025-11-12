@@ -20,7 +20,6 @@ This project requires `bun` to be installed 🥟
 | `bun install`     | Installs dependencies                                               |
 | `bun run start`   | Starts local dev server at [localhost:4321](http://localhost:4321/) |
 | `bun run build`   | Generates build artifacts in [`./dist/`](./dist/)                   |
-| `bun run check`   | Check your project for errors                                       |
 | `bun run preview` | Preview your build locally                                          |
 
 ## License

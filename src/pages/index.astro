@@ -1,26 +1,52 @@
 ---
-import { getCollection } from "astro:content";
+import { getEntries, getCollection, getEntry } from "astro:content";
 
 const editions = await getCollection("editions");
-const hosts = await getCollection("hosts");
+const people = await getCollection("people");
 const partners = await getCollection("partners");
-const speakers = await getCollection("speakers");
 const talks = await getCollection("talks");
 const venues = await getCollection("venues");
 const workshops = await getCollection("workshops");
 
-for (const entires of [editions, hosts, partners, speakers, talks, venues, workshops]) {
-  for (const entry of entires) {
-    const { id, data } = entry;
-
-    // console.log(id, data);
-  }
-}
-
 for (const edition of editions) {
   const { id, data } = edition;
 
-  console.log(data);
+  console.log(id);
+
+  const { hosts, partners, speakers, talks, venue, workshops } = data;
+
+  hosts && await getEntries(hosts);
+  partners && await getEntries(Object.values(partners).flat());
+  speakers && await getEntries(speakers);
+  talks && await getEntries(talks);
+  venue && await getEntries([venue]);
+  workshops && await getEntries(workshops);
+
+  const { programme } = data;
+
+  for (const { activities } of programme || [])
+    for (const { activity } of activities || [])
+      await getEntry(activity);
+}
+
+for (const talk of talks) {
+  const { id, data } = talk;
+
+  console.log(id);
+
+  const { speaker } = data;
+
+  speaker && await getEntry(speaker);
+}
+
+for (const workshop of workshops) {
+  const { id, data } = workshop;
+
+  console.log(id);
+
+  const { organizer } = data;
+
+  organizer && await getEntry(organizer);
 }
 ---
 

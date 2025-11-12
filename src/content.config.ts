@@ -78,11 +78,10 @@ const Edition = z.object({
   name: z.string(),
   date: z.coerce.date().optional(),
   programme: Programme.optional(),
-  talks: reference('speakers').array().optional(),
+  talks: reference('talks').array().optional(),
   workshops: reference('workshops').array().optional(),
-  speakers: reference('speakers').array().optional(),
+  speakers: reference('people').array().optional(),
   hosts: reference('people').array().optional(),
-  host: reference('people').optional(),
   partners: z.record(Tier, reference('partners').array()).optional(),
   venue: reference('venues').optional(),
   committee: Committee,
@@ -90,15 +89,6 @@ const Edition = z.object({
     .string()
     .transform((val) => val.trim())
     .optional(),
-}).transform(({ host, ...edition}) => {
-  if (host) {
-    let { hosts } = edition
-
-    hosts ??= []
-    hosts.push(host)
-  }
-
-  return edition
 })
 
 const editions = defineCollection({
@@ -129,7 +119,7 @@ const Talk = z.object({
   tags: z.string()
     .array()
     .default([]),
-  speaker: reference('speakers'),
+  speaker: reference('people'),
 })
 
 export type Person = z.infer<ReturnType<typeof People>>

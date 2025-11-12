@@ -1,0 +1,103 @@
+id: 2025
+name: exec(ut) 2025
+date: 2025-03-25
+programme:
+  - time: 09:00
+    common: Registration
+  - time: 09:45
+    common: Opening
+  - time: 10:15
+    activities:
+      - type: talk
+        activity: 2025/talks/rockstar-dev
+  - time: 11:10
+    common: Coffee
+  - time: 11:40
+    activities:
+      - type: talk
+        activity: 2025/talks/air-power
+      - type: workshop
+        activity: 2025/workshops/devoteam
+  - time: 12:20
+    common: Lunch
+  - time: 13:20
+    activities:
+      - type: talk
+        activity: 2025/talks/games-industry
+      - type: workshop
+        activity: 2025/workshops/chipsoft
+  - time: 14:10
+    activities:
+      - type: talk
+        activity: 2025/talks/rehab-tech
+      - type: workshop
+        activity: 2025/workshops/bpm-company
+  - time: 14:50
+    common: Coffee
+  - time: 15:20
+    activities:
+      - type: talk
+        activity: 2025/talks/serious-gaming
+  - time: 16:10
+    activities:
+      - type: talk
+        activity: 2025/talks/validation-crisis
+  - time: 17:00
+    common: Closing
+  - time: 17:15
+    common: Drinks
+talks:
+  - 2025/talks/rockstar-dev
+  - 2025/talks/air-power
+  - 2025/talks/games-industry
+  - 2025/talks/rehab-tech
+  - 2025/talks/serious-gaming
+  - 2025/talks/validation-crisis
+speakers:
+  - 2025/people/dylan-beattie
+  - 2025/people/maikel-meeuwse
+  - 2025/people/hans-rietman
+  - 2025/people/martine-spaans
+  - 2025/people/evert-hoogendoorn
+  - 2025/people/brenno-de-winter
+hosts:
+  - 2025/people/fiep-warmerdam
+workshops:
+  - 2025/workshops/devoteam
+  - 2025/workshops/chipsoft
+  - 2025/workshops/bpm-company
+partners:
+  platinum:
+    - 2025/partners/devoteam
+  gold:
+    - 2025/partners/chipsoft
+  silver:
+    - 2025/partners/bpm-company
+committee:
+  - name: Thomas Valkenburg
+    role: chair
+    contact: https://www.linkedin.com/in/thomas-valkenburg/
+  - name: Björn Koemans
+    role: treasurer
+    contact: https://www.linkedin.com/in/bjornkoemans/
+  - name: Casper van Wetten
+    role: acquisition
+    contact: https://www.linkedin.com/in/covanwetten/
+  - name: Isabelle Wittebols
+    role: acquisition
+    contact: https://www.linkedin.com/in/isabelle-wittebols-277407255/
+  - name: Joep Swinkels
+    role: speakers
+    contact: https://www.linkedin.com/in/joep-swinkels-9a8553227/
+  - name: Lotte Consten
+    role: speakers
+    contact: https://www.linkedin.com/in/lotte-consten-30082223b/
+  - name: Marijn Helwerda
+    role: location
+    contact: https://www.linkedin.com/in/marijn-helwerda-898119176/
+  - name: Tomas Meeuwse
+    role: promotion
+    contact: https://www.linkedin.com/in/tomas-meeuwse-6a622420b/
+  - name: Maureen van Veen
+    role: board
+    contact: https://www.linkedin.com/in/maureen-van-veen-9a3730222/

@@ -1,6 +1,6 @@
 ---
 title: Turn Ideas into Reality with Pega GenAI Blueprint
-organizer: bpm-company
+organizer: 2025/partners/bpm-company
 ---
 
 Step into the future of low-code development with Pega GenAI Blueprint! In this interactive workshop, you'll experience how AI-powered automation can rapidly transform your ideas into functional app designs—where Business, IT, and AI seamlessly come together.

@@ -1,0 +1,106 @@
+name: exec(ut) 2024
+date: 2024-03-27
+programme:
+  - time: 09:00
+    organizational: Registration
+  - time: 10:00
+    organizational: Opening
+  - time: 10:15
+    activities:
+      - type: talk
+        activity: 2024/talks/cyber-future
+  - time: 11:10
+    organizational: Coffee
+  - time: 11:40
+    activities:
+      - type: talk
+        activity: 2024/talks/ai-programming
+      - type: workshop
+        activity: 2024/workshops/booking-com
+  - time: 12:20
+    organizational: Lunch
+  - time: 13:20
+    activities:
+      - type: talk
+        activity: 2024/talks/xr-impact
+      - type: workshop
+        activity: 2024/workshops/devoteam
+  - time: 14:05
+    activities:
+      - type: talk
+        activity: 2024/talks/ai-seals
+      - type: workshop
+        activity: 2024/workshops/yer
+  - time: 14:45
+    organizational: Coffee
+  - time: 15:15
+    activities:
+      - type: talk
+        activity: 2024/talks/game-ux
+      - type: workshop
+        activity: 2024/workshops/chipsoft
+  - time: 16:00
+    activities:
+      - type: talk
+        activity: 2024/talks/future-ai
+  - time: 16:50
+    organizational: Closing & Drinks
+talks:
+  - 2024/talks/cyber-future
+  - 2024/talks/ai-programming
+  - 2024/talks/xr-impact
+  - 2024/talks/ai-seals
+  - 2024/talks/game-ux
+  - 2024/talks/future-ai
+speakers:
+  - 2024/people/jaya-baloo
+  - 2024/people/rik-arends
+  - 2024/people/maria-torres-vega
+  - 2024/people/sako-arts
+  - 2024/people/ahmed-salama
+  - 2024/people/huub-janssen
+hosts:
+  - 2024/people/alma-liezenga
+  - 2024/people/rob-de-wit
+workshops:
+  - 2024/workshops/booking-com
+  - 2024/workshops/devoteam
+  - 2024/workshops/yer
+  - 2024/workshops/chipsoft
+partners:
+  gold:
+    - 2024/partners/bpm-company
+    - 2024/partners/levarne
+    - 2024/partners/sticky
+  silver:
+    - 2024/partners/booking-com
+    - 2024/partners/chipsoft
+    - 2024/partners/devoteam
+    - 2024/partners/dsw
+    - 2024/partners/linkit
+    - 2024/partners/thales
+    - 2024/partners/yer
+  bronze:
+    - 2024/partners/asml
+committee:
+  - name: Julian Verouden
+    role: chair
+    contact: https://www.linkedin.com/in/julian-verouden-5798791bb/
+  - name: Thomas Valkenburg
+    role: treasurer
+    contact: https://www.linkedin.com/in/thomas-valkenburg-333066114/
+  - name: Stijn Lievaart
+    role: acquisition
+    contact: https://www.linkedin.com/in/stijn-lievaart/
+  - name: Eva Huigen
+    role: speakers
+    contact: https://www.linkedin.com/in/eva-huigen-a2377a248/
+  - name: Jandre Kostic
+    role: location
+    contact: https://www.linkedin.com/in/jandre-kostic/
+  - name: Finola Parkinson
+    role: promotion
+    contact: https://www.linkedin.com/in/finola-parkinson-44506923a/
+  - name: Lisanne Koetsier
+    role: board
+    contact: https://www.linkedin.com/in/lisanne-koetsier/

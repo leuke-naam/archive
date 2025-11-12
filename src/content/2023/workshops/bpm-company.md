@@ -1,6 +1,6 @@
 ---
 title: Low-code with Pega
-organizer: bpm-company
+organizer: 2023/partners/bpm-company
 ---
 
 Why code business apps if you can create the same apps much quicker with the low-code Pega platform?
@@ -11,4 +11,4 @@ What if we told you the same is already available to automate business processes
 
 In this workshop we’ll give you a glimpse of how this works with the powerful Pega platform, that lets technical developers work together with less tech savvy people to build out apps and processes. We’ll start from a base application and build out the process, data model and UI and show how Pega ‘lets you build for change’. We’ll also touch how Pega makes AI easily available in the platform and thus in processes. Why frustrate on coding apps if you can build the same apps in a shorter time and easier way?
 
-Please join us if you’re interested in model driven development / low-code technology. Hope to see you there!
+Please join us if you’re interested in model driven development/low-code technology. Hope to see you there!

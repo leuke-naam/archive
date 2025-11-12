@@ -1,6 +1,6 @@
 ---
 title: Knowledge session with Levarne
-organizer: levarne
+organizer: 2023/partners/levarne
 ---
 
 At Levarne we organize knowledge sessions a couple times a year. In this workshop you’ll get a glimpse of how we like to extend our knowledge in a fun, interactive and dynamic way.

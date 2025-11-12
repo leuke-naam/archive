@@ -1,6 +1,6 @@
 ---
 title: 'Focus: How can you increase the chances of a startup being successful?'
-speaker: 2020/patrick-lee
+speaker: 2020/people/patrick-lee
 ---
 
 Why do startups often fail? How can you increase the chances of a startup being successful?

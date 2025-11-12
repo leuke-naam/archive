@@ -1,0 +1,110 @@
+id: 2019
+name: exec(ut) 2019
+date: 2019-03-18
+programme:
+  - time: 09:00
+    organizational: Registration and coffee
+  - time: 09:45
+    organizational: Opening and welcome
+  - time: 10:00
+    activities:
+      - type: talk
+        activity: 2019/talks/recommender
+  - time: 11:00
+    activities:
+      - type: talk
+        activity: 2019/talks/money-software
+  - time: 11:40
+    activities:
+      - type: talk
+        activity: 2019/talks/rescue-robots
+  - time: 12:10
+    organizational: Lunch
+  - time: 13:00
+    activities:
+      - type: talk
+        activity: 2019/talks/weapons-cybersec
+  - time: 13:40
+    activities:
+      - type: talk
+        activity: 2019/talks/cognitive-ui
+  - time: 14:20
+    activities:
+      - type: talk
+        activity: 2019/talks/product-dev
+  - time: 14:50
+    organizational: Coffee break
+  - time: 15:20
+    activities:
+      - type: talk
+        activity: 2019/talks/big-data
+  - time: 16:00
+    activities:
+      - type: talk
+        activity: 2019/talks/trends-2030
+  - time: 16:50
+    organizational: Closing and drinks
+talks:
+  - 2019/talks/recommender
+  - 2019/talks/money-software
+  - 2019/talks/rescue-robots
+  - 2019/talks/weapons-cybersec
+  - 2019/talks/cognitive-ui
+  - 2019/talks/product-dev
+  - 2019/talks/big-data
+  - 2019/talks/trends-2030
+speakers:
+  - 2019/people/oscar-celma
+  - 2019/people/andre-foeken
+  - 2019/people/arnoud-visser
+  - 2019/people/beyza-unal
+  - 2019/people/tatiana-sidorenkova
+  - 2019/people/roy-smeets
+  - 2019/people/arjun-panesar
+  - 2019/people/richard-van-hooijdonk
+hosts:
+  - 2019/people/ross-tuck
+partners:
+  platinum:
+    - 2019/partners/pwc
+  gold:
+    - 2019/partners/asml
+    - 2019/partners/adyen
+  silver:
+    - 2019/partners/ing
+    - 2019/partners/bol-com
+    - 2019/partners/keylane
+    - 2019/partners/infi
+    - 2019/partners/achmea
+  bronze:
+    - 2019/partners/belastingdienst
+    - 2019/partners/nedap
+    - 2019/partners/ortec-finance
+    - 2019/partners/pno-consultants
+committee:
+  - name: Alma Liezenga
+    role: chair
+    contact: https://www.linkedin.com/in/alma-liezenga-1387729a/
+  - name: Diede van der Hoorn
+    role: treasurer
+    contact: https://www.linkedin.com/in/diede-van-der-hoorn/
+  - name: Bianca Beerepoot
+    role: acquisition
+    contact: https://www.linkedin.com/in/bianca-beerepoot/
+  - name: Kristi Bergman
+    role: speakers
+    contact: https://www.linkedin.com/in/kristi-bergman-77bb16129/
+  - name: Ruben Schenkhuizen
+    role: speakers
+    contact: https://www.linkedin.com/in/ruben-schenkhuizen-658426a6/
+  - name: Amber Norder
+    role: location
+    contact: https://www.linkedin.com/in/amber-norder-091a38115/
+  - name: Rob de Wit
+    role: promotion
+    contact: https://www.rcdewit.nl/
+acknowledgements: |
+  DomCode, for letting us rip-off their code of conduct;
+  Simpact, for helping us navigate the world of CO2 compensation;
+  Martijn Casteel and Amber Norder for programming the very first exec(ut) app;
+  and the staff of Utrecht University's CS department for their support in planning and promotion.

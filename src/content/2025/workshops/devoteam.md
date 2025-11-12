@@ -1,6 +1,6 @@
 ---
 title: Bring Your Avatar to Life with Agentic AI
-organizer: devoteam
+organizer: 2025/partners/devoteam
 ---
 
 Unleash the power of AI and create in this dynamic workshop given by Devoteam! In this hands-on session, you'll explore how agentic AI can transform static avatars into dynamic, responsive characters.

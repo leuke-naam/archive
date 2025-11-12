@@ -1,0 +1,106 @@
+id: 2022
+name: exec(ut) 2022
+date: 2022-03-28
+programme:
+  - time: 09:00
+    organizational: Registration
+  - time: 10:00
+    organizational: Opening
+  - time: 10:15
+    activities:
+      - type: talk
+        activity: 2022/talks/ai-healthcare
+  - time: 11:10
+    organizational: Coffee
+  - time: 11:40
+    activities:
+      - type: talk
+        activity: 2022/talks/algorithmic-bias
+  - time: 12:20
+    organizational: Lunch
+  - time: 13:20
+    activities:
+      - type: talk
+        activity: 2022/talks/it-journeys
+      - type: workshop
+        activity: 2022/workshops/chipsoft
+  - time: 14:05
+    activities:
+      - type: talk
+        activity: 2022/talks/storytelling
+      - type: workshop
+        activity: 2022/workshops/sogeti
+  - time: 14:45
+    organizational: Coffee
+  - time: 15:15
+    activities:
+      - type: talk
+        activity: 2022/talks/low-code
+      - type: workshop
+        activity: 2022/workshops/aegon
+  - time: 16:00
+    activities:
+      - type: talk
+        activity: 2022/talks/apis
+  - time: 16:50
+    organizational: Closing & Drinks
+talks:
+  - 2022/talks/ai-healthcare
+  - 2022/talks/algorithmic-bias
+  - 2022/talks/apis
+  - 2022/talks/it-journeys
+  - 2022/talks/low-code
+  - 2022/talks/storytelling
+speakers:
+  - 2022/people/anke-schlichting
+  - 2022/people/hinda-haned
+  - 2022/people/marc-somberg
+  - 2022/people/matthijs-van-de-laar
+  - 2022/people/michiel-overeem
+  - 2022/people/mike-joosten
+hosts:
+  - 2022/people/sara-lusini
+workshops:
+  - 2022/workshops/aegon
+  - 2022/workshops/chipsoft
+  - 2022/workshops/sogeti
+partners:
+  platinum:
+    - 2022/partners/chipsoft
+  gold:
+    - 2022/partners/sticky
+    - 2022/partners/aegon
+    - 2022/partners/levarne
+  silver:
+    - 2022/partners/bpm-company
+    - 2022/partners/sogeti
+    - 2022/partners/dsw
+    - 2022/partners/brunel
+  bronze:
+    - 2022/partners/asml
+committee:
+  - name: Merijn Stiekema
+    role: chair
+    contact: https://www.linkedin.com/in/merijnstiekema/
+  - name: Julian Verouden
+    role: location
+    contact: https://www.linkedin.com/in/julian-verouden-5798791bb/
+  - name: Sem van Nieuwenhuizen
+    role: treasurer
+    contact: https://www.linkedin.com/in/leuke-naam/
+  - name: Thirza Hiwat
+    role: acquisition
+    contact: https://www.linkedin.com/in/thirzahiwat/
+  - name: Jorden Bakker
+    role: speakers
+    contact: https://www.linkedin.com/in/jorden-bakker-b7300079/
+  - name: Mathijs Bangma
+    role: promotion
+    contact: https://www.linkedin.com/in/mbangma96/
+  - name: Nena Schuitemaker
+    role: board
+    contact: https://www.linkedin.com/in/nena-schuitemaker-94240619a/
+acknowledgements: |
+  DomCode, for letting us take inspiration from their code of conduct;
+  Martijn Casteel and Amber Norder for programming the very first exec(ut) app;
+  and the staff of Utrecht University's CS department for their support in planning and promotion.

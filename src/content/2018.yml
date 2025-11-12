@@ -12,62 +12,63 @@ programme:
   - time: 11:00
     activities:
       - type: talk
-        activity: 2018/talks/digitizing-your-old-8mm-films-with-a-pi
+        activity: 2018/talks/8mm-films
   - time: 11:30
     activities:
       - type: talk
-        activity: 2018/talks/privacy-digital-crime-espionage
+        activity: 2018/talks/security
   - time: 12:00
     organizational: Lunch
   - time: 13:00
     activities:
       - type: talk
-        activity: 2018/talks/priming-persuasive-technology
+        activity: 2018/talks/persuasive-tech
   # - time: 13:30
   #   activities:
-  #     - type: talk
+  #     type: talk
   #       activity: 2018/talks/problem-solving-based-on-forensic-science
   - time: 14:00
     activities:
       - type: talk
-        activity: 2018/talks/production-an-owners-manual
+        activity: 2018/talks/production
   - time: 14:30
     organizational: Coffee break
   - time: 15:00
     activities:
       - type: talk
-        activity: 2018/talks/fewer-assumptions-and-better-products
+        activity: 2018/talks/ux-research
   - time: 15:30
     activities:
       - type: talk
-        activity: 2018/talks/winter-olympics-2018
+        activity: 2018/talks/olympics
   - time: 16:00
     activities:
       - type: talk
-        activity: 2018/talks/everything-is-anything
+        activity: 2018/talks/historical-stabbings
   - time: 16:45
     organizational: Closing and drinks
 talks:
   - 2018/talks/data-sketches
-  - 2018/talks/digitizing-your-old-8mm-films-with-a-pi
-  - 2018/talks/privacy-digital-crime-espionage
-  - 2018/talks/priming-persuasive-technology
+  - 2018/talks/8mm-films
+  - 2018/talks/security
+  - 2018/talks/persuasive-tech
   # - 2018/talks/problem-solving-based-on-forensic-science
-  - 2018/talks/production-an-owners-manual
-  - 2018/talks/fewer-assumptions-and-better-products
-  - 2018/talks/winter-olympics-2018
-  - 2018/talks/everything-is-anything
+  - 2018/talks/production
+  - 2018/talks/ux-research
+  - 2018/talks/olympics
+  - 2018/talks/historical-stabbings
 speakers:
-  - 2018/speakers/arjen-kamphuis
-  - 2018/speakers/fabian-van-noort
-  - 2018/speakers/igor
-  - 2018/speakers/jago-de-vreede
-  - 2018/speakers/mischa-coster
-  - 2018/speakers/nadieh-bremer
-  - 2018/speakers/paul-lemon
-  - 2018/speakers/ross-tuck
-  # - 2018/speakers/tom-driehuys
-host: 2018/hosts/bruno-lauwers
+  - 2018/people/arjen-kamphuis
+  - 2018/people/fabian-van-noort
+  - 2018/people/igor
+  - 2018/people/jago-de-vreede
+  - 2018/people/mischa-coster
+  - 2018/people/nadieh-bremer
+  - 2018/people/paul-lemon
+  - 2018/people/ross-tuck
+  # - 2018/people/tom-driehuys
+hosts:
+  - 2018/people/bruno-lauwers
 partners:
   platinum:
     - 2018/partners/pwc

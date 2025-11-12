@@ -1,45 +1,23 @@
 ---
 import { Image } from 'astro:assets'
 
-import insta from '~/assets/icons/insta.png'
-import linkedin from '~/assets/icons/linkedin.png'
-import photos from '~/assets/icons/photos.png'
+import facebook from '~/assets/icons/facebook.png'
 import twitter from '~/assets/icons/twitter.png'
-import youtube from '~/assets/icons/youtube.png'
 ---
 
 <div id="footer">
   <div class="footer-column" id="social">
     <a
-      href="https://www.instagram.com/execut_conference/"
-      target="_blank"
-      rel="noopener">
-      <Image src={insta} class="socialmedia" alt="Instagram icon" width={32} height={32} />
-    </a>
+      href="https://www.facebook.com/execut.nl/"
+      title="Facebook page"
+      target="_blank">
+      <Image src={facebook} class="socialmedia" alt="Facebook icon" width={32} height={32} /></a>
+
     <a
       href="https://twitter.com/execut_cc"
-      target="_blank"
-      rel="noopener">
-      <Image src={twitter} class="socialmedia" alt="Twitter icon" width={32} height={32} />
-    </a>
-    <a
-      href="https://www.youtube.com/channel/UCaUAV2Lp7Ph1MbzacOmHJ2w"
-      target="_blank"
-      rel="noopener">
-      <Image src={youtube} class="socialmedia" alt="Youtube icon" width={32} height={32} />
-    </a>
-    <a
-      href="https://photos.app.goo.gl/FUYymBedpostbMat7"
-      target="_blank"
-      rel="noopener">
-      <Image src={photos} class="socialmedia" alt="Gallery icon" width={32} height={32} />
-    </a>
-    <a
-      href="https://www.linkedin.com/company/execut-conference/"
-      target="_blank"
-      rel="noopener">
-      <Image src={linkedin} class="socialmedia" alt="LinkedIn icon" width={32} height={32} />
-    </a>
+      title="Twitter page"
+      target="_blank">
+      <Image src={twitter} class="socialmedia" alt="Tweeter icon" width={32} height={32} /></a>
   </div>
 
   <div class="footer-column" id="copyright">
@@ -58,12 +36,13 @@ import youtube from '~/assets/icons/youtube.png'
       Please take note of our<br />
       <a
         href="/code-of-conduct.pdf"
-        target="_blank">Code of Conduct</a>,
+        title="Our Code of Conduct"
+        target="_blank">Code of Conduct</a>
+      and
       <a
         href="/privacy-policy.pdf"
+        title="Our Privacy Policy"
         target="_blank">Privacy Policy</a>
-      and
-      <a href="/general_terms_en.pdf">General Terms</a>
     </p>
   </div>
 </div>

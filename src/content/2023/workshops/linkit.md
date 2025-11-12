@@ -1,6 +1,6 @@
 ---
 title: Deep dive into Scrum & Agile
-organizer: linkit
+organizer: 2023/partners/linkit
 ---
 
 Deep dive into Scrum & Agile working methods and how they enable next level quick response to complex challenges.

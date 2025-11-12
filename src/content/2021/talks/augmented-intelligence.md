@@ -1,10 +1,6 @@
 ---
 title: Augmented Intelligence - one of the most hyped and misunderstood technologies in the healthcare industry
-speaker: 2021/marc-somberg
-tags:
-  - ai
-  - healthcare
-  - machine-learning
+speaker: 2021/people/marc-somberg
 ---
 
 Artificial Intelligence is one of the most hyped and misunderstood technologies in the healthcare industry. What are the reasons that AI is not already broadly implemented in hospitals and clinics? What does it take to bring a machine learning model from theory to practice?

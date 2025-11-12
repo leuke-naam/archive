@@ -1,0 +1,107 @@
+name: exec(ut) 2023
+date: 2023-03-28
+programme:
+  - time: 09:00
+    organizational: Registration
+  - time: 10:00
+    organizational: Opening
+  - time: 10:15
+    activities:
+      - type: talk
+        activity: 2023/talks/responsible-ai
+  - time: 11:15
+    activities:
+      - type: talk
+        activity: 2023/talks/immersive-tech
+  - time: 12:00
+    organizational: Lunch
+  - time: 12:45
+    activities:
+      - type: talk
+        activity: 2023/talks/fun-programming
+      - type: workshop
+        activity: 2023/workshops/bpm-company
+  - time: 13:30
+    activities:
+      - type: talk
+        activity: 2023/talks/playful-ux
+  - time: 14:15
+    activities:
+      - type: talk
+        activity: 2023/talks/opinion-viz
+      - type: workshop
+        activity: 2023/workshops/levarne
+  - time: 14:55
+    organizational: Coffee
+  - time: 15:25
+    activities:
+      - type: talk
+        activity: 2023/talks/volumetric-video
+      - type: workshop
+        activity: 2023/workshops/linkit
+  - time: 16:15
+    activities:
+      - type: talk
+        activity: 2023/talks/procedural-content
+  - time: 17:10
+    organizational: Closing & Drinks
+talks:
+  - 2023/talks/responsible-ai
+  - 2023/talks/immersive-tech
+  - 2023/talks/fun-programming
+  - 2023/talks/playful-ux
+  - 2023/talks/opinion-viz
+  - 2023/talks/volumetric-video
+  - 2023/talks/procedural-content
+speakers:
+  - 2023/people/burcu-karagol-ayan
+  - 2023/people/tim-van-der-wiel
+  - 2023/people/rik-arends
+  - 2023/people/koen-de-geringel
+  - 2023/people/tamara-mchedlidze
+  - 2023/people/pablo-cesar
+  - 2023/people/mat-suarez
+hosts:
+  - 2023/people/juney-dijkstra
+workshops:
+  - 2023/workshops/bpm-company
+  - 2023/workshops/levarne
+  - 2023/workshops/linkit
+partners:
+  platinum:
+    - 2023/partners/bpm-company
+  gold:
+    - 2023/partners/chipsoft
+    - 2023/partners/levarne
+    - 2023/partners/sticky
+  silver:
+    - 2023/partners/bol-com
+    - 2023/partners/cgi
+    - 2023/partners/devoteam
+    - 2023/partners/dsw
+    - 2023/partners/linkit
+    - 2023/partners/thales
+  bronze:
+    - 2023/partners/asml
+committee:
+  - name: Jorden Bakker
+    role: chair
+    contact: https://www.linkedin.com/in/jorden-bakker-b7300079/
+  - name: Julian Verouden
+    role: treasurer
+    contact: https://www.linkedin.com/in/julian-verouden-5798791bb/
+  - name: Sem van Nieuwenhuizen
+    role: acquisition
+    contact: https://www.linkedin.com/in/leuke-naam/
+  - name: Jasper de Winther
+    role: speakers
+    contact: https://www.linkedin.com/in/jasper-de-winther-091228187/
+  - name: Lisanne Koetsier
+    role: location
+    contact: https://www.linkedin.com/in/lisanne-koetsier/
+  - name: Ruben Baggen
+    role: promotion
+    contact: https://www.linkedin.com/in/ruben-baggen/
+  - name: Thirza Hiwat
+    role: board
+    contact: https://www.linkedin.com/in/thiwat/

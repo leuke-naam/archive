@@ -8,12 +8,12 @@
     "url": "https://github.com/stichting-sticky/execut-2021.git"
   },
   "author": "Semele <hello@semele.fyi>",
+  "private": true,
   "scripts": {
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview"
   },
-  "private": true,
   "dependencies": {
     "@astrojs/sitemap": "^3.6.0",
     "@fontsource/lora": "^5.2.8",

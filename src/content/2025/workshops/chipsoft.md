@@ -1,6 +1,6 @@
 ---
 title: Transform Healthcare with Smart ICT
-organizer: chipsoft
+organizer: 2025/partners/chipsoft
 ---
 
 Are you passionate about improving healthcare but don’t see yourself at a patient’s bedside? Then step into the world of healthcare ICT with ChipSoft!

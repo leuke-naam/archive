@@ -1,0 +1,100 @@
+id: 2020
+name: exec(ut) 2020
+date: 2025-03-16
+programme:
+  - time: 09:00
+    organizational: Registration
+  - time: 10:00
+    organizational: Opening
+  - time: 10:15
+    activities:
+      - type: talk
+        activity: 2020/talks/focus
+  - time: 11:10
+    organizational: Coffee
+  - time: 11:40
+    activities:
+      - type: talk
+        activity: 2020/talks/bigquery-ml
+  - time: 12:20
+    organizational: Lunch
+  - time: 13:20
+    activities:
+      - type: talk
+        activity: 2020/talks/devops
+  - time: 14:05
+    activities:
+      - type: talk
+        activity: 2020/talks/colorblind
+  - time: 14:45
+    organizational: Coffee
+  - time: 15:15
+    activities:
+      - type: talk
+        activity: 2020/talks/creative-code
+  - time: 16:00
+    activities:
+      - type: talk
+        activity: 2020/talks/tech-trading
+  - time: 16:50
+    organizational: Closing & Drinks
+talks:
+  - 2020/talks/focus
+  - 2020/talks/bigquery-ml
+  - 2020/talks/devops
+  - 2020/talks/colorblind
+  - 2020/talks/diversity
+  - 2020/talks/creative-code
+  - 2020/talks/tech-trading
+speakers:
+  - 2020/people/patrick-lee
+  - 2020/people/gabriela-davila-ferrara
+  - 2020/people/simon-ostengaard
+  - 2020/people/tom-van-beveren
+  - 2020/people/lisanne-brons
+  - 2020/people/joost-van-dongen
+  - 2020/people/dennis-fleurbaaij
+hosts:
+  - 2020/people/chris-janssen
+partners:
+  platinum:
+    - 2020/partners/optiver
+  gold:
+    - 2020/partners/asml
+    - 2020/partners/keylane
+  silver:
+    - 2020/partners/dsw
+    - 2020/partners/leaseweb
+    - 2020/partners/procam
+    - 2020/partners/emergo
+  bronze:
+    - 2020/partners/tno
+    - 2020/partners/dnb
+    - 2020/partners/ingram
+committee:
+  - name: Kristi Bergman
+    role: chair
+    contact: https://www.linkedin.com/in/kristi-bergman-77bb16129/
+  - name: Anneloes Meijer
+    role: treasurer
+    contact: https://www.linkedin.com/in/anneloes-meijer-539254108/
+  - name: Simardeep Singh
+    role: acquisition
+    contact: https://www.linkedin.com/in/simardeepsinghlidhar/
+  - name: Diede van der Hoorn
+    role: speakers
+    contact: https://www.linkedin.com/in/diede-van-der-hoorn/
+  - name: Rogier Simons
+    role: speakers
+    contact: https://www.linkedin.com/in/rogier-simons-utrecht/
+  - name: Amber Norder
+    role: location
+    contact: https://www.linkedin.com/in/amber-norder-091a38115/
+  - name: Thomas Hes
+    role: promotion
+    contact: https://thomashes.nl/
+acknowledgements: |
+  DomCode, for letting us take inspiration from their code of conduct;
+  Simpact, for helping us navigate the world of CO2 compensation;
+  Martijn Casteel and Amber Norder for programming the very first exec(ut) app;
+  and the staff of Utrecht University's CS department for their support in planning and promotion.
