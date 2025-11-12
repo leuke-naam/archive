@@ -1,63 +1,57 @@
 ---
-import { getEntries, getCollection, getEntry } from "astro:content";
+// import { getEntries, getCollection, getEntry } from 'astro:content'
 
-const editions = await getCollection("editions");
-const people = await getCollection("people");
-const partners = await getCollection("partners");
-const talks = await getCollection("talks");
-const venues = await getCollection("venues");
-const workshops = await getCollection("workshops");
+// const editions = await getCollection('editions')
+// const people = await getCollection('people')
+// const partners = await getCollection('partners')
+// const talks = await getCollection('talks')
+// const venues = await getCollection('venues')
+// const workshops = await getCollection('workshops')
 
-for (const edition of editions) {
-  const { id, data } = edition;
+// for (const edition of editions) {
+//   const { id, data } = edition
 
-  console.log(id);
+//   console.log(id)
 
-  const { hosts, partners, speakers, talks, venue, workshops } = data;
+//   const { hosts, partners, speakers, talks, venue, workshops } = data
 
-  hosts && await getEntries(hosts);
-  partners && await getEntries(Object.values(partners).flat());
-  speakers && await getEntries(speakers);
-  talks && await getEntries(talks);
-  venue && await getEntries([venue]);
-  workshops && await getEntries(workshops);
+//   hosts && (await getEntries(hosts))
+//   partners && (await getEntries(Object.values(partners).flat()))
+//   speakers && (await getEntries(speakers))
+//   talks && (await getEntries(talks))
+//   venue && (await getEntries([venue]))
+//   workshops && (await getEntries(workshops))
 
-  const { programme } = data;
+//   const { programme } = data
 
-  for (const { activities } of programme || [])
-    for (const { activity } of activities || [])
-      await getEntry(activity);
-}
+//   for (const { activities } of programme || [])
+//     for (const { activity } of activities || []) await getEntry(activity)
+// }
 
-for (const talk of talks) {
-  const { id, data } = talk;
+// for (const talk of talks) {
+//   const { id, data } = talk
 
-  console.log(id);
+//   console.log(id)
 
-  const { speaker } = data;
+//   const { speaker } = data
 
-  speaker && await getEntry(speaker);
-}
+//   speaker && (await getEntry(speaker))
+// }
 
-for (const workshop of workshops) {
-  const { id, data } = workshop;
+// for (const workshop of workshops) {
+//   const { id, data } = workshop
 
-  console.log(id);
+//   console.log(id)
 
-  const { organizer } = data;
+//   const { organizer } = data
 
-  organizer && await getEntry(organizer);
-}
+//   organizer && (await getEntry(organizer))
+// }
 ---
 
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
+  <head> </head>
 
-<head>
-</head>
-
-<body>
-</body>
-
+  <body> </body>
 </html>
