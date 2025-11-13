@@ -168,7 +168,7 @@ const Venue = ({ image }: SchemaContext) =>
     description: z.string().optional(),
     location: z.string(),
     image: image(),
-    address: z.string().transform((val) => val.trim().split('\n')),
+    address: z.string().transform(String.prototype.trim),
     directions: z.coerce.string().url(),
     embed: z.coerce.string().url(),
   })

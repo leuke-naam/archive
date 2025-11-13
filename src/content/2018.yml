@@ -23,7 +23,7 @@ programme:
     activities:
       - type: talk
         activity: persuasive-tech
-  - time: 13:30
+  # - time: 13:30
   #   activities:
   #     type: talk
   #       activity: problem-solving-based-on-forensic-science
@@ -58,15 +58,15 @@ talks:
   - olympics
   - historical-stabbings
 speakers:
-  - arjen-kamphuis
-  - fabian-van-noort
-  - igor
-  - jago-de-vreede
-  - mischa-coster
   - nadieh-bremer
+  - jago-de-vreede
+  - arjen-kamphuis
+  - mischa-coster
+  - igor
+  # - tom-driehuys
+  - fabian-van-noort
   - paul-lemon
   - ross-tuck
-  # - tom-driehuys
 hosts:
   - bruno-lauwers
 partners:

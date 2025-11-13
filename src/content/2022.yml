@@ -1,68 +1,64 @@
 name: exec(ut) 2022
 date: 2022-03-28
 programme:
-  - time: 09:00
-    organizational: Registration
   - time: 10:00
-    organizational: Opening
+    organizational: Opening & Welcome
   - time: 10:15
     activities:
       - type: talk
         activity: ai-healthcare
-  - time: 11:10
-    organizational: Coffee
-  - time: 11:40
+  - time: 11:25
     activities:
       - type: talk
         activity: algorithmic-bias
-  - time: 12:20
+  - time: 12:10
     organizational: Lunch
-  - time: 13:20
+  - time: 13:00
     activities:
       - type: talk
         activity: it-journeys
       - type: workshop
         activity: healthcare-data-exchange
-  - time: 14:05
+  - time: 13:55
     activities:
       - type: talk
         activity: storytelling
       - type: workshop
         activity: rpa-stocks
-  - time: 14:45
-    organizational: Coffee
-  - time: 15:15
+  - time: 14:50
+    organizational: Coffee break
+  - time: 15:20
     activities:
       - type: talk
         activity: low-code
       - type: workshop
         activity: finance-puzzles
-  - time: 16:00
+  - time: 16:15
     activities:
       - type: talk
         activity: apis
-  - time: 16:50
+  - time: 17:15
     organizational: Closing & Drinks
 talks:
   - ai-healthcare
   - algorithmic-bias
-  - apis
   - it-journeys
-  - low-code
   - storytelling
+  - low-code
+  - apis
 speakers:
-  - anke-schlichting
-  - hinda-haned
   - marc-somberg
+  - hinda-haned
+  - anke-schlichting
   - matthijs-van-de-laar
   - michiel-overeem
   - mike-joosten
 hosts:
   - sara-lusini
 workshops:
-  - finance-puzzles
   - healthcare-data-exchange
   - rpa-stocks
+  - finance-puzzles
 partners:
   platinum:
     - chipsoft

@@ -8,7 +8,7 @@ programme:
   - time: 10:00
     activities:
       - type: talk
-        activity: recommender
+        activity: recommender-systems
   - time: 11:00
     activities:
       - type: talk
@@ -44,7 +44,7 @@ programme:
   - time: 16:50
     organizational: Closing and drinks
 talks:
-  - recommender
+  - recommender-systems
   - money-software
   - rescue-robots
   - weapons-cybersec
@@ -65,21 +65,22 @@ hosts:
   - ross-tuck
 partners:
   platinum:
-    - pwc
+    - keylane
   gold:
+    - achmea
+    - sticky
+    - nedap
+    - pwc
+  silver:
+    - belastingdienst
+    - bol-com
+    - infi
+    - ing
+    - pno-consultants
+    - ortec-finance
+  bronze:
     - asml
     - adyen
-  silver:
-    - ing
-    - bol-com
-    - keylane
-    - infi
-    - achmea
-  bronze:
-    - belastingdienst
-    - nedap
-    - ortec-finance
-    - pno-consultants
 venue: tivoli-vredenburg
 committee:
   - name: Alma Liezenga

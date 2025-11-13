@@ -1,40 +1,38 @@
 name: exec(ut) 2021 Summer Edition
 date: 2021-06-07
 programme:
-  - time: 13:00
-    organizational: Registration
-  - time: 14:00
-    organizational: Opening
-  - time: 14:15
-    activities:
-      - type: talk
-        activity: human-centered-ai
-  - time: 15:00
+  - time: 12:00
+    organizational: Opening and welcome
+  - time: 12:15
     activities:
       - type: talk
         activity: codepamoja
-  - time: 15:45
-    organizational: Coffee
-  - time: 16:15
+  - time: 12:55
     activities:
       - type: talk
         activity: augmented-intelligence
-  - time: 17:00
+  - time: 13:35
+    organizational: Coffee
+  - time: 14:45
     activities:
       - type: talk
         activity: games-code
-  - time: 17:45
+  - time: 15:25
+    activities:
+      - type: talk
+        activity: human-centered-ai
+  - time: 16:10
     organizational: Closing & Drinks
 talks:
-  - human-centered-ai
   - codepamoja
   - augmented-intelligence
   - games-code
+  - human-centered-ai
 speakers:
-  - nathalie-post
   - andy-haxby
   - marc-somberg
   - rami-ismail
+  - nathalie-post
 hosts:
   - sara-lusini
 partners:
