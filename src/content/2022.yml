@@ -6,11 +6,11 @@ programme:
   - time: 10:15
     activities:
       - type: talk
-        activity: ai-healthcare
+        activity: augmented-intelligence-in-healthcare
   - time: 11:25
     activities:
       - type: talk
-        activity: algorithmic-bias
+        activity: defining-and-mitigating-algorithmic-bias
   - time: 12:10
     organizational: Lunch
   - time: 13:00
@@ -18,34 +18,34 @@ programme:
       - type: talk
         activity: it-journeys
       - type: workshop
-        activity: healthcare-data-exchange
+        activity: electronic-data-exchange-in-healthcare
   - time: 13:55
     activities:
       - type: talk
-        activity: storytelling
+        activity: storytelling-in-an-autonomous-game-world
       - type: workshop
-        activity: rpa-stocks
+        activity: build-your-own-rpa-process-for-real-time-stock-prices
   - time: 14:50
     organizational: Coffee break
   - time: 15:20
     activities:
       - type: talk
-        activity: low-code
+        activity: low-code-platforms-tales-from-a-software-architect
       - type: workshop
-        activity: finance-puzzles
+        activity: complex-puzzles-in-finance-and-data-science
   - time: 16:15
     activities:
       - type: talk
-        activity: apis
+        activity: view-the-world-through-apis
   - time: 17:15
     organizational: Closing & Drinks
 talks:
-  - ai-healthcare
-  - algorithmic-bias
+  - augmented-intelligence-in-healthcare
+  - defining-and-mitigating-algorithmic-bias
   - it-journeys
-  - storytelling
-  - low-code
-  - apis
+  - storytelling-in-an-autonomous-game-world
+  - low-code-platforms-tales-from-a-software-architect
+  - view-the-world-through-apis
 speakers:
   - marc-somberg
   - hinda-haned
@@ -55,9 +55,9 @@ speakers:
   - mike-joosten
 host: sara-lusini
 workshops:
-  - healthcare-data-exchange
-  - rpa-stocks
-  - finance-puzzles
+  - electronic-data-exchange-in-healthcare
+  - build-your-own-rpa-process-for-real-time-stock-prices
+  - complex-puzzles-in-finance-and-data-science
 partners:
   platinum:
     - chipsoft

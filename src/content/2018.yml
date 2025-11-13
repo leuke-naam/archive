@@ -8,21 +8,21 @@ programme:
   - time: 10:15
     activities:
       - type: talk
-        activity: data-sketches
+        activity: data-sketches-a-year-of-exotic-data-visualizations
   - time: 11:00
     activities:
       - type: talk
-        activity: 8mm-films
+        activity: digitizing-your-old-8mm-films-with-a-pi
   - time: 11:30
     activities:
       - type: talk
-        activity: security
+        activity: privacy-digital-crime-and-espionage
   - time: 12:00
     organizational: Lunch
   - time: 13:00
     activities:
       - type: talk
-        activity: persuasive-tech
+        activity: priming-and-persuasive-technology
   # - time: 13:30
   #   activities:
   #     type: talk
@@ -30,33 +30,33 @@ programme:
   - time: 14:00
     activities:
       - type: talk
-        activity: production
+        activity: production-an-owners-manual
   - time: 14:30
     organizational: Coffee break
   - time: 15:00
     activities:
       - type: talk
-        activity: ux-research
+        activity: power-of-ux-research
   - time: 15:30
     activities:
       - type: talk
-        activity: olympics
+        activity: winter-olympics-2018
   - time: 16:00
     activities:
       - type: talk
-        activity: historical-stabbings
+        activity: unlikely-wisdom-of-historical-stabbings
   - time: 16:45
     organizational: Closing and drinks
 talks:
-  - data-sketches
-  - 8mm-films
-  - security
-  - persuasive-tech
+  - data-sketches-a-year-of-exotic-data-visualizations
+  - digitizing-your-old-8mm-films-with-a-pi
+  - privacy-digital-crime-and-espionage
+  - priming-and-persuasive-technology
   # - problem-solving-based-on-forensic-science
-  - production
-  - ux-research
-  - olympics
-  - historical-stabbings
+  - production-an-owners-manual
+  - power-of-ux-research
+  - winter-olympics-2018
+  - unlikely-wisdom-of-historical-stabbings
 speakers:
   - nadieh-bremer
   - jago-de-vreede

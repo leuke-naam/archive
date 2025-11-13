@@ -8,51 +8,51 @@ programme:
   - time: 10:15
     activities:
       - type: talk
-        activity: responsible-ai
+        activity: what-does-it-mean-for-image-generation-to-be-responsible
   - time: 11:15
     activities:
       - type: talk
-        activity: immersive-tech
+        activity: immersive-technology-transforming-internet
   - time: 12:00
     organizational: Lunch
   - time: 12:45
     activities:
       - type: talk
-        activity: fun-programming
+        activity: the-fun-of-programming
       - type: workshop
-        activity: low-code-pega
+        activity: low-code-with-pega
   - time: 13:30
     activities:
       - type: talk
-        activity: playful-ux
+        activity: playful-digital-user-experiences
   - time: 14:15
     activities:
       - type: talk
-        activity: opinion-viz
+        activity: european-values-maps-visualization-of-large-opinion-spaces
       - type: workshop
-        activity: levarne-session
+        activity: knowledge-session-with-levarne
   - time: 14:55
     organizational: Coffee
   - time: 15:25
     activities:
       - type: talk
-        activity: volumetric-video
+        activity: towards-volumetric-video-conferencing
       - type: workshop
-        activity: scrum-agile
+        activity: deep-dive-into-scrum-and-agile
   - time: 16:15
     activities:
       - type: talk
-        activity: procedural-content
+        activity: procedural-content-creation-at-ea
   - time: 17:10
     organizational: Closing & Drinks
 talks:
-  - responsible-ai
-  - immersive-tech
-  - fun-programming
-  - playful-ux
-  - opinion-viz
-  - volumetric-video
-  - procedural-content
+  - what-does-it-mean-for-image-generation-to-be-responsible
+  - immersive-technology-transforming-internet
+  - the-fun-of-programming
+  - playful-digital-user-experiences
+  - european-values-maps-visualization-of-large-opinion-spaces
+  - towards-volumetric-video-conferencing
+  - procedural-content-creation-at-ea
 speakers:
   - burcu-karagol-ayan
   - tim-van-der-wiel
@@ -63,9 +63,9 @@ speakers:
   - mat-suarez
 host: juney-dijkstra
 workshops:
-  - low-code-pega
-  - levarne-session
-  - scrum-agile
+  - low-code-with-pega
+  - knowledge-session-with-levarne
+  - deep-dive-into-scrum-and-agile
 partners:
   platinum:
     - bpm-company

@@ -6,17 +6,17 @@ programme:
   - time: 12:15
     activities:
       - type: talk
-        activity: codepamoja
+        activity: codepamoja-workpamoja
   - time: 12:55
     activities:
       - type: talk
-        activity: augmented-intelligence
+        activity: augmented-intelligence-in-healthcare
   - time: 13:35
     organizational: Coffee
   - time: 14:45
     activities:
       - type: talk
-        activity: games-code
+        activity: games-code-but-not-code
   - time: 15:25
     activities:
       - type: talk
@@ -24,9 +24,9 @@ programme:
   - time: 16:10
     organizational: Closing & Drinks
 talks:
-  - codepamoja
-  - augmented-intelligence
-  - games-code
+  - codepamoja-workpamoja
+  - augmented-intelligence-in-healthcare
+  - games-code-but-not-code
   - human-centered-ai
 speakers:
   - andy-haxby

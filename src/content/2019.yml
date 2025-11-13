@@ -8,35 +8,35 @@ programme:
   - time: 10:00
     activities:
       - type: talk
-        activity: recommender-systems
+        activity: 5-lessons-learned-building-a-large-recommender-system
   - time: 11:00
     activities:
       - type: talk
-        activity: money-software
+        activity: making-money-with-software
   - time: 11:40
     activities:
       - type: talk
-        activity: rescue-robots
+        activity: robots-to-the-rescue
   - time: 12:10
     organizational: Lunch
   - time: 13:00
     activities:
       - type: talk
-        activity: weapons-cybersec
+        activity: cybersecurity-of-weapons-systems-in-a-digital-age
   - time: 13:40
     activities:
       - type: talk
-        activity: cognitive-ui
+        activity: cognitive-science-as-foundation-of-interface-design
   - time: 14:20
     activities:
       - type: talk
-        activity: product-dev
+        activity: the-good-the-bad-and-the-ugly-of-product-development
   - time: 14:50
     organizational: Coffee break
   - time: 15:20
     activities:
       - type: talk
-        activity: big-data
+        activity: big-data-to-big-impact
   - time: 16:00
     activities:
       - type: talk
@@ -44,13 +44,13 @@ programme:
   - time: 16:50
     organizational: Closing and drinks
 talks:
-  - recommender-systems
-  - money-software
-  - rescue-robots
-  - weapons-cybersec
-  - cognitive-ui
-  - product-dev
-  - big-data
+  - 5-lessons-learned-building-a-large-recommender-system
+  - making-money-with-software
+  - robots-to-the-rescue
+  - cybersecurity-of-weapons-systems-in-a-digital-age
+  - cognitive-science-as-foundation-of-interface-design
+  - the-good-the-bad-and-the-ugly-of-product-development
+  - big-data-to-big-impact
   - trends-2030
 speakers:
   - oscar-celma

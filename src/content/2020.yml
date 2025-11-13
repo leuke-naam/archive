@@ -14,41 +14,41 @@ programme:
   - time: 11:20
     activities:
       - type: talk
-        activity: colorblind
+        activity: designing-with-the-colorblind-in-mind
   - time: 12:00
     activities:
       - type: talk
-        activity: devops
+        activity: how-devops-can-improve-your-work-company-and-career
   - time: 12:30
     organizational: Lunch
   - time: 13:20
     activities:
       - type: talk
-        activity: creative-coding
+        activity: code-as-a-tool-for-creative-expression
   - time: 14:00
     activities:
       - type: talk
-        activity: tech-trading
+        activity: technology-behind-quantitative-trading
   - time: 14:30
     organizational: Coffee
   - time: 15:00
     activities:
       - type: talk
-        activity: diversity
+        activity: journey-to-diversity-and-inclusion
   - time: 15:40
     activities:
       - type: talk
-        activity: focus
+        activity: focus-startup-success
   - time: 16:30
     organizational: Closing & Drinks
 talks:
   - bigquery-ml
-  - colorblind
-  - devops
-  - creative-coding
-  - tech-trading
-  - diversity
-  - focus
+  - designing-with-the-colorblind-in-mind
+  - how-devops-can-improve-your-work-company-and-career
+  - code-as-a-tool-for-creative-expression
+  - technology-behind-quantitative-trading
+  - journey-to-diversity-and-inclusion
+  - focus-startup-success
 speakers:
   - gabriela-davila-ferrara
   - tom-van-beveren

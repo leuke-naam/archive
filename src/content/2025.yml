@@ -8,35 +8,35 @@ programme:
   - time: 10:15
     activities:
       - type: talk
-        activity: rockstar-dev
+        activity: how-to-be-a-rockstar-developer
   - time: 11:10
     common: Coffee
   - time: 11:40
     activities:
       - type: talk
-        activity: air-power
+        activity: digital-transformation-of-air-power
       - type: workshop
-        activity: ai-avatar
+        activity: bring-your-avatar-to-life-with-agentic-ai
   - time: 12:20
     common: Lunch
   - time: 13:20
     activities:
       - type: talk
-        activity: games-industry
+        activity: exploring-the-dutch-games-industry
       - type: workshop
-        activity: transform-healthcare
+        activity: transform-healthcare-with-smart-ict
   - time: 14:10
     activities:
       - type: talk
-        activity: rehab-tech
+        activity: rehabilitation-technologies
       - type: workshop
-        activity: genai-blueprint
+        activity: turn-ideas-into-reality-with-pega-genai-blueprint
   - time: 14:50
     common: Coffee
   - time: 15:20
     activities:
       - type: talk
-        activity: serious-gaming
+        activity: got-a-problem-serious-gaming-is-here-to-help
   - time: 16:10
     activities:
       - type: talk
@@ -46,11 +46,11 @@ programme:
   - time: 17:15
     common: Drinks
 talks:
-  - rockstar-dev
-  - air-power
-  - games-industry
-  - rehab-tech
-  - serious-gaming
+  - how-to-be-a-rockstar-developer
+  - digital-transformation-of-air-power
+  - exploring-the-dutch-games-industry
+  - rehabilitation-technologies
+  - got-a-problem-serious-gaming-is-here-to-help
   - validation-crisis
 speakers:
   - dylan-beattie
@@ -61,9 +61,9 @@ speakers:
   - brenno-de-winter
 host: fiep-warmerdam
 workshops:
-  - ai-avatar
-  - transform-healthcare
-  - genai-blueprint
+  - bring-your-avatar-to-life-with-agentic-ai
+  - transform-healthcare-with-smart-ict
+  - turn-ideas-into-reality-with-pega-genai-blueprint
 partners:
   platinum:
     - chipsoft

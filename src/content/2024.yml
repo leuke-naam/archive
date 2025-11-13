@@ -8,50 +8,50 @@ programme:
   - time: 10:15
     activities:
       - type: talk
-        activity: cyber-future
+        activity: our-cyber-secure-future
   - time: 11:10
     organizational: Coffee
   - time: 11:40
     activities:
       - type: talk
-        activity: ai-programming
+        activity: programming-with-ai-for-fun
       - type: workshop
-        activity: hackathons
+        activity: hackathons-at-booking-com-a-path-to-innovation
   - time: 12:20
     organizational: Lunch
   - time: 13:20
     activities:
       - type: talk
-        activity: xr-impact
+        activity: impact-of-interactive-extended-reality
       - type: workshop
-        activity: ai-pub-quiz
+        activity: building-an-ai-powered-pub-quiz-master
   - time: 14:05
     activities:
       - type: talk
-        activity: ai-seals
+        activity: ai-for-seals
       - type: workshop
-        activity: job-interview
+        activity: sollicitatietraining-ken-je-kwaliteiten
   - time: 14:45
     organizational: Coffee
   - time: 15:15
     activities:
       - type: talk
-        activity: game-ux
+        activity: video-game-ux-affinity-vs-contrast
       - type: workshop
-        activity: surgery-planning
+        activity: capaciteitsmanagement-in-de-zorg-het-creeren-van-het-optimale-operatiekamer-rooster
   - time: 16:00
     activities:
       - type: talk
-        activity: future-ai
+        activity: the-future-of-ai
   - time: 16:50
     organizational: Closing & Drinks
 talks:
-  - cyber-future
-  - ai-programming
-  - xr-impact
-  - ai-seals
-  - game-ux
-  - future-ai
+  - our-cyber-secure-future
+  - programming-with-ai-for-fun
+  - impact-of-interactive-extended-reality
+  - ai-for-seals
+  - video-game-ux-affinity-vs-contrast
+  - the-future-of-ai
 speakers:
   - jaya-baloo
   - rik-arends
@@ -63,10 +63,10 @@ hosts:
   - alma-liezenga
   - rob-de-wit
 workshops:
-  - hackathons
-  - ai-pub-quiz
-  - job-interview
-  - surgery-planning
+  - hackathons-at-booking-com-a-path-to-innovation
+  - building-an-ai-powered-pub-quiz-master
+  - sollicitatietraining-ken-je-kwaliteiten
+  - capaciteitsmanagement-in-de-zorg-het-creeren-van-het-optimale-operatiekamer-rooster
 partners:
   gold:
     - bpm-company
