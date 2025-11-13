@@ -24,10 +24,9 @@ export type Programme = z.infer<typeof Programme>
 const Programme = z
   .object({
     time: z.coerce.string().time(),
-    activities: Activity.array(),
-    organizational: z.string(),
+    activities: Activity.array().optional(),
+    organizational: z.string().optional(),
   })
-  .partial({ activities: true, organizational: true })
   .array()
 
 export type Tier = z.infer<typeof Tier>
@@ -89,9 +88,10 @@ const Edition = z
       .transform(String.prototype.trim)
       .default(acknowledgements),
   })
+  .refine(({ host, hosts }) => !(host && hosts))
   .transform(({ host, ...edition }) => {
-    edition.hosts ??= []
-    if (host) edition.hosts.push(host)
+    if (host) edition.hosts ??= [host]
+
     return edition
   })
 
