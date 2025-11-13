@@ -33,8 +33,7 @@ speakers:
   - marc-somberg
   - rami-ismail
   - nathalie-post
-hosts:
-  - sara-lusini
+host: sara-lusini
 partners:
   platinum:
     - chipsoft
@@ -45,6 +44,7 @@ partners:
     - sogeti
     - picnic
     - optiver
+venue: social-impact-factory
 committee:
   - name: Simardeep Singh
     role: chair

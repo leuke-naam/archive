@@ -53,8 +53,7 @@ speakers:
   - matthijs-van-de-laar
   - michiel-overeem
   - mike-joosten
-hosts:
-  - sara-lusini
+host: sara-lusini
 workshops:
   - healthcare-data-exchange
   - rpa-stocks

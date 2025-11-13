@@ -61,8 +61,7 @@ speakers:
   - tamara-mchedlidze
   - pablo-cesar
   - mat-suarez
-hosts:
-  - juney-dijkstra
+host: juney-dijkstra
 workshops:
   - low-code-pega
   - levarne-session

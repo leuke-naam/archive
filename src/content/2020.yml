@@ -57,8 +57,7 @@ speakers:
   - dennis-fleurbaaij
   - lisanne-brons
   - patrick-lee
-hosts:
-  - chris-janssen
+host: chris-janssen
 partners:
   platinum:
     - keylane

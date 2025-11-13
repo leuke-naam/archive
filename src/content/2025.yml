@@ -59,8 +59,7 @@ speakers:
   - martine-spaans
   - evert-hoogendoorn
   - brenno-de-winter
-hosts:
-  - fiep-warmerdam
+host: fiep-warmerdam
 workshops:
   - ai-avatar
   - transform-healthcare

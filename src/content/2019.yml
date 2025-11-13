@@ -61,8 +61,7 @@ speakers:
   - roy-smeets
   - arjun-panesar
   - richard-van-hooijdonk
-hosts:
-  - ross-tuck
+host: ross-tuck
 partners:
   platinum:
     - keylane

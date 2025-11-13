@@ -70,23 +70,30 @@ const acknowledgements = `DomCode, for letting us take inspiration from their co
 The staff of Utrecht University's CS department for their support in planning and promotion;
 All our volunteers, without whom the conference would not be possible;`
 
-const Edition = z.object({
-  name: z.string(),
-  date: z.coerce.date().optional(),
-  highlights: z.record(z.string(), z.coerce.string()).optional(),
-  programme: Programme.optional(),
-  speakers: reference('people').array().optional(),
-  hosts: reference('people').array().optional(),
-  talks: reference('talks').array().optional(),
-  workshops: reference('workshops').array().optional(),
-  venue: reference('venues').optional(),
-  partners: z.record(Tier, reference('partners').array()).optional(),
-  committee: Committee,
-  acknowledgements: z
-    .string()
-    .transform(String.prototype.trim)
-    .default(acknowledgements),
-})
+const Edition = z
+  .object({
+    name: z.string(),
+    date: z.coerce.date().optional(),
+    highlights: z.record(z.string(), z.coerce.string()).optional(),
+    programme: Programme.optional(),
+    speakers: reference('people').array().optional(),
+    host: reference('people').optional(),
+    hosts: reference('people').array().optional(),
+    talks: reference('talks').array().optional(),
+    workshops: reference('workshops').array().optional(),
+    partners: z.record(Tier, reference('partners').array()).optional(),
+    venue: reference('venues').optional(),
+    committee: Committee,
+    acknowledgements: z
+      .string()
+      .transform(String.prototype.trim)
+      .default(acknowledgements),
+  })
+  .transform(({ host, ...edition }) => {
+    edition.hosts ??= []
+    if (host) edition.hosts.push(host)
+    return edition
+  })
 
 const editions = defineCollection({
   loader: glob({ pattern: '[^_]*.(yml|yaml)', base: './src/content/' }),

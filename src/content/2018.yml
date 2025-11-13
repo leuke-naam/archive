@@ -67,8 +67,7 @@ speakers:
   - fabian-van-noort
   - paul-lemon
   - ross-tuck
-hosts:
-  - bruno-lauwers
+host: bruno-lauwers
 partners:
   platinum:
     - pwc
