@@ -1,5 +1,5 @@
 ---
 name: Bruno Lauwers
 description: Software developer
-portrait: ~/assets/portraits/hosts/bruno-lauwers.jpg
+portrait: ~/assets/portraits/bruno-lauwers.jpg
 ---

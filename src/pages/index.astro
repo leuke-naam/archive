@@ -3,44 +3,160 @@ import { getEntries, getCollection, getEntry } from 'astro:content'
 
 const editions = await getCollection('editions')
 
+let allPeople: Record<string, string[]> = {}
+let allTalks: Record<string, string[]> = {}
+let allWorkshops: Record<string, string[]> = {}
+let allPartners: Record<string, string[]> = {}
+
+for (const person of await getCollection('people')) {
+  allPeople[person.id] = []
+}
+
+for (const talk of await getCollection('talks')) {
+  allTalks[talk.id] = []
+}
+
+for (const workshop of await getCollection('workshops')) {
+  allWorkshops[workshop.id] = []
+}
+
+for (const partner of await getCollection('partners')) {
+  allPartners[partner.id] = []
+}
+
 for (const edition of editions) {
   const { id, data } = edition
 
-  let partners = data.partners && await getEntries(Object.values(data.partners).flat()) || []
-  let speakers = data.speakers && await getEntries(data.speakers) || []
+  console.log(id)
+
   let talks = data.talks && await getEntries(data.talks) || []
+  let referencedSpeakers = talks.map(talk => talk.data.speaker.id)
+
+  for (const talk of talks) {
+    allTalks[talk.id].push(id)
+    const speakerId = talk.data.speaker.id
+    allPeople[speakerId].push(id)
+  }
+
+  let speakers = data.speakers && await getEntries(data.speakers) || []
+
+  if (speakers.map(({ id }) => id).sort().join(',') !== referencedSpeakers.sort().join(',') ) {
+    console.warn(`Speakers mismatch in edition ${id}`)
+  }
+
+  let hosts = data.hosts && await getEntries(data.hosts) || []
+
+  for (const host of hosts) {
+    if (allPeople[host.id].includes(id)) {
+      console.warn(`Host ${host.id} is already listed as a speaker in edition ${id}`)
+    }
+    allPeople[host.id].push(id)
+  }
+
+  let partners = data.partners && await getEntries(Object.values(data.partners).flat()) || []
+
+  for (const partner of partners) {
+    allPartners[partner.id].push(id)
+  }
+
   let workshops = data.workshops && await getEntries(data.workshops) || []
 
-  const { programme } = data
+  for (const workshop of workshops) {
+    allWorkshops[workshop.id].push(id)
+    const organizerId = workshop.data.organizer.id
+    if (!partners.map(({ id }) => id).includes(organizerId)) {
+      console.warn(`Organizer ${organizerId} of workshop ${workshop.id} is not listed as a partners in edition ${id}`)
+    }
+  }
 
-  for (const { activities } of programme || []) {
+  const referencedTalks = []
+  const referencedWorkshops = []
+
+  for (const { activities } of data.programme || []) {
     for (const { type, activity } of activities || []) {
       if (type === 'talk') {
-        const talk = await getEntry(activity)
-        const i = talks.findIndex(({ id }) => id === talk.id)
-
-        if (i !== -1) {
-          talks.splice(i, 1)
-        } else {
-          console.warn(talk)
-        }
+        referencedTalks.push(activity.id)
       }
 
       if (type === 'workshop') {
-        const workshop = await getEntry(activity)
-        const i = workshops.findIndex(({ id }) => id === workshop.id)
-
-        if (i !== -1) {
-          workshops.splice(i, 1)
-        } else {
-          console.warn(workshop)
-        }
+        referencedWorkshops.push(activity.id)
       }
     }
   }
 
-  console.log(id, talks.map(({id}) => id), workshops.map(({id}) => id))
+  if (talks.map(({ id }) => id).sort().join(',') !== referencedTalks.sort().join(',') ) {
+    console.warn(`Speakers mismatch in edition ${id}`)
+  }
+
+  if (workshops.map(({ id }) => id).sort().join(',') !== referencedWorkshops.sort().join(',') ) {
+    console.warn(`Workshops mismatch in edition ${id}`)
+  }
 }
+
+for (const [personId, editionIds] of Object.entries(allPeople)) {
+  if (editionIds.length === 0) {
+    console.warn(`Person ${personId} is not referenced in any edition`)
+  }
+}
+
+for (const [talkId, editionIds] of Object.entries(allTalks)) {
+  if (editionIds.length === 0) {
+    console.warn(`Talk ${talkId} is not referenced in any edition`)
+  }
+}
+
+for (const [workshopId, editionIds] of Object.entries(allWorkshops)) {
+  if (editionIds.length === 0) {
+    console.warn(`Workshop ${workshopId} is not referenced in any edition`)
+  }
+}
+
+for (const [partnerId, editionIds] of Object.entries(allPartners)) {
+  if (editionIds.length === 0) {
+    console.warn(`Partner ${partnerId} is not referenced in any edition`)
+  }
+}
+
+// const editions = await getCollection('editions')
+
+// for (const edition of editions) {
+//   const { id, data } = edition
+
+//   let partners = data.partners && await getEntries(Object.values(data.partners).flat()) || []
+//   let speakers = data.speakers && await getEntries(data.speakers) || []
+//   let talks = data.talks && await getEntries(data.talks) || []
+//   let workshops = data.workshops && await getEntries(data.workshops) || []
+
+//   const { programme } = data
+
+//   for (const { activities } of programme || []) {
+//     for (const { type, activity } of activities || []) {
+//       if (type === 'talk') {
+//         const talk = await getEntry(activity)
+//         const i = talks.findIndex(({ id }) => id === talk.id)
+
+//         if (i !== -1) {
+//           talks.splice(i, 1)
+//         } else {
+//           console.warn(talk)
+//         }
+//       }
+
+//       if (type === 'workshop') {
+//         const workshop = await getEntry(activity)
+//         const i = workshops.findIndex(({ id }) => id === workshop.id)
+
+//         if (i !== -1) {
+//           workshops.splice(i, 1)
+//         } else {
+//           console.warn(workshop)
+//         }
+//       }
+//     }
+//   }
+
+//   console.log(id, talks.map(({id}) => id), workshops.map(({id}) => id))
+// }
 ---
 
 <!doctype html>
