@@ -19,6 +19,6 @@
     "@fontsource/lora": "^5.2.8",
     "@fontsource/ubuntu": "^5.2.8",
     "@fontsource/ubuntu-mono": "^5.2.8",
-    "astro": "^5.14.5"
+    "astro": "^5.15.6"
   }
 }
