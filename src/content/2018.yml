@@ -8,81 +8,82 @@ programme:
   - time: 10:15
     activities:
       - type: talk
-        activity: 2018/talks/data-sketches
+        activity: data-sketches
   - time: 11:00
     activities:
       - type: talk
-        activity: 2018/talks/8mm-films
+        activity: 8mm-films
   - time: 11:30
     activities:
       - type: talk
-        activity: 2018/talks/security
+        activity: security
   - time: 12:00
     organizational: Lunch
   - time: 13:00
     activities:
       - type: talk
-        activity: 2018/talks/persuasive-tech
-  # - time: 13:30
+        activity: persuasive-tech
+  - time: 13:30
   #   activities:
   #     type: talk
-  #       activity: 2018/talks/problem-solving-based-on-forensic-science
+  #       activity: problem-solving-based-on-forensic-science
   - time: 14:00
     activities:
       - type: talk
-        activity: 2018/talks/production
+        activity: production
   - time: 14:30
     organizational: Coffee break
   - time: 15:00
     activities:
       - type: talk
-        activity: 2018/talks/ux-research
+        activity: ux-research
   - time: 15:30
     activities:
       - type: talk
-        activity: 2018/talks/olympics
+        activity: olympics
   - time: 16:00
     activities:
       - type: talk
-        activity: 2018/talks/historical-stabbings
+        activity: historical-stabbings
   - time: 16:45
     organizational: Closing and drinks
 talks:
-  - 2018/talks/data-sketches
-  - 2018/talks/8mm-films
-  - 2018/talks/security
-  - 2018/talks/persuasive-tech
-  # - 2018/talks/problem-solving-based-on-forensic-science
-  - 2018/talks/production
-  - 2018/talks/ux-research
-  - 2018/talks/olympics
-  - 2018/talks/historical-stabbings
+  - data-sketches
+  - 8mm-films
+  - security
+  - persuasive-tech
+  # - problem-solving-based-on-forensic-science
+  - production
+  - ux-research
+  - olympics
+  - historical-stabbings
 speakers:
-  - 2018/people/arjen-kamphuis
-  - 2018/people/fabian-van-noort
-  - 2018/people/igor
-  - 2018/people/jago-de-vreede
-  - 2018/people/mischa-coster
-  - 2018/people/nadieh-bremer
-  - 2018/people/paul-lemon
-  - 2018/people/ross-tuck
-  # - 2018/people/tom-driehuys
+  - arjen-kamphuis
+  - fabian-van-noort
+  - igor
+  - jago-de-vreede
+  - mischa-coster
+  - nadieh-bremer
+  - paul-lemon
+  - ross-tuck
+  # - tom-driehuys
 hosts:
-  - 2018/people/bruno-lauwers
+  - bruno-lauwers
 partners:
   platinum:
-    - 2018/partners/pwc
+    - pwc
   gold:
-    - 2018/partners/chipsoft
-    - 2018/partners/nedap
+    - chipsoft
+    - nedap
   silver:
-    - 2018/partners/topicus
-    - 2018/partners/quintor
-    - 2018/partners/capgemini
-    - 2018/partners/ing
+    - topicus
+    - quintor
+    - capgemini
+    - ing
   bronze:
-    - 2018/partners/asml
-    - 2018/partners/brunel
+    - asml
+    - brunel
+venue: jaarbeurs
 committee:
   - name: Rob de Wit
     role: chair

@@ -1,4 +1,3 @@
-id: 2021
 name: exec(ut) 2021 Summer Edition
 date: 2021-06-07
 programme:
@@ -9,45 +8,45 @@ programme:
   - time: 14:15
     activities:
       - type: talk
-        activity: 2021/talks/human-centered-ai
+        activity: human-centered-ai
   - time: 15:00
     activities:
       - type: talk
-        activity: 2021/talks/codepamoja
+        activity: codepamoja
   - time: 15:45
     organizational: Coffee
   - time: 16:15
     activities:
       - type: talk
-        activity: 2021/talks/augmented-intelligence
+        activity: augmented-intelligence
   - time: 17:00
     activities:
       - type: talk
-        activity: 2021/talks/games-code
+        activity: games-code
   - time: 17:45
     organizational: Closing & Drinks
 talks:
-  - 2021/talks/human-centered-ai
-  - 2021/talks/codepamoja
-  - 2021/talks/augmented-intelligence
-  - 2021/talks/games-code
+  - human-centered-ai
+  - codepamoja
+  - augmented-intelligence
+  - games-code
 speakers:
-  - 2021/people/nathalie-post
-  - 2021/people/andy-haxby
-  - 2021/people/marc-somberg
-  - 2021/people/rami-ismail
+  - nathalie-post
+  - andy-haxby
+  - marc-somberg
+  - rami-ismail
 hosts:
-  - 2021/people/sara-lusini
+  - sara-lusini
 partners:
   platinum:
-    - 2021/partners/chipsoft
+    - chipsoft
   gold:
-    - 2021/partners/bpm-company
-    - 2021/partners/sticky
+    - bpm-company
+    - sticky
   silver:
-    - 2021/partners/sogeti
-    - 2021/partners/picnic
-    - 2021/partners/optiver
+    - sogeti
+    - picnic
+    - optiver
 committee:
   - name: Simardeep Singh
     role: chair

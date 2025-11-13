@@ -1,4 +1,3 @@
-id: 2022
 name: exec(ut) 2022
 date: 2022-03-28
 programme:
@@ -9,75 +8,76 @@ programme:
   - time: 10:15
     activities:
       - type: talk
-        activity: 2022/talks/ai-healthcare
+        activity: ai-healthcare
   - time: 11:10
     organizational: Coffee
   - time: 11:40
     activities:
       - type: talk
-        activity: 2022/talks/algorithmic-bias
+        activity: algorithmic-bias
   - time: 12:20
     organizational: Lunch
   - time: 13:20
     activities:
       - type: talk
-        activity: 2022/talks/it-journeys
+        activity: it-journeys
       - type: workshop
-        activity: 2022/workshops/chipsoft
+        activity: healthcare-data-exchange
   - time: 14:05
     activities:
       - type: talk
-        activity: 2022/talks/storytelling
+        activity: storytelling
       - type: workshop
-        activity: 2022/workshops/sogeti
+        activity: rpa-stocks
   - time: 14:45
     organizational: Coffee
   - time: 15:15
     activities:
       - type: talk
-        activity: 2022/talks/low-code
+        activity: low-code
       - type: workshop
-        activity: 2022/workshops/aegon
+        activity: finance-puzzles
   - time: 16:00
     activities:
       - type: talk
-        activity: 2022/talks/apis
+        activity: apis
   - time: 16:50
     organizational: Closing & Drinks
 talks:
-  - 2022/talks/ai-healthcare
-  - 2022/talks/algorithmic-bias
-  - 2022/talks/apis
-  - 2022/talks/it-journeys
-  - 2022/talks/low-code
-  - 2022/talks/storytelling
+  - ai-healthcare
+  - algorithmic-bias
+  - apis
+  - it-journeys
+  - low-code
+  - storytelling
 speakers:
-  - 2022/people/anke-schlichting
-  - 2022/people/hinda-haned
-  - 2022/people/marc-somberg
-  - 2022/people/matthijs-van-de-laar
-  - 2022/people/michiel-overeem
-  - 2022/people/mike-joosten
+  - anke-schlichting
+  - hinda-haned
+  - marc-somberg
+  - matthijs-van-de-laar
+  - michiel-overeem
+  - mike-joosten
 hosts:
-  - 2022/people/sara-lusini
+  - sara-lusini
 workshops:
-  - 2022/workshops/aegon
-  - 2022/workshops/chipsoft
-  - 2022/workshops/sogeti
+  - finance-puzzles
+  - healthcare-data-exchange
+  - rpa-stocks
 partners:
   platinum:
-    - 2022/partners/chipsoft
+    - chipsoft
   gold:
-    - 2022/partners/sticky
-    - 2022/partners/aegon
-    - 2022/partners/levarne
+    - sticky
+    - aegon
+    - levarne
   silver:
-    - 2022/partners/bpm-company
-    - 2022/partners/sogeti
-    - 2022/partners/dsw
-    - 2022/partners/brunel
+    - bpm-company
+    - sogeti
+    - dsw
+    - brunel
   bronze:
-    - 2022/partners/asml
+    - asml
+venue: flint
 committee:
   - name: Merijn Stiekema
     role: chair

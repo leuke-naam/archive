@@ -1,76 +1,82 @@
-id: 2020
 name: exec(ut) 2020
 date: 2025-03-16
 programme:
   - time: 09:00
     organizational: Registration
-  - time: 10:00
+  - time: 09:45
     organizational: Opening
-  - time: 10:15
+  - time: 10:00
     activities:
       - type: talk
-        activity: 2020/talks/focus
-  - time: 11:10
+        activity: bigquery-ml
+  - time: 10:50
     organizational: Coffee
-  - time: 11:40
+  - time: 11:20
     activities:
       - type: talk
-        activity: 2020/talks/bigquery-ml
-  - time: 12:20
+        activity: colorblind
+  - time: 12:00
+    activities:
+      - type: talk
+        activity: devops
+  - time: 12:30
     organizational: Lunch
   - time: 13:20
     activities:
       - type: talk
-        activity: 2020/talks/devops
-  - time: 14:05
+        activity: creative-coding
+  - time: 14:00
     activities:
       - type: talk
-        activity: 2020/talks/colorblind
+        activity: tech-trading
   - time: 14:45
     organizational: Coffee
-  - time: 15:15
+  - time: 15:00
     activities:
       - type: talk
-        activity: 2020/talks/creative-code
-  - time: 16:00
+        activity: diversity
+  - time: 15:40
     activities:
       - type: talk
-        activity: 2020/talks/tech-trading
-  - time: 16:50
+        activity: focus
+  - time: 16:30
     organizational: Closing & Drinks
 talks:
-  - 2020/talks/focus
-  - 2020/talks/bigquery-ml
-  - 2020/talks/devops
-  - 2020/talks/colorblind
-  - 2020/talks/diversity
-  - 2020/talks/creative-code
-  - 2020/talks/tech-trading
+  - bigquery-ml
+  - colorblind
+  - devops
+  - creative-coding
+  - tech-trading
+  - diversity
+  - focus
 speakers:
-  - 2020/people/patrick-lee
-  - 2020/people/gabriela-davila-ferrara
-  - 2020/people/simon-ostengaard
-  - 2020/people/tom-van-beveren
-  - 2020/people/lisanne-brons
-  - 2020/people/joost-van-dongen
-  - 2020/people/dennis-fleurbaaij
+  - gabriela-davila-ferrara
+  - tom-van-beveren
+  - simon-ostengaard
+  - joost-van-dongen
+  - dennis-fleurbaaij
+  - lisanne-brons
+  - patrick-lee
 hosts:
-  - 2020/people/chris-janssen
+  - chris-janssen
 partners:
   platinum:
-    - 2020/partners/optiver
+    - keylane
   gold:
-    - 2020/partners/asml
-    - 2020/partners/keylane
+    - optiver
+    - emergo
+    - sticky
+    - asml
   silver:
-    - 2020/partners/dsw
-    - 2020/partners/leaseweb
-    - 2020/partners/procam
-    - 2020/partners/emergo
+    - tno
+    - leaseweb
+    - dnb
+    - dsw
+    - procam
   bronze:
-    - 2020/partners/tno
-    - 2020/partners/dnb
-    - 2020/partners/ingram
+    - asml
+    - ingram
+venue: jaarbeurs
 committee:
   - name: Kristi Bergman
     role: chair

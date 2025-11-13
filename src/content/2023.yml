@@ -8,81 +8,82 @@ programme:
   - time: 10:15
     activities:
       - type: talk
-        activity: 2023/talks/responsible-ai
+        activity: responsible-ai
   - time: 11:15
     activities:
       - type: talk
-        activity: 2023/talks/immersive-tech
+        activity: immersive-tech
   - time: 12:00
     organizational: Lunch
   - time: 12:45
     activities:
       - type: talk
-        activity: 2023/talks/fun-programming
+        activity: fun-programming
       - type: workshop
-        activity: 2023/workshops/bpm-company
+        activity: low-code-pega
   - time: 13:30
     activities:
       - type: talk
-        activity: 2023/talks/playful-ux
+        activity: playful-ux
   - time: 14:15
     activities:
       - type: talk
-        activity: 2023/talks/opinion-viz
+        activity: opinion-viz
       - type: workshop
-        activity: 2023/workshops/levarne
+        activity: levarne-session
   - time: 14:55
     organizational: Coffee
   - time: 15:25
     activities:
       - type: talk
-        activity: 2023/talks/volumetric-video
+        activity: volumetric-video
       - type: workshop
-        activity: 2023/workshops/linkit
+        activity: scrum-agile
   - time: 16:15
     activities:
       - type: talk
-        activity: 2023/talks/procedural-content
+        activity: procedural-content
   - time: 17:10
     organizational: Closing & Drinks
 talks:
-  - 2023/talks/responsible-ai
-  - 2023/talks/immersive-tech
-  - 2023/talks/fun-programming
-  - 2023/talks/playful-ux
-  - 2023/talks/opinion-viz
-  - 2023/talks/volumetric-video
-  - 2023/talks/procedural-content
+  - responsible-ai
+  - immersive-tech
+  - fun-programming
+  - playful-ux
+  - opinion-viz
+  - volumetric-video
+  - procedural-content
 speakers:
-  - 2023/people/burcu-karagol-ayan
-  - 2023/people/tim-van-der-wiel
-  - 2023/people/rik-arends
-  - 2023/people/koen-de-geringel
-  - 2023/people/tamara-mchedlidze
-  - 2023/people/pablo-cesar
-  - 2023/people/mat-suarez
+  - burcu-karagol-ayan
+  - tim-van-der-wiel
+  - rik-arends
+  - koen-de-geringel
+  - tamara-mchedlidze
+  - pablo-cesar
+  - mat-suarez
 hosts:
-  - 2023/people/juney-dijkstra
+  - juney-dijkstra
 workshops:
-  - 2023/workshops/bpm-company
-  - 2023/workshops/levarne
-  - 2023/workshops/linkit
+  - low-code-pega
+  - levarne-session
+  - scrum-agile
 partners:
   platinum:
-    - 2023/partners/bpm-company
+    - bpm-company
   gold:
-    - 2023/partners/chipsoft
-    - 2023/partners/levarne
-    - 2023/partners/sticky
+    - chipsoft
+    - levarne
+    - sticky
   silver:
-    - 2023/partners/bol-com
-    - 2023/partners/cgi
-    - 2023/partners/devoteam
-    - 2023/partners/dsw
-    - 2023/partners/linkit
-    - 2023/partners/thales
+    - bol-com
+    - cgi
+    - devoteam
+    - dsw
+    - linkit
+    - thales
   bronze:
-    - 2023/partners/asml
+    - asml
+venue: de-kom
 committee:
   - name: Jorden Bakker
     role: chair

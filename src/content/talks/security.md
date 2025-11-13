@@ -1,0 +1,6 @@
+---
+title: Privacy, digital crime & espionage | Fixing everyday & strategic security challenges
+speaker: arjen-kamphuis
+---
+
+Without reliably working software and data-processing the modern world stops working. From the supermarkets where you get your food to the electricity or gas that heats it up to the water that cleans your plate afterwards; IT is everywhere but still has a long way to go to reach the reliability of older technologies (such as the basic elements of the powergrid). IT is still developing very rapidly and new developments are stacked on top of slightly older ones. So on the one hand we now have 'smart' thermostats you can control via an app but on the other hand those thermostats can easily be hacked and then operated, in their millions, by someone else. The Stuxnet case and the revelations by Edward Snowden have shown how fundamental the problems (and challenge to fix them) are and last year two virus attacks gave us a taste of the consequences of cyberwar coming to our home; hospitals and container terminals that stop working. What to do about this? The problem can be solved but not by the thinking that got us here. Time for some new radical new concepts in creating information systems.

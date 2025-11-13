@@ -1,0 +1,6 @@
+---
+title: Defining and mitigating algorithmic bias - a practitioner's perspective
+speaker: hinda-haned
+---
+
+Modern day decision-making systems based on machine learning algorithms have an increasing impact on our lives in diverse domains such as health, mobility and education. While these systems can be useful, they can also produce erroneous or biased outcomes that can be harmful to individuals and communities, often without the possibility for meaningful recourse or feedback. To mitigate these issues, responsible data science has become an important area of focus for many data science practitioners and researchers in the past few years. As one of the focus areas, algorithmic solutions are being regularly developed to mitigate or fix biases. But how can we detect and measure bias with the help of these technical solutions? And what does it mean to fix bias? In this talk, I will discuss different definitions of bias, and bias mitigation through so-called 'fairness algorithms'. Drawing from practical examples, I will argue that the most fundamental question we are facing as researchers and practitioners, is not how to fix bias with new technical solutions, but whether we should be designing and deploying potentially harmful automated systems in the first place.

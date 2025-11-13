@@ -1,4 +1,3 @@
-id: 2019
 name: exec(ut) 2019
 date: 2019-03-18
 programme:
@@ -9,78 +8,79 @@ programme:
   - time: 10:00
     activities:
       - type: talk
-        activity: 2019/talks/recommender
+        activity: recommender
   - time: 11:00
     activities:
       - type: talk
-        activity: 2019/talks/money-software
+        activity: money-software
   - time: 11:40
     activities:
       - type: talk
-        activity: 2019/talks/rescue-robots
+        activity: rescue-robots
   - time: 12:10
     organizational: Lunch
   - time: 13:00
     activities:
       - type: talk
-        activity: 2019/talks/weapons-cybersec
+        activity: weapons-cybersec
   - time: 13:40
     activities:
       - type: talk
-        activity: 2019/talks/cognitive-ui
+        activity: cognitive-ui
   - time: 14:20
     activities:
       - type: talk
-        activity: 2019/talks/product-dev
+        activity: product-dev
   - time: 14:50
     organizational: Coffee break
   - time: 15:20
     activities:
       - type: talk
-        activity: 2019/talks/big-data
+        activity: big-data
   - time: 16:00
     activities:
       - type: talk
-        activity: 2019/talks/trends-2030
+        activity: trends-2030
   - time: 16:50
     organizational: Closing and drinks
 talks:
-  - 2019/talks/recommender
-  - 2019/talks/money-software
-  - 2019/talks/rescue-robots
-  - 2019/talks/weapons-cybersec
-  - 2019/talks/cognitive-ui
-  - 2019/talks/product-dev
-  - 2019/talks/big-data
-  - 2019/talks/trends-2030
+  - recommender
+  - money-software
+  - rescue-robots
+  - weapons-cybersec
+  - cognitive-ui
+  - product-dev
+  - big-data
+  - trends-2030
 speakers:
-  - 2019/people/oscar-celma
-  - 2019/people/andre-foeken
-  - 2019/people/arnoud-visser
-  - 2019/people/beyza-unal
-  - 2019/people/tatiana-sidorenkova
-  - 2019/people/roy-smeets
-  - 2019/people/arjun-panesar
-  - 2019/people/richard-van-hooijdonk
+  - oscar-celma
+  - andre-foeken
+  - arnoud-visser
+  - beyza-unal
+  - tatiana-sidorenkova
+  - roy-smeets
+  - arjun-panesar
+  - richard-van-hooijdonk
 hosts:
-  - 2019/people/ross-tuck
+  - ross-tuck
 partners:
   platinum:
-    - 2019/partners/pwc
+    - pwc
   gold:
-    - 2019/partners/asml
-    - 2019/partners/adyen
+    - asml
+    - adyen
   silver:
-    - 2019/partners/ing
-    - 2019/partners/bol-com
-    - 2019/partners/keylane
-    - 2019/partners/infi
-    - 2019/partners/achmea
+    - ing
+    - bol-com
+    - keylane
+    - infi
+    - achmea
   bronze:
-    - 2019/partners/belastingdienst
-    - 2019/partners/nedap
-    - 2019/partners/ortec-finance
-    - 2019/partners/pno-consultants
+    - belastingdienst
+    - nedap
+    - ortec-finance
+    - pno-consultants
+venue: tivoli-vredenburg
 committee:
   - name: Alma Liezenga
     role: chair

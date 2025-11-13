@@ -1,4 +1,3 @@
-id: 2025
 name: exec(ut) 2025
 date: 2025-03-25
 programme:
@@ -9,70 +8,78 @@ programme:
   - time: 10:15
     activities:
       - type: talk
-        activity: 2025/talks/rockstar-dev
+        activity: rockstar-dev
   - time: 11:10
     common: Coffee
   - time: 11:40
     activities:
       - type: talk
-        activity: 2025/talks/air-power
+        activity: air-power
       - type: workshop
-        activity: 2025/workshops/devoteam
+        activity: ai-avatar
   - time: 12:20
     common: Lunch
   - time: 13:20
     activities:
       - type: talk
-        activity: 2025/talks/games-industry
+        activity: games-industry
       - type: workshop
-        activity: 2025/workshops/chipsoft
+        activity: transform-healthcare
   - time: 14:10
     activities:
       - type: talk
-        activity: 2025/talks/rehab-tech
+        activity: rehab-tech
       - type: workshop
-        activity: 2025/workshops/bpm-company
+        activity: genai-blueprint
   - time: 14:50
     common: Coffee
   - time: 15:20
     activities:
       - type: talk
-        activity: 2025/talks/serious-gaming
+        activity: serious-gaming
   - time: 16:10
     activities:
       - type: talk
-        activity: 2025/talks/validation-crisis
+        activity: validation-crisis
   - time: 17:00
     common: Closing
   - time: 17:15
     common: Drinks
 talks:
-  - 2025/talks/rockstar-dev
-  - 2025/talks/air-power
-  - 2025/talks/games-industry
-  - 2025/talks/rehab-tech
-  - 2025/talks/serious-gaming
-  - 2025/talks/validation-crisis
+  - rockstar-dev
+  - air-power
+  - games-industry
+  - rehab-tech
+  - serious-gaming
+  - validation-crisis
 speakers:
-  - 2025/people/dylan-beattie
-  - 2025/people/maikel-meeuwse
-  - 2025/people/hans-rietman
-  - 2025/people/martine-spaans
-  - 2025/people/evert-hoogendoorn
-  - 2025/people/brenno-de-winter
+  - dylan-beattie
+  - maikel-meeuwse
+  - hans-rietman
+  - martine-spaans
+  - evert-hoogendoorn
+  - brenno-de-winter
 hosts:
-  - 2025/people/fiep-warmerdam
+  - fiep-warmerdam
 workshops:
-  - 2025/workshops/devoteam
-  - 2025/workshops/chipsoft
-  - 2025/workshops/bpm-company
+  - ai-avatar
+  - transform-healthcare
+  - genai-blueprint
 partners:
   platinum:
-    - 2025/partners/devoteam
+    - chipsoft
   gold:
-    - 2025/partners/chipsoft
+    - bpm-company
+    - devoteam
   silver:
-    - 2025/partners/bpm-company
+    - sogeti
+    - yer
+    - incontrol
+    - anderson-macgyver
+  introduction:
+    - valcon
+    - slimstock
+venue: tivoli-vredenburg
 committee:
   - name: Thomas Valkenburg
     role: chair

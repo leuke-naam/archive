@@ -1,52 +1,46 @@
 ---
-// import { getEntries, getCollection, getEntry } from 'astro:content'
+import { getEntries, getCollection, getEntry } from 'astro:content'
 
-// const editions = await getCollection('editions')
-// const people = await getCollection('people')
-// const partners = await getCollection('partners')
-// const talks = await getCollection('talks')
-// const venues = await getCollection('venues')
-// const workshops = await getCollection('workshops')
+const editions = await getCollection('editions')
 
-// for (const edition of editions) {
-//   const { id, data } = edition
+for (const edition of editions) {
+  const { id, data } = edition
 
-//   console.log(id)
+  let partners = data.partners && await getEntries(Object.values(data.partners).flat()) || []
+  let speakers = data.speakers && await getEntries(data.speakers) || []
+  let talks = data.talks && await getEntries(data.talks) || []
+  let workshops = data.workshops && await getEntries(data.workshops) || []
 
-//   const { hosts, partners, speakers, talks, venue, workshops } = data
+  const { programme } = data
 
-//   hosts && (await getEntries(hosts))
-//   partners && (await getEntries(Object.values(partners).flat()))
-//   speakers && (await getEntries(speakers))
-//   talks && (await getEntries(talks))
-//   venue && (await getEntries([venue]))
-//   workshops && (await getEntries(workshops))
+  for (const { activities } of programme || []) {
+    for (const { type, activity } of activities || []) {
+      if (type === 'talk') {
+        const talk = await getEntry(activity)
+        const i = talks.findIndex(({ id }) => id === talk.id)
 
-//   const { programme } = data
+        if (i !== -1) {
+          talks.splice(i, 1)
+        } else {
+          console.warn(talk)
+        }
+      }
 
-//   for (const { activities } of programme || [])
-//     for (const { activity } of activities || []) await getEntry(activity)
-// }
+      if (type === 'workshop') {
+        const workshop = await getEntry(activity)
+        const i = workshops.findIndex(({ id }) => id === workshop.id)
 
-// for (const talk of talks) {
-//   const { id, data } = talk
+        if (i !== -1) {
+          workshops.splice(i, 1)
+        } else {
+          console.warn(workshop)
+        }
+      }
+    }
+  }
 
-//   console.log(id)
-
-//   const { speaker } = data
-
-//   speaker && (await getEntry(speaker))
-// }
-
-// for (const workshop of workshops) {
-//   const { id, data } = workshop
-
-//   console.log(id)
-
-//   const { organizer } = data
-
-//   organizer && (await getEntry(organizer))
-// }
+  console.log(id, talks.map(({id}) => id), workshops.map(({id}) => id))
+}
 ---
 
 <!doctype html>
