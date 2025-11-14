@@ -4,10 +4,9 @@ import location from '~/assets/location.jpg'
 import Footer from '~/components/Footer.astro'
 import Navigation from '~/components/Navigation.astro'
 
-import '@fontsource/lora/400.css'
-import '@fontsource/lora/700.css'
-import '@fontsource/ubuntu/400.css'
-import '@fontsource/ubuntu-mono/400.css'
+import '@fontsource/lora'
+import '@fontsource/ubuntu'
+import '@fontsource/ubuntu-mono'
 
 import '~/styles/style.css'
 import '~/styles/menu.css'
@@ -53,7 +52,12 @@ const description = 'exec(ut) is a conference for and by IT students. Its fifth 
 <head>
   <meta charset="utf-8" />
 
-  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icon-180x180.png">
+
+  <link rel="manifest" href="/manifest.json" />
+
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
   <meta name="theme-color" content="#ef4955" />

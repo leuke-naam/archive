@@ -1,0 +1,22 @@
+{
+  "name": "exec(ut) 2019",
+  "short_name": "exec(ut)",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fffaf8",
+  "theme_color": "#ef4955",
+  "description": "A conference for and by IT students",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
