@@ -72,7 +72,7 @@
 }
 
 /* Display the dropdown on hover */
-#navigation ul li a:hover+.hidden,
+#navigation ul li a:hover + .hidden,
 .hidden:hover {
   display: block;
 }
@@ -88,17 +88,17 @@
 }
 
 /* Hide checkbox */
-input[type=checkbox] {
+input[type="checkbox"] {
   display: none;
 }
 
 /* Show menu when invisible checkbox is checked */
-input[type=checkbox]:checked~#menu {
+input[type="checkbox"]:checked ~ #menu {
   display: block;
 }
 
 /* Responsive Styles */
-@media screen and (max-width : 880px) {
+@media screen and (max-width: 880px) {
   nav {
     line-height: 50px;
   }
@@ -113,7 +113,7 @@ input[type=checkbox]:checked~#menu {
   /* Create vertical spacing */
   #navigation li {
     margin-top: 1px;
-    background-color: var(--brown)
+    background-color: var(--brown);
   }
 
   /* Make all menu links full width */
