@@ -1,17 +1,15 @@
 const config = {
-  semi: false,
-  quoteProps: 'consistent',
-  singleQuote: true,
-  trailingComma: 'es5',
+  quoteProps: "consistent",
   bracketSameLine: true,
+  plugins: ["prettier-plugin-astro"],
   overrides: [
     {
-      files: '*.astro',
+      files: "*.astro",
       options: {
-        parser: 'astro',
+        parser: "astro",
       },
     },
   ],
-}
+};
 
-export default config
+export default config;
