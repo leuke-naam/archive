@@ -1,11 +1,11 @@
 ---
 import { Image } from 'astro:assets'
 
-import facebook from '~/assets/icons/facebook.png'
-import linkedin from '~/assets/icons/linkedin.png'
-import photos from '~/assets/icons/photos.png'
-import twitter from '~/assets/icons/twitter.png'
-import youtube from '~/assets/icons/youtube.png'
+import facebook from "@assets/icons/facebook.png";
+import linkedin from "@assets/icons/linkedin.png";
+import photos from "@assets/icons/photos.png";
+import twitter from "@assets/icons/twitter.png";
+import youtube from "@assets/icons/youtube.png";
 ---
 
 <div id="footer">
@@ -14,48 +14,63 @@ import youtube from '~/assets/icons/youtube.png'
       href="https://www.facebook.com/execut.nl/"
       title="Facebook page"
       target="_blank">
-      <Image src={facebook} class="socialmedia" alt="Facebook icon" width={32} height={32} /></a>
+      <Image
+        src={facebook}
+        class="socialmedia"
+        alt="Facebook icon"
+        width={32}
+        height={32} /></a>
 
     <a
       href="https://twitter.com/execut_cc"
       title="Twitter page"
       target="_blank">
-      <Image src={twitter} class="socialmedia" alt="Tweeter icon" width={32} height={32} /></a>
+      <Image
+        src={twitter}
+        class="socialmedia"
+        alt="Tweeter icon"
+        width={32}
+        height={32} /></a>
 
     <a
       href="https://www.youtube.com/channel/UCaUAV2Lp7Ph1MbzacOmHJ2w"
       title="Youtube page"
       target="_blank">
-      <Image src={youtube} class="socialmedia" alt="Youtube icon" width={32} height={32} /></a>
+      <Image
+        src={youtube}
+        class="socialmedia"
+        alt="Youtube icon"
+        width={32}
+        height={32} /></a>
 
       <a
       href="https://photos.app.goo.gl/nTbFw6ohP4kbtPfA6"
       title="Our photo gallery"
       target="_blank">
-      <Image src={photos} class="socialmedia" alt="Gallery icon" width={32} height={32} /></a>
+      <Image
+        src={photos}
+        class="socialmedia"
+        alt="Gallery icon"
+        width={32}
+        height={32} /></a>
   </div>
 
   <div class="footer-column" id="copyright">
     <p>
       <code>exec(ut)</code> is an event organised by
-        <a
-          href="https://stichtingsticky.nl/"
-          target="_blank"
-          rel="noopener">Stichting Sticky</a>.<br />
-        All rights reserved.
+      <a href="https://stichtingsticky.nl/" target="_blank" rel="noopener">Stichting Sticky</a>.
+      <br />
+      All rights reserved.
     </p>
   </div>
 
   <div class="footer-column" id="coc">
     <p>
-      Please take note of our<br />
-      <a
-        href="/code-of-conduct.pdf"
-        target="_blank">Code of Conduct</a>
+      Please take note of our
+      <br />
+      <a href="/code-of-conduct.pdf" target="_blank">Code of Conduct</a>
       and
-      <a
-        href="/privacy-policy.pdf"
-        target="_blank">Privacy Policy</a>
+      <a href="/privacy-policy.pdf" target="_blank">Privacy Policy</a>
     </p>
   </div>
 </div>

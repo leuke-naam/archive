@@ -1,8 +1,8 @@
 ---
-import { Image } from 'astro:assets'
+import { Image } from "astro:assets";
 
-import facebook from '~/assets/icons/facebook.png'
-import twitter from '~/assets/icons/twitter.png'
+import facebook from "@assets/icons/facebook.png";
+import twitter from "@assets/icons/twitter.png";
 ---
 
 <div id="footer">
@@ -11,38 +11,41 @@ import twitter from '~/assets/icons/twitter.png'
       href="https://www.facebook.com/execut.nl/"
       title="Facebook page"
       target="_blank">
-      <Image src={facebook} class="socialmedia" alt="Facebook icon" width={32} height={32} /></a>
+      <Image
+        src={facebook}
+        class="socialmedia"
+        alt="Facebook icon"
+        width={32}
+        height={32} /></a>
 
     <a
       href="https://twitter.com/execut_cc"
       title="Twitter page"
       target="_blank">
-      <Image src={twitter} class="socialmedia" alt="Tweeter icon" width={32} height={32} /></a>
+      <Image
+        src={twitter}
+        class="socialmedia"
+        alt="Tweeter icon"
+        width={32}
+        height={32} /></a>
   </div>
 
   <div class="footer-column" id="copyright">
     <p>
       <code>exec(ut)</code> is an event organised by
-        <a
-          href="https://stichtingsticky.nl/"
-          target="_blank"
-          rel="noopener">Stichting Sticky</a>.<br />
-        All rights reserved.
+      <a href="https://stichtingsticky.nl/" target="_blank" rel="noopener">Stichting Sticky</a>.
+      <br />
+      All rights reserved.
     </p>
   </div>
 
   <div class="footer-column" id="coc">
     <p>
-      Please take note of our<br />
-      <a
-        href="/code-of-conduct.pdf"
-        title="Our Code of Conduct"
-        target="_blank">Code of Conduct</a>
+      Please take note of our
+      <br />
+      <a href="/code-of-conduct.pdf" title="Our Code of Conduct" target="_blank">Code of Conduct</a>
       and
-      <a
-        href="/privacy-policy.pdf"
-        title="Our Privacy Policy"
-        target="_blank">Privacy Policy</a>
+      <a href="/privacy-policy.pdf" title="Our Privacy Policy" target="_blank">Privacy Policy</a>
     </p>
   </div>
 </div>
