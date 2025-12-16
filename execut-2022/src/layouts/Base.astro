@@ -1,49 +1,47 @@
 ---
-import location from '~/assets/location.jpg'
+import "@fontsource/lora";
+import "@fontsource/ubuntu";
+import "@fontsource/ubuntu-mono";
 
-import Footer from '~/components/Footer.astro'
-import Navigation from '~/components/Navigation.astro'
+import location from "@assets/location.jpg";
 
-import '@fontsource/lora'
-import '@fontsource/ubuntu'
-import '@fontsource/ubuntu-mono'
+import Footer from "@components/Footer.astro";
+import Navigation from "@components/Navigation.astro";
 
-import '~/styles/style.css'
-import '~/styles/menu.css'
+import "@styles/style.css";
+import "@styles/menu.css";
 
-interface Props {
-  title: string
-}
+type Props = {
+  title: string;
+};
 
-const { title } = Astro.props
+const { title } = Astro.props;
 
 const keywords = [
-  'exec(ut)',
-  'execut',
-  'execute',
-  'conference',
-  'congres',
-  'symposium',
-  'utrecht',
-  'studievereniging',
-  'sticky',
-  'stichting',
-  'it',
-  'tech',
-  'technology',
-  'software',
-  'student',
-  'students',
-  'computer',
-  'information',
-  'science',
-  'sciences',
-]
+  "exec(ut)",
+  "execut",
+  "execute",
+  "conference",
+  "congres",
+  "symposium",
+  "utrecht",
+  "studievereniging",
+  "sticky",
+  "stichting",
+  "it",
+  "tech",
+  "technology",
+  "software",
+  "student",
+  "students",
+  "computer",
+  "information",
+  "science",
+  "sciences",
+];
 
-const description = 'exec(ut) is a conference for and by IT students. Its fifth edition is taking place in 2022. Visit our website for tickets and more info.'
+const description = "exec(ut) is a conference for and by IT students. Its fifth edition is taking place in 2022. Visit our website for tickets and more info.";
 ---
-
-<!DOCTYPE html>
 
 <!-- Website created by Rob C. de Wit for exec(ut) 2018 & 2019, adapted by Thomas Hes for exec(ut) 2020. Backend created by exec(ut) committee 2021. -->
 
@@ -53,8 +51,8 @@ const description = 'exec(ut) is a conference for and by IT students. Its fifth 
   <meta charset="utf-8" />
 
   <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/icon-180x180.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/icon-180x180.png" />
 
   <link rel="manifest" href="/manifest.json" />
 
@@ -78,7 +76,9 @@ const description = 'exec(ut) is a conference for and by IT students. Its fifth 
 <body>
   <a href="https://execut.nl/" class="old">
     <div class="old_banner">
-      <span>This is the archived version of 2022's conference website. Click here for currently relevant info.</span>
+      <span>
+        This is the archived version of 2022's conference website. Click here for currently relevant info.
+      </span>
     </div>
   </a>
 

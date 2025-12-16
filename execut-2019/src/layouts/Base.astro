@@ -1,47 +1,45 @@
 ---
-import Footer from '~/components/Footer.astro'
-import Navigation from '~/components/Navigation.astro'
+import "@fontsource/lora";
+import "@fontsource/ubuntu";
+import "@fontsource/ubuntu-mono";
 
-import '@fontsource/lora'
-import '@fontsource/ubuntu'
-import '@fontsource/ubuntu-mono'
+import Footer from "@components/Footer.astro";
+import Navigation from "@components/Navigation.astro";
 
-import '~/styles/style.css'
-import '~/styles/menu.css'
+import "@styles/style.css";
+import "@styles/menu.css";
 
-interface Props {
-  title?: string
-}
+type Props = {
+  title?: string;
+};
 
-const { title = 'exec(ut) - a conference for and by IT students' } = Astro.props
+const { title = "exec(ut) - a conference for and by IT students" } = Astro.props;
 
 const keywords = [
-  'exec(ut)',
-  'execut',
-  'execute',
-  'conference',
-  'congres',
-  'symposium',
-  'utrecht',
-  'studievereniging',
-  'sticky',
-  'stichting',
-  'it',
-  'tech',
-  'technology',
-  'software',
-  'student',
-  'students',
-  'computer',
-  'information',
-  'science',
-  'sciences',
-]
+  "exec(ut)",
+  "execut",
+  "execute",
+  "conference",
+  "congres",
+  "symposium",
+  "utrecht",
+  "studievereniging",
+  "sticky",
+  "stichting",
+  "it",
+  "tech",
+  "technology",
+  "software",
+  "student",
+  "students",
+  "computer",
+  "information",
+  "science",
+  "sciences",
+];
 
-const description = 'exec(ut) is a conference for and by IT students. It\'s second edition is set to take place in Utrecht on March 18th, 2019. Visit our website for tickets and more info.'
+const description = "exec(ut) is a conference for and by IT students. It's second edition is set to take place in Utrecht on March 18th, 2019. Visit our website for tickets and more info.";
 ---
-
-<!DOCTYPE html>
 
 <!-- Website created by Rob C. de Wit for exec(ut) 2018 & 2019 -->
 
@@ -51,8 +49,8 @@ const description = 'exec(ut) is a conference for and by IT students. It\'s seco
   <meta charset="utf-8" />
 
   <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/icon-180x180.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/icon-180x180.png" />
 
   <link rel="manifest" href="/manifest.json" />
 
@@ -76,7 +74,9 @@ const description = 'exec(ut) is a conference for and by IT students. It\'s seco
 <body>
   <a href="https://execut.nl/" class="old">
     <div class="old_banner">
-      <span>This is the archived version of 2019's conference website. Click here for currently relevant info.</span>
+      <span>
+        This is the archived version of 2019's conference website. Click here for currently relevant info.
+      </span>
     </div>
   </a>
 
