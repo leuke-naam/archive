@@ -1,7 +1,7 @@
 ---
 name: PwC
 tier: gold
-logo: ~/assets/partners/pwc.png
+logo: ../../assets/partners/pwc.png
 contact:
   website: https://www.pwc.nl/careers
 ---

@@ -1,7 +1,7 @@
 ---
 name: E-mergo
 tier: gold
-logo: ~/assets/partners/emergo.png
+logo: ../../assets/partners/emergo.png
 contact:
   website: https://werkenbij.e-mergo.nl/
 ---

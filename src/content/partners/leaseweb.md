@@ -1,7 +1,7 @@
 ---
 name: Leaseweb
 tier: silver
-logo: ~/assets/partners/leaseweb.png
+logo: ../../assets/partners/leaseweb.png
 contact:
   website: https://www.leaseweb.com/careers
 ---

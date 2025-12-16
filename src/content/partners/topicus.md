@@ -1,6 +1,6 @@
 ---
 name: Topicus
-logo: ~/assets/partners/topicus.png
+logo: ../../assets/partners/topicus.png
 tier: silver
 contact:
   website: https://www.topicus.nl/

@@ -1,7 +1,7 @@
 ---
 name: TNO
 tier: silver
-logo: ~/assets/partners/tno.png
+logo: ../../assets/partners/tno.png
 contact:
   website: https://www.tno.nl/career
 ---

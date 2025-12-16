@@ -1,7 +1,7 @@
 ---
 name: Keylane
 tier: platinum
-logo: ~/assets/partners/keylane.png
+logo: ../../assets/partners/keylane.png
 contact:
   website: https://careers.keylane.com/
 ---

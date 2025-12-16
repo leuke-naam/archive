@@ -2,7 +2,7 @@
 name: Devoteam
 description: Information Technology & Services
 tier: gold
-logo: ~/assets/partners/devoteam.svg
+logo: ../../assets/partners/devoteam.svg
 contact:
   website: https://www.devoteam.com/join-us/
   socials:

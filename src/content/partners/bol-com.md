@@ -2,7 +2,7 @@
 name: bol.com
 industry: Retail
 tier: silver
-logo: ~/assets/partners/bol-com.svg
+logo: ../../assets/partners/bol-com.svg
 contact:
   website: https://careers.bol.com/en/expertise/tech/everything-you-need-to-know-about-becoming-an-it-young-professional-at-bol-com/
   socials:

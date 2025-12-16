@@ -1,7 +1,7 @@
 ---
 name: Dylan Beattie
 description: Software engineer, speaker, musician and creator of Rockstar
-portrait: ~/assets/portraits/dylan-beattie.jpg
+portrait: ../../assets/portraits/dylan-beattie.jpg
 contact:
   website: https://dylanbeattie.net/
   socials:

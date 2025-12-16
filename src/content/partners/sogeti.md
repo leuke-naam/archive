@@ -2,7 +2,7 @@
 name: Sogeti
 description: IT Services and Digital Transformation
 tier: silver
-logo: ~/assets/partners/sogeti.svg
+logo: ../../assets/partners/sogeti.svg
 contact:
   website: https://www.sogeti.nl/werken-bij/
   socials:

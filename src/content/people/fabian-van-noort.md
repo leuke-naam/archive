@@ -1,7 +1,7 @@
 ---
 name: Fabian van Noort
 description: Design researcher at Valsplat
-portrait: ~/assets/portraits/fabian-van-noort.jpg
+portrait: ../../assets/portraits/fabian-van-noort.jpg
 contact:
   website: http://fabianvannoort.nl/
 ---

@@ -2,7 +2,7 @@
 name: Anderson MacGyver
 description: IT Services and IT Consulting
 tier: silver
-logo: ~/assets/partners/anderson-macgyver.png
+logo: ../../assets/partners/anderson-macgyver.png
 contact:
   website: https://www.andersonmacgyver.com/nl/vacatures/
   socials:

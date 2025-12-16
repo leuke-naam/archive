@@ -2,7 +2,7 @@
 name: Valcon
 description: Business Transformation Consultancy Services
 tier: introduction
-logo: ~/assets/partners/valcon.png
+logo: ../../assets/partners/valcon.png
 contact:
   website: https://valcon.com/nl/careers/
   socials:

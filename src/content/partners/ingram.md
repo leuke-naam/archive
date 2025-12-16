@@ -1,7 +1,7 @@
 ---
 name: Ingram Micro
 tier: bronze
-logo: ~/assets/partners/ingram.png
+logo: ../../assets/partners/ingram.png
 contact:
   website: https://nl.ingrammicro.eu/
 ---

@@ -1,7 +1,7 @@
 ---
 name: Capgemini
 tier: silver
-logo: ~/assets/partners/capgemini.png
+logo: ../../assets/partners/capgemini.png
 contact:
   website: https://www.capgemini.com/
 ---

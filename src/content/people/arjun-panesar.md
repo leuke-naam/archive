@@ -1,7 +1,7 @@
 ---
 name: Arjun Panesar
 description: CEO and head of AI at DDM
-portrait: ~/assets/portraits/arjun-panesar.jpg
+portrait: ../../assets/portraits/arjun-panesar.jpg
 socials:
   - website: https://ddm.health/
 ---

@@ -1,7 +1,7 @@
 ---
 name: Infi
 tier: silver
-logo: ~/assets/partners/infi.png
+logo: ../../assets/partners/infi.png
 contact:
   website: https://infi.nl/
 ---

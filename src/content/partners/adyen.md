@@ -1,7 +1,7 @@
 ---
 name: Adyen
 tier: bronze
-logo: ~/assets/partners/adyen.png
+logo: ../../assets/partners/adyen.png
 contact:
   website: https://www.adyen.com/about
 ---

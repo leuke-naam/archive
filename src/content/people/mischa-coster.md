@@ -1,7 +1,7 @@
 ---
 name: Mischa Coster
 description: Media psychologist, researcher, public speaker, author
-portrait: ~/assets/portraits/mischa-coster.jpg
+portrait: ../../assets/portraits/mischa-coster.jpg
 ---
 
 Mischa Coster MA MSc is a consultant, researcher and public speaker in the area of mediapsychology and persuasion. "I change how people see things" is his personal slogan. He does this by applying evidence-based and theory-inspired psychological tactics. Mischa comes highly recommended by dr. Robert Cialdini, thé international expert-scientist in consumer psychology and persuasion.

@@ -2,7 +2,7 @@
 name: Booking.com
 industry: Travel & Tourism
 tier: silver
-logo: ~/assets/partners/booking.png
+logo: ../../assets/partners/booking.png
 contact:
   website: https://careers.booking.com/early-careers/
   socials:

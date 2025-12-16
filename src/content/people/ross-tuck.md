@@ -1,7 +1,7 @@
 ---
 name: Ross Tuck
 description: Freelance developer, consultant and speaker
-portrait: ~/assets/portraits/ross-tuck.jpg
+portrait: ../../assets/portraits/ross-tuck.jpg
 contact:
   website: http://rosstuck.com/
 ---

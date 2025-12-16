@@ -1,6 +1,6 @@
 ---
 name: Tom van Beveren
-portrait: ~/assets/portraits/tom-van-beveren.png
+portrait: ../../assets/portraits/tom-van-beveren.png
 contact:
   socials:
     twitter: https://twitter.com/wearecolorblind

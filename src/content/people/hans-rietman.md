@@ -1,7 +1,7 @@
 ---
 name: Hans Rietman
 description: Physiatrist and professor in Rehabilitation Medicine & Technology
-portrait: ~/assets/portraits/hans-rietman.jpg
+portrait: ../../assets/portraits/hans-rietman.jpg
 ---
 
 Prof. J.S. (Hans) Rietman MD, PhD is physiatrist and professor in Rehabilitation Medicine & Technology at the faculty of Engineering Technology University of Twente, the Netherlands. He performs his clinical work as a rehabilitation physician at Roessingh Centre for Rehabilitation. He is also appointed at the research institute Roessingh Research and Development and adjunct professor at Northwestern University Chicago.

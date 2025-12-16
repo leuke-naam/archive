@@ -1,7 +1,7 @@
 ---
 name: Ortec Finance
 tier: silver
-logo: ~/assets/partners/ortecfinance.png
+logo: ../../assets/partners/ortecfinance.png
 contact:
   website: https://www.ortecfinance.com/careers
 ---

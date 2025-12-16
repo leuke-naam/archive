@@ -2,7 +2,7 @@
 name: YER
 description: IT Traineeships
 tier: silver
-logo: ~/assets/partners/yer.svg
+logo: ../../assets/partners/yer.svg
 contact:
   website: https://www.yer.nl/studenten/
   socials:

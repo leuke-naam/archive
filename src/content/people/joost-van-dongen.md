@@ -1,6 +1,6 @@
 ---
 name: Joost van Dongen
-portrait: ~/assets/portraits/joost-van-dongen.png
+portrait: ../../assets/portraits/joost-van-dongen.png
 contact:
   website: http://www.joostvandongen.com/
 ---

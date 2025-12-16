@@ -1,7 +1,7 @@
 ---
 name: Beyza Unal
 description: Cyber security researcher at Chatham House
-portrait: ~/assets/portraits/beyza-unal.jpg
+portrait: ../../assets/portraits/beyza-unal.jpg
 contact:
   socials:
     twitter: https://twitter.com/beyzaunal

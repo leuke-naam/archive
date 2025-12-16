@@ -1,7 +1,7 @@
 ---
 name: Roy Smeets
 description: VP Product Development, Hosting & ICT at Keylane
-portrait: ~/assets/portraits/roy-smeets.jpg
+portrait: ../../assets/portraits/roy-smeets.jpg
 contact:
   socials:
     linkedin: https://www.linkedin.com/in/roy-smeets-681227/

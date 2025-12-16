@@ -1,7 +1,7 @@
 ---
 name: Òscar Celma
 description: Head of data science at Pandora
-portrait: ~/assets/portraits/oscar-celma.jpg
+portrait: ../../assets/portraits/oscar-celma.jpg
 contact:
   website: https://ocelma.net/
 ---

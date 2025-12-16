@@ -1,7 +1,7 @@
 ---
 name: Stadion Galgenwaard
 location: Utrecht
-image: ~/assets/venues/galgenwaard.jpg
+image: ../../assets/venues/galgenwaard.jpg
 address: |
   Herculesplein 241
   3584 AA UTRECHT

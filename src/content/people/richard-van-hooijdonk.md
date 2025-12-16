@@ -1,7 +1,7 @@
 ---
 name: Richard van Hooijdonk
 description: Futurist and Trendwatcher
-portrait: ~/assets/portraits/richard-van-hooijdonk.jpg
+portrait: ../../assets/portraits/richard-van-hooijdonk.jpg
 contact:
   website: https://www.richardvanhooijdonk.com/
 ---

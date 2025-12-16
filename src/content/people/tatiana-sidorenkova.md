@@ -1,7 +1,7 @@
 ---
 name: Tatiana Sidorenkova
 description: UX researcher at Adyen
-portrait: ~/assets/portraits/tatiana-sidorenkova.jpg
+portrait: ../../assets/portraits/tatiana-sidorenkova.jpg
 contact:
   socials:
     linkedin: https://www.linkedin.com/in/tatiana-sidorenkova-36087b9/

@@ -1,7 +1,7 @@
 ---
 name: Belastingdienst
 tier: silver
-logo: ~/assets/partners/belastingdienst.png
+logo: ../../assets/partners/belastingdienst.png
 contact:
   website: https://werken.belastingdienst.nl/vakgebieden/ict
 ---

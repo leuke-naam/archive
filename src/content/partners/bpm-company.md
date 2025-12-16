@@ -2,7 +2,7 @@
 name: BPM Company
 description: IT Consulting and Full-Stack Development
 tier: gold
-logo: ~/assets/partners/bpm-company.svg
+logo: ../../assets/partners/bpm-company.svg
 contact:
   website: https://www.bpmcompany.eu/en/career/
   socials:

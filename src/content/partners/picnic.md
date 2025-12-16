@@ -1,7 +1,7 @@
 ---
 name: Picnic
 tier: silver
-logo: ~/assets/partners/picnic.png
+logo: ../../assets/partners/picnic.png
 contact:
   website: https://join.picnic.app
 ---

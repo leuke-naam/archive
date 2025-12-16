@@ -1,7 +1,7 @@
 ---
 name: Brunel
 tier: silver
-logo: ~/assets/partners/brunel.png
+logo: ../../assets/partners/brunel.png
 ---
 
 ## Build a rich resume in no time

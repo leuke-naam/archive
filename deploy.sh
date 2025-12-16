@@ -3,11 +3,11 @@ rm -rf temp/
 # Clean project and create bun.lock
 for dir in execut-*; do
   cd $dir
-  rm -rf .git/ .astro/ dist/ node_modules/ bun.lock
-  bun install
-  bun update
-  rm -rf node_modules/
-  bun install
+  # rm -rf .git/ .astro/ dist/ node_modules/ bun.lock
+  # bun install
+  # bun update
+  # rm -rf node_modules/
+  # bun install
   bun run build
   # bun run preview
   cd ../

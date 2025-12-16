@@ -1,7 +1,7 @@
 ---
 name: Jaarbeurs Mediaplaza
 location: Utrecht
-image: ~/assets/venues/jaarbeurs.png
+image: ../../assets/venues/jaarbeurs.png
 address: |
   Jaarbeursplein 6
   3521 CA UTRECHT

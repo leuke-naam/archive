@@ -1,6 +1,6 @@
 ---
 name: Andy Haxby
-portrait: ~/assets/portraits/andy-haxby.png
+portrait: ../../assets/portraits/andy-haxby.png
 contact:
   mail: andy@competa.com
 ---

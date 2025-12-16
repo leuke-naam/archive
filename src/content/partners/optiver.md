@@ -1,7 +1,7 @@
 ---
 name: Optiver
 tier: silver
-logo: ~/assets/partners/optiver.png
+logo: ../../assets/partners/optiver.png
 ---
 
 If you thrive in an environment where you are propelled to new limits every day, then Optiver is the place for you. So, what is it that we do and why does it lie at the cutting-edge of technology, trading and research?

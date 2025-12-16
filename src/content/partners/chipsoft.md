@@ -2,7 +2,7 @@
 name: ChipSoft
 description: Hospitals and Health Care
 tier: platinum
-logo: ~/assets/partners/chipsoft.svg
+logo: ../../assets/partners/chipsoft.svg
 contact:
   website: https://www.chipsoft.com/nl-nl/werken-bij/
   socials:

@@ -1,7 +1,7 @@
 ---
 name: Tom Driehuys
 description: Director Forensic Technology Solutions @ PwC
-portrait: ~/assets/portraits/tom-driehuys.jpg
+portrait: ../../assets/portraits/tom-driehuys.jpg
 ---
 
 Tom is a Forensic, Cybercrime and IT security expert, working for the PwC Forensic Technology Solutions practice in The Netherlands.

@@ -1,7 +1,7 @@
 ---
 name: De Nederlandsche Bank
 tier: silver
-logo: ~/assets/partners/dnb.png
+logo: ../../assets/partners/dnb.png
 contact:
   website: https://www.dnb.nl/en/careers/
 ---

@@ -1,7 +1,7 @@
 ---
 name: Evert Hoogendoorn
 description: Designer in playful learning and serious games & Lecturer
-portrait: ~/assets/portraits/evert-hoogendoorn.jpeg
+portrait: ../../assets/portraits/evert-hoogendoorn.jpeg
 ---
 
 Evert Hoogendoorn has a background in both game design and education. Trained as a educator, he began his career as a teacher and consultant for language development and creative writing for various target groups. Later, he became a lecturer and then the head of the first game design program in Europe.

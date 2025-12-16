@@ -1,7 +1,7 @@
 ---
 name: Achmea
 tier: gold
-logo: ~/assets/partners/achmea.png
+logo: ../../assets/partners/achmea.png
 contact:
   website: https://www.werkenbijachmea.nl
 ---

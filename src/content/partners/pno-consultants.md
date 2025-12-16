@@ -1,7 +1,7 @@
 ---
 name: PNO Consultants
 tier: silver
-logo: ~/assets/partners/pnoconsultants.png
+logo: ../../assets/partners/pnoconsultants.png
 contact:
   website: https://www.pnoconsultants.com
 ---

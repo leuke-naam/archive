@@ -1,7 +1,7 @@
 ---
 name: Arnoud Visser
 description: Programme director at University of Amsterdam
-portrait: ~/assets/portraits/arnoud-visser.jpg
+portrait: ../../assets/portraits/arnoud-visser.jpg
 contact:
   website: https://staff.fnwi.uva.nl/a.visser/
   socials:

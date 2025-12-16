@@ -2,7 +2,7 @@
 name: Sticky
 description: Study Association
 tier: gold
-logo: ~/assets/partners/sticky.svg
+logo: ../../assets/partners/sticky.svg
 contact:
   website: https://svsticky.nl/
   socials:

@@ -1,7 +1,7 @@
 ---
 name: Aegon
 tier: gold
-logo: ~/assets/partners/aegon.png
+logo: ../../assets/partners/aegon.png
 ---
 
 ## Build your own future at Aegon

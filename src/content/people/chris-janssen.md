@@ -1,6 +1,6 @@
 ---
 name: Chris Janssen
-portrait: ~/assets/portraits/chris-janssen.png
+portrait: ../../assets/portraits/chris-janssen.png
 contact:
   website: https://www.uu.nl/staff/CPJanssen
 ---

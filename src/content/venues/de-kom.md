@@ -1,7 +1,7 @@
 ---
 name: DE KOM
 location: Nieuwegein
-image: ~/assets/venues/de-kom.jpg
+image: ../../assets/venues/de-kom.jpg
 address: |
   Stadsplein 6
   3431 LZ NIEUWEGEIN

@@ -1,7 +1,7 @@
 ---
 name: Procam
 tier: silver
-logo: ~/assets/partners/procam.png
+logo: ../../assets/partners/procam.png
 contact:
   website: https://procam.nl/
 ---

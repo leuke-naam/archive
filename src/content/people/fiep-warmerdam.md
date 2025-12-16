@@ -1,7 +1,7 @@
 ---
 name: Fiep Warmerdam
 description: Former MBI Student
-portrait: ~/assets/portraits/fiep-warmerdam.png
+portrait: ../../assets/portraits/fiep-warmerdam.png
 ---
 
 Fiep Warmerdam is a former MBI student, who is currently working as a Management Consultant at Anderson MacGyver. She is interested in the digital transformation of organizations and also wrote her master thesis on this topic.

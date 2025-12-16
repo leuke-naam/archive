@@ -1,7 +1,7 @@
 ---
 name: Nadieh Bremer
 description: Data Visualization Designer @ Visual Cinnamon
-portrait: ~/assets/portraits/nadieh-bremer.jpg
+portrait: ../../assets/portraits/nadieh-bremer.jpg
 contact:
   website: http://www.visualcinnamon.com/
 ---

@@ -2,7 +2,7 @@
 name: InControl Enterprise Dynamics
 description: System Design Simulation
 tier: silver
-logo: ~/assets/partners/incontrol.png
+logo: ../../assets/partners/incontrol.png
 contact:
   website: https://www.incontrolsim.com/career/
   socials:

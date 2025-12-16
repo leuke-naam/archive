@@ -1,7 +1,7 @@
 ---
 name: Social Impact Factory
 location: Utrecht
-image: ~/assets/venues/social-impact-factory.jpg
+image: ../../assets/venues/social-impact-factory.jpg
 address: |
   Vredenburg 40
   3511 BD UTRECHT

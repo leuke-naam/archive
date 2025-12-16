@@ -2,7 +2,7 @@
 name: Slimstock
 description: Supply Chain Optimization
 tier: introduction
-logo: ~/assets/partners/slimstock.png
+logo: ../../assets/partners/slimstock.png
 contact:
   website: https://www.slimstock.com/nl/over-ons/careers/
   socials:

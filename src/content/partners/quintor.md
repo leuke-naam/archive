@@ -1,7 +1,7 @@
 ---
 name: Quintor
 tier: silver
-logo: ~/assets/partners/quintor.jpg
+logo: ../../assets/partners/quintor.jpg
 contact:
   website: https://www.quintor.nl/carriere
 ---

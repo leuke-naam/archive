@@ -1,7 +1,7 @@
 ---
 name: Flint
 location: Amersfoort
-image: ~/assets/venues/flint.jpg
+image: ../../assets/venues/flint.jpg
 address: |
   Coninckstraat 60
   3811 WK AMERSFOORT

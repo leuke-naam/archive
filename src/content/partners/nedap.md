@@ -1,7 +1,7 @@
 ---
 name: Nedap
 tier: gold
-logo: ~/assets/partners/nedap.png
+logo: ../../assets/partners/nedap.png
 contact:
   website: https://lifeatnedap.com/
 ---

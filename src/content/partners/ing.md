@@ -1,7 +1,7 @@
 ---
 name: ING
 tier: silver
-logo: ~/assets/partners/ing.png
+logo: ../../assets/partners/ing.png
 contact:
   website: https://www.ing.nl/careers/IT
 ---
